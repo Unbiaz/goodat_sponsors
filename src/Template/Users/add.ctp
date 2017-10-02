@@ -60,7 +60,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
             <div class="col-md-4 text-center">
 
-                <?= $this->Form->create(null, ['class' => 'form-horizontal', 'role' => 'form']) ?>
+                <?= $this->Form->create($user, ['class' => 'form-horizontal', 'role' => 'form']) ?>
 
                 <div class="text-center"> <h3><?= __('Please Sign Up') ?></h3> </div> <hr />
 

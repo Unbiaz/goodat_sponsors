@@ -18,6 +18,9 @@ use Cake\Core\Configure;
 use Cake\Network\Exception\ForbiddenException;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
+use App\Controller\AppController;
+use Cake\Log\Log;
+use Cake\Utility\Text;
 
 /**
  * Static content controller
@@ -64,6 +67,18 @@ class PagesController extends AppController
                 throw $exception;
             }
             throw new NotFoundException();
+        }
+    }
+
+    public function login()
+    {
+        if ($this->request->is('post')) {
+            $user = $this->Auth->identify();
+            if ($user) {
+                $this->Auth->setUser($user);
+                return $this->redirect($this->Auth->redirectUrl());
+            }
+            $this->Flash->error('Your email or password is incorrect.');
         }
     }
 }
