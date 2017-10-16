@@ -1,17 +1,26 @@
 <?php
+$this->extend('/Common/view');
+
 /**
   * @var \App\View\AppView $this
   * @var \App\Model\Entity\Company[]|\Cake\Collection\CollectionInterface $companies
   */
+
+use Cake\Core\Plugin;
+use Cake\Routing\Router;
+use Cake\Routing\RouteBuilder;
+use Cake\Routing\Route\DashedRoute;
+
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+
+<!-- <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('New Company'), ['action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('List Industries'), ['controller' => 'Industries', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('New Industry'), ['controller' => 'Industries', 'action' => 'add']) ?></li>
     </ul>
-</nav>
+</nav> -->
 <div class="companies index large-9 medium-8 columns content">
     <h3><?= __('Companies') ?></h3>
     <table cellpadding="0" cellspacing="0">

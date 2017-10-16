@@ -1,10 +1,15 @@
 <?php
 namespace App\Model\Table;
 
+use App\Model\Entity\User;
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use Cake\Event\Event;
+use Cake\Log\Log;
+use Cake\Auth\DefaultPasswordHasher;
+use Cake\Utility\Text;
 
 /**
  * Users Model
@@ -45,6 +50,18 @@ class UsersTable extends Table
         ]);
     }
 
+        public function beforeSave($event, $entity, $options)
+    {        
+        Log::write('debug', 'User beforeSave');
+        Log::write('debug', $entity);
+
+        if ($entity->isNew()) {
+            $entity->generateApiKey();
+            Log::write('debug', $entity);
+        }
+        return true;
+    }
+
     /**
      * Default validation rules.
      *
@@ -72,6 +89,13 @@ class UsersTable extends Table
             ->requirePresence('password', 'create')
             ->notEmpty('password');
 
+        // $validator
+        //     ->requirePresence('role', 'create')
+        //     ->notEmpty('role');
+
+        $validator
+            ->allowEmpty('authData');
+
         return $validator;
     }
 
@@ -88,5 +112,24 @@ class UsersTable extends Table
         $rules->add($rules->isUnique(['email']));
 
         return $rules;
+    }
+
+    //     public function afterSave($event, $entity, $options)
+    // {
+    //     $entity->saveDB();
+    // }
+
+    public function roleTypes() 
+    {
+        $roleOptions = [
+                    'Admin' => 'Admin', 
+                    'User' => 'User', 
+                    'ios-user' => 'ios-user', 
+                    'android-user' => 'android-user', 
+                    'Author' => 'Author', 
+                    'Registered' => 'Registered'
+                    ];
+         
+        return $roleOptions;    
     }
 }

@@ -24,6 +24,49 @@ class UsersController extends AppController
         $this->Auth->allow(['logout','add']);
     }
 
+    public function isAuthorized($user)
+    {
+
+        $this->log('Users Controller', 'debug');
+        $this->log($user, 'debug');
+
+        $action = $this->request->params['action'];
+
+        // The index actions are always allowed.
+        if (in_array($action, ['index'])) {
+            $this->log('Index Always Allowed', 'debug');
+            return true;
+        }
+
+        // The index actions are always allowed.
+        if (in_array($action, ['add']) && $this->isAdmin()) {
+            $this->log('Add Always Allowed for Admin', 'debug');
+            return true;
+        }
+
+        // The showLostPasswordReminder action are always allowed for admin.
+        if (in_array($action, ['showLostPasswordReminder']) && $this->isAdmin()) {
+            $this->log('showLostPasswordReminder Always Allowed for Admin', 'debug');
+            return true;
+        }
+
+        // All other actions require an id.
+        if (empty($this->request->params['pass'][0])) {
+            $this->log('No ID', 'debug');
+            //$this->log($this->request->params, 'debug');
+            return false;
+        }
+
+        // Check that the user belongs to the current user.
+        $id = $this->request->params['pass'][0];
+        $thisUser = $this->Users->get($id);
+        if ($thisUser->id == $user['id']) {
+            return true;
+        }
+
+        return parent::isAuthorized($user);
+    }
+
     /**
      * Index method
      *
@@ -71,7 +114,8 @@ class UsersController extends AppController
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
-        $this->set(compact('user'));
+        $roleOptions = $this->Users->roleTypes();
+        $this->set(compact('user', 'roleOptions'));
         $this->set('_serialize', ['user']);
     }
 
@@ -132,7 +176,7 @@ class UsersController extends AppController
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
-                return $this->redirect($this->Auth->redirectUrl(['action' => 'add']));
+                return $this->redirect($this->Auth->redirectUrl(['controller' => 'Companies','action' => 'index']));
             }
             $this->Flash->error('Your email or password is incorrect.');
         }

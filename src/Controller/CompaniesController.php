@@ -2,6 +2,9 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Log\Log;
+use Cake\Utility\Text;
+use DebugKit;
 
 /**
  * Companies Controller
@@ -12,6 +15,41 @@ use App\Controller\AppController;
  */
 class CompaniesController extends AppController
 {
+
+
+    // public function isAuthorized($user)
+    // {
+    //     //debug($user);
+    //     $this->log('Questions Controller isAuthorized', 'debug');
+    //     $this->log($user, 'debug');
+
+    //     // This whole section is to allow content specific access on
+    //     // actions such as /edit/nnn
+
+    //     $action = $this->request->params['action'];
+
+    //     // The index actions are always allowed.
+    //     if (in_array($action, ['index','view'])) {
+    //         $this->log('Index', 'debug');
+    //         return true;
+    //     }
+        
+    //     // All other actions require an id.
+    //     if (empty($this->request->params['pass'][0])) {
+    //         $this->log('No ID', 'debug');
+    //         //$this->log($this->request->params, 'debug');
+    //         return false;
+    //     }
+
+    //     // Check that the entity belongs to the current user.
+    //     $id = $this->request->params['pass'][0];
+    //     $entity = $this->Companies->get($id);
+    //     if ($entity->user_id == $user['id']) {
+    //         return true;
+    //     }
+
+    //     return parent::isAuthorized($user);
+    // }
 
     /**
      * Index method

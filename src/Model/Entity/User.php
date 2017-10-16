@@ -3,6 +3,9 @@ namespace App\Model\Entity;
 
 use Cake\Auth\DefaultPasswordHasher;
 use Cake\ORM\Entity;
+use Cake\Utility\Text;
+use Cake\Log\Log;
+
 
 /**
  * User Entity
@@ -33,6 +36,9 @@ class User extends Entity
         'id_user' => false
     ];
 
+    // use SaveDBTrait;
+    // use SaveDBTrait;
+
     /**
      * Fields that are excluded from JSON versions of the entity.
      *
@@ -45,6 +51,31 @@ class User extends Entity
     protected function _setPassword($value) {
       $hasher = new DefaultPasswordHasher();
       return $hasher->hash($value);
+    }
+
+    public function isAdmin() {
+      return (strcasecmp($this->role, 'admin') == 0);
+    }
+
+    public function generateAuthData() {
+        $this->authData = "6bernetics:" . Text::uuid();
+    }
+
+    public function generateApiKey($forceNew = false) {
+        Log::write('debug', 'User generateApiKey');
+        
+        // Generate an API 'token' 
+        $this->apiKeyPlain = sha1(Text::uuid());
+
+        // Bcrypt the token so BasicAuthenticate can check
+        // it during login.
+        $hasher = new DefaultPasswordHasher();
+        $this->apiKey = $hasher->hash($this->apiKeyPlain);
+
+        // Check for good authData
+        if ($forceNew || strlen($this->authData)<10) {
+            $this->generateAuthData();
+        }           
     }
 
 }

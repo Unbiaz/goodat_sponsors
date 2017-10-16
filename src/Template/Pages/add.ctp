@@ -77,10 +77,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                             <?= $this->Form->input('password', ['class' => 'form-control', 'placeholder' => 'Create a password', 'label' => 'Password' ,'required' => true]); ?>
                         </div></br>
 
-                     <!--    <div class="form-group text-left">
-                            <?= $this->Form->input('role', ['type' => 'select', 'options' => $roleOptions, 'default' => 'user']) ?>
-                        </div></br> -->
-
                         <div class="form-group text-left">
                             <?= $this->Form->button('Sign Up', ['type' => 'submit', 'class' => 'btn btn-large btn-block btn-success']); ?>
                         </div>
