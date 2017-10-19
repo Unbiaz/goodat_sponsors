@@ -5620,3 +5620,863 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
 2017-10-19 01:24:36 Debug: App Controller initialize
 2017-10-19 01:24:36 Debug: Users Controller initialize
 2017-10-19 01:24:36 Debug: AC beforeRender: Not loggedIn
+2017-10-19 15:36:28 Debug: App Controller initialize
+2017-10-19 15:36:28 Debug: Users Controller initialize
+2017-10-19 15:36:28 Debug: AC beforeRender: Not loggedIn
+2017-10-19 15:36:49 Debug: App Controller initialize
+2017-10-19 15:36:49 Debug: Users Controller initialize
+2017-10-19 15:36:49 Debug: AC beforeRender: Not loggedIn
+2017-10-19 15:56:14 Debug: App Controller initialize
+2017-10-19 15:56:14 Debug: Users Controller initialize
+2017-10-19 15:56:14 Debug: AC beforeRender: Not loggedIn
+2017-10-19 15:56:42 Debug: App Controller initialize
+2017-10-19 15:56:42 Debug: Users Controller initialize
+2017-10-19 15:56:43 Debug: AC beforeRender: Not loggedIn
+2017-10-19 15:56:48 Debug: App Controller initialize
+2017-10-19 15:56:48 Debug: Users Controller initialize
+2017-10-19 15:56:48 Debug: AC beforeRender: Not loggedIn
+2017-10-19 15:57:05 Debug: App Controller initialize
+2017-10-19 15:57:05 Debug: Users Controller initialize
+2017-10-19 15:57:06 Debug: App Controller initialize
+2017-10-19 15:57:06 Debug: Questions Controller isAuthorized
+2017-10-19 15:57:06 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:57:06 Debug: Index
+2017-10-19 15:57:07 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:57:07 Debug: AC beforeRender: isAdmin
+2017-10-19 15:57:25 Debug: App Controller initialize
+2017-10-19 15:57:25 Debug: Questions Controller isAuthorized
+2017-10-19 15:57:25 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:57:25 Debug: Index
+2017-10-19 15:57:25 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:57:25 Debug: AC beforeRender: isAdmin
+2017-10-19 15:57:29 Debug: App Controller initialize
+2017-10-19 15:57:30 Debug: Questions Controller isAuthorized
+2017-10-19 15:57:30 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:57:30 Debug: Index
+2017-10-19 15:57:30 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:57:30 Debug: AC beforeRender: isAdmin
+2017-10-19 15:57:35 Debug: App Controller initialize
+2017-10-19 15:57:35 Debug: Questions Controller isAuthorized
+2017-10-19 15:57:35 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:57:35 Debug: No ID
+2017-10-19 15:57:35 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:57:35 Debug: AC beforeRender: isAdmin
+2017-10-19 15:57:39 Debug: App Controller initialize
+2017-10-19 15:57:39 Debug: Questions Controller isAuthorized
+2017-10-19 15:57:39 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:57:39 Debug: Index
+2017-10-19 15:57:42 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:57:42 Debug: AC beforeRender: isAdmin
+2017-10-19 15:57:47 Debug: App Controller initialize
+2017-10-19 15:57:47 Debug: Questions Controller isAuthorized
+2017-10-19 15:57:47 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:57:47 Debug: Index
+2017-10-19 15:57:48 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:57:48 Debug: AC beforeRender: isAdmin
+2017-10-19 15:58:15 Debug: App Controller initialize
+2017-10-19 15:58:15 Debug: Questions Controller isAuthorized
+2017-10-19 15:58:15 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:58:15 Debug: Index
+2017-10-19 15:58:15 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:58:15 Debug: AC beforeRender: isAdmin
+2017-10-19 15:58:24 Debug: App Controller initialize
+2017-10-19 15:58:24 Debug: Questions Controller isAuthorized
+2017-10-19 15:58:24 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:58:24 Debug: Index
+2017-10-19 15:58:25 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:58:25 Debug: AC beforeRender: isAdmin
+2017-10-19 15:58:31 Debug: App Controller initialize
+2017-10-19 15:58:31 Debug: App Controller isAuthorized
+2017-10-19 15:58:31 Debug: App Controller isAuthorized - Admin status: 1
+2017-10-19 15:58:31 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:58:31 Debug: AC beforeRender: isAdmin
+2017-10-19 15:58:37 Debug: App Controller initialize
+2017-10-19 15:58:37 Debug: App Controller isAuthorized
+2017-10-19 15:58:37 Debug: App Controller isAuthorized - Admin status: 1
+2017-10-19 15:58:38 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:58:38 Debug: AC beforeRender: isAdmin
+2017-10-19 15:58:43 Debug: App Controller initialize
+2017-10-19 15:58:43 Debug: App Controller isAuthorized
+2017-10-19 15:58:43 Debug: App Controller isAuthorized - Admin status: 1
+2017-10-19 15:58:44 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:58:44 Debug: AC beforeRender: isAdmin
+2017-10-19 15:58:49 Debug: App Controller initialize
+2017-10-19 15:58:49 Debug: Users Controller initialize
+2017-10-19 15:58:49 Debug: Users Controller
+2017-10-19 15:58:49 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:58:49 Debug: Index Always Allowed
+2017-10-19 15:58:51 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:58:51 Debug: AC beforeRender: isAdmin
+2017-10-19 15:58:57 Debug: App Controller initialize
+2017-10-19 15:58:57 Debug: Users Controller initialize
+2017-10-19 15:58:57 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:58:57 Debug: AC beforeRender: isAdmin
+2017-10-19 15:59:19 Debug: App Controller initialize
+2017-10-19 15:59:19 Debug: Users Controller initialize
+2017-10-19 15:59:19 Debug: Users Controller
+2017-10-19 15:59:19 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 15:59:19 Debug: Index Always Allowed
+2017-10-19 15:59:20 Debug: AC beforeRender: isLoggedIn
+2017-10-19 15:59:20 Debug: AC beforeRender: isAdmin
+2017-10-19 15:59:49 Debug: App Controller initialize
+2017-10-19 15:59:49 Debug: Users Controller initialize
+2017-10-19 15:59:50 Debug: App Controller initialize
+2017-10-19 15:59:50 Debug: Users Controller initialize
+2017-10-19 15:59:50 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:00:10 Debug: App Controller initialize
+2017-10-19 16:00:10 Debug: Users Controller initialize
+2017-10-19 16:00:12 Debug: App Controller initialize
+2017-10-19 16:00:12 Debug: Questions Controller isAuthorized
+2017-10-19 16:00:12 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:00:12 Debug: Index
+2017-10-19 16:00:12 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:00:25 Debug: App Controller initialize
+2017-10-19 16:00:25 Debug: Users Controller initialize
+2017-10-19 16:00:27 Debug: App Controller initialize
+2017-10-19 16:00:27 Debug: Users Controller initialize
+2017-10-19 16:00:27 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:04:49 Debug: App Controller initialize
+2017-10-19 16:04:49 Debug: Users Controller initialize
+2017-10-19 16:04:49 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:05:00 Debug: App Controller initialize
+2017-10-19 16:05:00 Debug: Users Controller initialize
+2017-10-19 16:05:01 Debug: App Controller initialize
+2017-10-19 16:05:01 Debug: Questions Controller isAuthorized
+2017-10-19 16:05:01 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:05:01 Debug: Index
+2017-10-19 16:05:02 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:06:55 Debug: App Controller initialize
+2017-10-19 16:06:55 Debug: Questions Controller isAuthorized
+2017-10-19 16:06:55 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:06:55 Debug: No ID
+2017-10-19 16:06:56 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:07:03 Debug: App Controller initialize
+2017-10-19 16:07:03 Debug: Questions Controller isAuthorized
+2017-10-19 16:07:03 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:07:03 Debug: Index
+2017-10-19 16:07:03 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:07:25 Debug: App Controller initialize
+2017-10-19 16:07:25 Debug: App Controller isAuthorized
+2017-10-19 16:07:25 Debug: App Controller isAuthorized - Admin status: 
+2017-10-19 16:07:25 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:07:34 Debug: App Controller initialize
+2017-10-19 16:07:34 Debug: Questions Controller isAuthorized
+2017-10-19 16:07:34 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:07:34 Debug: Index
+2017-10-19 16:07:34 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:17:31 Debug: App Controller initialize
+2017-10-19 16:17:31 Debug: App Controller isAuthorized
+2017-10-19 16:17:32 Debug: App Controller isAuthorized - Admin status: 
+2017-10-19 16:17:32 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:17:55 Debug: App Controller initialize
+2017-10-19 16:17:55 Debug: Questions Controller isAuthorized
+2017-10-19 16:17:55 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:17:55 Debug: Index
+2017-10-19 16:17:58 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:18:19 Debug: App Controller initialize
+2017-10-19 16:18:19 Debug: Users Controller initialize
+2017-10-19 16:18:20 Debug: App Controller initialize
+2017-10-19 16:18:20 Debug: Users Controller initialize
+2017-10-19 16:18:20 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:22:23 Debug: App Controller initialize
+2017-10-19 16:22:23 Debug: Users Controller initialize
+2017-10-19 16:22:24 Debug: App Controller initialize
+2017-10-19 16:22:24 Debug: Questions Controller isAuthorized
+2017-10-19 16:22:24 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 16:22:24 Debug: Index
+2017-10-19 16:22:24 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:22:24 Debug: AC beforeRender: isAdmin
+2017-10-19 16:22:29 Debug: App Controller initialize
+2017-10-19 16:22:29 Debug: Questions Controller isAuthorized
+2017-10-19 16:22:29 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 16:22:29 Debug: Add Always Allowed for Admin
+2017-10-19 16:22:29 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:22:29 Debug: AC beforeRender: isAdmin
+2017-10-19 16:23:52 Debug: App Controller initialize
+2017-10-19 16:23:52 Debug: Questions Controller isAuthorized
+2017-10-19 16:23:52 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 16:23:52 Debug: Index
+2017-10-19 16:23:52 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:23:52 Debug: AC beforeRender: isAdmin
+2017-10-19 16:23:56 Debug: App Controller initialize
+2017-10-19 16:23:56 Debug: Questions Controller isAuthorized
+2017-10-19 16:23:56 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 16:23:56 Debug: Add Always Allowed for Admin
+2017-10-19 16:23:56 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:23:56 Debug: AC beforeRender: isAdmin
+2017-10-19 16:24:00 Debug: App Controller initialize
+2017-10-19 16:24:00 Debug: App Controller isAuthorized
+2017-10-19 16:24:00 Debug: App Controller isAuthorized - Admin status: 1
+2017-10-19 16:24:00 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:24:00 Debug: AC beforeRender: isAdmin
+2017-10-19 16:24:04 Debug: App Controller initialize
+2017-10-19 16:24:04 Debug: App Controller isAuthorized
+2017-10-19 16:24:05 Debug: App Controller isAuthorized - Admin status: 1
+2017-10-19 16:24:05 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:24:05 Debug: AC beforeRender: isAdmin
+2017-10-19 16:24:09 Debug: App Controller initialize
+2017-10-19 16:24:09 Debug: App Controller isAuthorized
+2017-10-19 16:24:09 Debug: App Controller isAuthorized - Admin status: 1
+2017-10-19 16:24:09 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:24:09 Debug: AC beforeRender: isAdmin
+2017-10-19 16:24:16 Debug: App Controller initialize
+2017-10-19 16:24:16 Debug: Users Controller initialize
+2017-10-19 16:24:16 Debug: Users Controller
+2017-10-19 16:24:16 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 16:24:16 Debug: Index Always Allowed
+2017-10-19 16:24:16 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:24:16 Debug: AC beforeRender: isAdmin
+2017-10-19 16:24:23 Debug: App Controller initialize
+2017-10-19 16:24:23 Debug: Questions Controller isAuthorized
+2017-10-19 16:24:23 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-10-19 16:24:23 Debug: Add Always Allowed for Admin
+2017-10-19 16:24:23 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:24:23 Debug: AC beforeRender: isAdmin
+2017-10-19 16:24:31 Debug: App Controller initialize
+2017-10-19 16:24:31 Debug: Users Controller initialize
+2017-10-19 16:24:32 Debug: App Controller initialize
+2017-10-19 16:24:32 Debug: Users Controller initialize
+2017-10-19 16:24:32 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:24:48 Debug: App Controller initialize
+2017-10-19 16:24:48 Debug: Users Controller initialize
+2017-10-19 16:24:49 Debug: App Controller initialize
+2017-10-19 16:24:49 Debug: Questions Controller isAuthorized
+2017-10-19 16:24:49 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:24:49 Debug: Index
+2017-10-19 16:24:49 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:24:59 Debug: App Controller initialize
+2017-10-19 16:24:59 Debug: Questions Controller isAuthorized
+2017-10-19 16:24:59 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:24:59 Debug: No ID
+2017-10-19 16:24:59 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:25:02 Debug: App Controller initialize
+2017-10-19 16:25:02 Debug: Questions Controller isAuthorized
+2017-10-19 16:25:02 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:25:02 Debug: Index
+2017-10-19 16:25:02 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:25:10 Debug: App Controller initialize
+2017-10-19 16:25:10 Debug: App Controller isAuthorized
+2017-10-19 16:25:11 Debug: App Controller isAuthorized - Admin status: 
+2017-10-19 16:25:11 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:25:13 Debug: App Controller initialize
+2017-10-19 16:25:13 Debug: Questions Controller isAuthorized
+2017-10-19 16:25:13 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:25:13 Debug: Index
+2017-10-19 16:25:13 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:25:19 Debug: App Controller initialize
+2017-10-19 16:25:19 Debug: App Controller isAuthorized
+2017-10-19 16:25:20 Debug: App Controller isAuthorized - Admin status: 
+2017-10-19 16:25:20 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:25:22 Debug: App Controller initialize
+2017-10-19 16:25:22 Debug: Questions Controller isAuthorized
+2017-10-19 16:25:22 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-19 16:25:22 Debug: Index
+2017-10-19 16:25:22 Debug: AC beforeRender: isLoggedIn
+2017-10-19 16:25:46 Debug: App Controller initialize
+2017-10-19 16:25:46 Debug: Users Controller initialize
+2017-10-19 16:25:46 Debug: App Controller initialize
+2017-10-19 16:25:46 Debug: Users Controller initialize
+2017-10-19 16:25:46 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:25:51 Debug: App Controller initialize
+2017-10-19 16:25:51 Debug: Users Controller initialize
+2017-10-19 16:25:51 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:26:18 Debug: App Controller initialize
+2017-10-19 16:26:18 Debug: Users Controller initialize
+2017-10-19 16:26:18 Debug: AC beforeRender: Not loggedIn
+2017-10-19 16:26:43 Debug: App Controller initialize
+2017-10-19 16:26:43 Debug: Users Controller initialize
+2017-10-19 16:26:43 Debug: AC beforeRender: Not loggedIn

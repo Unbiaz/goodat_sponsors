@@ -33,6 +33,12 @@ class CompaniesController extends AppController
             $this->log('Index', 'debug');
             return true;
         }
+
+        // The index actions are always allowed.
+        if (in_array($action, ['add']) && $this->isAdmin()) {
+            $this->log('Add Always Allowed for Admin', 'debug');
+            return true;
+        }
         
         // All other actions require an id.
         if (empty($this->request->params['pass'][0])) {

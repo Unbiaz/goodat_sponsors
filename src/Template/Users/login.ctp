@@ -41,6 +41,11 @@
 
 			<div class="form-group label-link text-left">
 				<?= $this->Form->button('Log In', ['type' => 'submit', 'class' => 'btn btn-success']); ?>
+				<div> 
+                    <label for="login" class="label-link">
+                            <?= $this->Html->link(__('Sign Up'), ['action' => 'add']) ?></li>
+                    </label>?
+                </div>
 				<div class="text-right"> 
 					<label for="password" class="label-link">
 						<?= $this->Html->link(__('Forgot password'), ['action' => 'forgotPassword']) ?></li>

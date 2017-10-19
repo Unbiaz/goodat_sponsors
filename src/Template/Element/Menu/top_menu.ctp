@@ -16,13 +16,13 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse">
 
 	<ul class="nav navbar-nav">
-		<li <?php echo strcasecmp($this->request->params['controller'], 'Users') ? '' : 'class="active"'; ?> >
+		<!-- <li <?php echo strcasecmp($this->request->params['controller'], 'Users') ? '' : 'class="active"'; ?> >
 			<?= $this->Html->link(__('Home'), ['controller' => 'Users', 'action' => 'add']); ?>
-		</li>
+		</li> -->
 
 		<?php if ($isLoggedIn) { ?>
 			<li <?php echo strcasecmp($this->request->params['controller'], 'Companies') ? '' : 'class="active"'; ?> >
-				<?= $this->Html->link(__('Companies'), ['controller' => 'Companies', 'action' => 'view']); ?>
+				<!--<?= $this->Html->link(__('Companies'), ['controller' => 'Companies', 'action' => 'view']); ?>-->
 			</li>
 		<?php } ?>
 
@@ -61,7 +61,7 @@
 					<li class="dropdown-header">Users</li>
 					<li class="divider"></li>
 					    <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
-                        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
+                        <!-- <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li> -->
 
 				</ul>
 			</li>
