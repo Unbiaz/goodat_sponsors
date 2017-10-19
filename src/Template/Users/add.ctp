@@ -65,12 +65,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <div class="text-center"> <h3><?= __('Please Sign Up') ?></h3> </div> <hr />
 
                     <div class="jumbotron">
-                        <div class="form-group text-left">
-                            <?= $this->Form->input('email', ['class' => 'form-control', 'placeholder' => 'you@example.com', 'label' => 'Email', 'required' => true]); ?>
-                        </div></br>
 
                         <div class="form-group text-left">
                             <?= $this->Form->input('username', ['class' => 'form-control', 'placeholder' => 'Pick a username', 'label' => 'Username', 'required' => true]); ?>
+                        </div></br>
+                        
+                        <div class="form-group text-left">
+                            <?= $this->Form->input('email', ['class' => 'form-control', 'placeholder' => 'you@example.com', 'label' => 'Email', 'required' => true]); ?>
                         </div></br>
 
                         <div class="form-group text-left">

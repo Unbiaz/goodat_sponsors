@@ -4,6 +4,7 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Cake\Log\Log;
 use Cake\Utility\Text;
+use Cake\Mailer\Email;
 
 
 /**
@@ -21,7 +22,7 @@ class UsersController extends AppController
         parent::initialize();
         
         $this->log('Users Controller initialize', 'debug');
-        $this->Auth->allow(['logout','add']);
+        $this->Auth->allow(['logout','add', 'forgotPassword']);
     }
 
     public function isAuthorized($user)
@@ -44,11 +45,11 @@ class UsersController extends AppController
             return true;
         }
 
-        // The showLostPasswordReminder action are always allowed for admin.
-        if (in_array($action, ['showLostPasswordReminder']) && $this->isAdmin()) {
-            $this->log('showLostPasswordReminder Always Allowed for Admin', 'debug');
-            return true;
-        }
+        // // The showLostPasswordReminder action are always allowed for admin.
+        // if (in_array($action, ['showLostPasswordReminder']) && $this->isAdmin()) {
+        //     $this->log('showLostPasswordReminder Always Allowed for Admin', 'debug');
+        //     return true;
+        // }
 
         // All other actions require an id.
         if (empty($this->request->params['pass'][0])) {
@@ -110,7 +111,7 @@ class UsersController extends AppController
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('The user has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'login']);
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
@@ -179,6 +180,78 @@ class UsersController extends AppController
                 return $this->redirect($this->Auth->redirectUrl(['controller' => 'Companies','action' => 'index']));
             }
             $this->Flash->error('Your email or password is incorrect.');
+        }
+    }
+
+    public function forgotPassword()
+    {
+    
+        if($this->request->is('post')) {
+        
+            $user_data = $this->request->data;
+            if (!empty($user_data)) {
+
+                $check_email = $this->Users->find()
+                    ->where(['Users.email_address' => $user_data['User']['email_address']])
+                    ->first();
+        
+                if (!empty($check_email)) {
+                
+                    $data['id'] = $check_email['User']['id'];
+                    $characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+                
+                    $new_password = '';
+                    for ($i=0; $i<6; $i++) {
+                        $new_password .= $characters[rand(0, strlen($characters) - 1)];
+                    }
+          
+                    $data['password'] = md5($new_password);
+                    //$this->Users->save($data);
+                    
+                    /* Sending Email to user */
+                    $email = $user_data['User']['email_address'];
+                    $message = '';  
+                    $message .= '<html>';
+                    $message .='<table style="width:800px;margin:auto;border-collapse:collapse;border:1px solid #5A5A5A;">';
+                    $message .='<thead style="background:#5A5A5A;">';
+                    $message .='<tr>';
+                    $message .='<td width="50%" style="padding:14px 20px;text-align:right;font-size:25px;color:#fff;"></td>';
+                    $message .='</tr>';
+                    $message .='</thead>';
+                    $message .='<tbody>';
+                    $message .='<tr>';
+                    $message .='<td style="padding:5px 20px;" colspan="2">';
+                    $message .= "<h3>New Password  :".$new_password."</h3></br>";
+
+                    $message .= '<br/><br/>Best Regards';
+                    $message .= '<br/><br/> My Team';
+                    $message .='</td>';
+                    $message .='</tr>';
+                    $message .='</tbody>';
+                    $message .='</table>';
+                    $message .= '<html>';
+                    $data_send['body'] = $message;
+                    $data_send['subject'] = "Forgot Password - My Team";
+
+                    $data_send['to'] = $email;
+                    //echo "<pre>";print_r($data_send);die;
+                    // echo "<pre>";print_r($data_send);die;
+
+                    $output = $this->send_mail($data_send);
+      
+                    /* Sending Email to user */
+                    if ($output) {  
+                        $this->Flash->success(__('Password has been changed, Check Your Mail'));
+                        return $this->redirect($this->referer());
+                    } else {
+                        $this->Flash->error(__('The password could not be changed. Please, try again.'));
+                    }
+                    
+                } else {
+                    $this->Flash->error(__('The email address could not be found. Please, try again.'));
+                    return $this->redirect($this->referer());
+                }
+            }
         }
     }
 
