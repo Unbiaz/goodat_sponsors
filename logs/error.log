@@ -9764,3 +9764,2180 @@ Stack Trace:
 #21 {main}
 
 
+2017-10-22 11:38:54 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::send_mail() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 244]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 11:38:54 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-22 11:38:54 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::send_mail() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 244
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 244)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-22 11:42:14 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::send_mail() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 244]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 11:42:14 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-22 11:42:14 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::send_mail() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 244
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 244)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-22 11:42:25 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::send_mail() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 244]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 11:42:25 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-22 11:42:25 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::send_mail() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 244
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 244)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-22 11:42:41 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::send_mail() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 244]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 11:42:41 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-22 11:42:41 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::send_mail() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 244
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 244)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-22 11:47:40 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::send_mail() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 244]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 11:47:40 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:244
+2017-10-22 11:47:40 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::send_mail() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 244
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 244)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-22 14:49:42 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(54): Cake\Mailer\Transport\MailTransport->_mail('issa2@gmail.com', 'About', 'My message\r\n\r\n', 'From: My Site <...', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-10-22 15:34:43 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(54): Cake\Mailer\Transport\MailTransport->_mail('issasanogo007@g...', 'About', 'My message\r\n\r\n', 'From: My Site <...', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-10-22 16:02:42 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(54): Cake\Mailer\Transport\MailTransport->_mail('issasanogo007@g...', 'About', 'My message\r\n\r\n', 'From: My Site <...', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-10-22 16:03:00 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(54): Cake\Mailer\Transport\MailTransport->_mail('issasanogo007@g...', 'About', 'My message\r\n\r\n', 'From: My Site <...', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-10-22 16:11:25 Error: [Cake\Network\Exception\SocketException] Could not send email: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\MailTransport.php(54): Cake\Mailer\Transport\MailTransport->_mail('issasanogo007@g...', 'About', 'My message\r\n\r\n', 'From: My Site <...', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\MailTransport->send(Object(Cake\Mailer\Email))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-10-22 16:40:05 Error: [Cake\Network\Exception\SocketException] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 16:41:26 Error: [Cake\Network\Exception\SocketException] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu.
+
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 16:42:09 Error: [Cake\Network\Exception\SocketException] SMTP timeout.
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(210): Cake\Mailer\Transport\SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 16:42:44 Error: [Cake\Network\Exception\SocketException] SMTP timeout.
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(210): Cake\Mailer\Transport\SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 16:46:04 Error: [Cake\Network\Exception\SocketException] SMTP timeout.
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(210): Cake\Mailer\Transport\SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 16:46:42 Error: [Cake\Network\Exception\SocketException] SMTP timeout.
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(210): Cake\Mailer\Transport\SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 16:47:11 Error: [Cake\Network\Exception\SocketException] SMTP timeout.
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(210): Cake\Mailer\Transport\SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 16:58:32 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(244): Cake\Mailer\Email->send('My message')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-22 17:50:15 Error: [Cake\Network\Exception\SocketException] SMTP server did not accept the password.
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(163): Cake\Mailer\Transport\SmtpTransport->_auth()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(252): Cake\Mailer\Email->send()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#20 {main}
+
+
+2017-10-22 18:34:16 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 18:34:16 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:301
+2017-10-22 18:34:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected end of file in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-22 18:37:21 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 18:37:21 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:303
+2017-10-22 18:37:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 303
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 303)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-22 18:42:35 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-22 18:42:35 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-22 18:42:35 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 290
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 290)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-23 11:12:01 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-23 11:12:01 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-23 11:12:01 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 290
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 290)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-23 12:46:51 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-23 12:46:51 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-23 12:46:51 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 290
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 290)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-23 12:47:10 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-23 12:47:10 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-23 12:47:10 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 290
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 290)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-23 16:57:26 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-23 16:57:26 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-23 16:57:26 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 290
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 290)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 15:12:15 Error: Fatal Error (1): Call to a member function write() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 257]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 15:12:15 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:257
+2017-10-24 15:12:15 Error: [Cake\Error\FatalErrorException] Call to a member function write() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 257
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 257)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 15:14:17 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 291]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 15:14:17 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 15:14:17 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 291
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 291)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 16:31:08 Error: Fatal Error (1): Call to a member function write() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 257]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 16:31:08 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:257
+2017-10-24 16:31:08 Error: [Cake\Error\FatalErrorException] Call to a member function write() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 257
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 257)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 16:32:46 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 291]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 16:32:46 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 16:32:46 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 291
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 291)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:02:07 Error: Fatal Error (1): Call to a member function write() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 257]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:02:08 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:257
+2017-10-24 18:02:08 Error: [Cake\Error\FatalErrorException] Call to a member function write() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 257
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 257)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:02:58 Error: Fatal Error (1): Call to a member function write() on array in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 257]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:02:59 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:257
+2017-10-24 18:02:59 Error: [Cake\Error\FatalErrorException] Call to a member function write() on array in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 257
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 257)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:04:51 Error: Fatal Error (1): Call to a member function read() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 291]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:04:51 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 18:04:51 Error: [Cake\Error\FatalErrorException] Call to a member function read() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 291
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 291)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:06:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'id' inconnu dans where clause
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\Database\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(422): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(297): Cake\Database\Connection->update('users', Array, Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-10-24 18:13:01 Error: [InvalidArgumentException] Cannot get an empty property
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Datasource\EntityTrait.php(135): Cake\ORM\Entity->get('')
+#1 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(297): Cake\ORM\Entity->__get('')
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-10-24 18:13:01 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:13:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:13:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:13:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:13:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'id' inconnu dans where clause
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\Database\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(422): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(297): Cake\Database\Connection->update('users', Array, Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-10-24 18:29:41 Error: Fatal Error (1): Call to a member function query() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:29:42 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 18:29:42 Error: [Cake\Error\FatalErrorException] Call to a member function query() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:40:14 Error: Fatal Error (1): Call to a member function query() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:40:14 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 18:40:14 Error: [Cake\Error\FatalErrorException] Call to a member function query() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:41:02 Error: Fatal Error (1): Call to a member function query() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:41:03 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 18:41:03 Error: [Cake\Error\FatalErrorException] Call to a member function query() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:41:23 Error: Fatal Error (1): Call to a member function query() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:41:23 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 18:41:23 Error: [Cake\Error\FatalErrorException] Call to a member function query() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:41:48 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:41:48 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:296
+2017-10-24 18:41:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:43:09 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:43:09 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:296
+2017-10-24 18:43:09 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:43:16 Error: Fatal Error (1): Call to a member function query() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:43:16 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 18:43:16 Error: [Cake\Error\FatalErrorException] Call to a member function query() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:48:51 Error: Fatal Error (1): Call to a member function query() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 18:48:52 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-24 18:48:52 Error: [Cake\Error\FatalErrorException] Call to a member function query() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 296
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 296)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 18:53:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'id' inconnu dans where clause
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\Database\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(422): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(303): Cake\Database\Connection->update('users', Array, Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-10-24 18:54:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'id' inconnu dans where clause
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\Database\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(422): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(303): Cake\Database\Connection->update('users', Array, Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-10-24 18:54:19 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:54:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:54:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:54:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:56:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'id' inconnu dans where clause
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\Database\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(422): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(303): Cake\Database\Connection->update('users', Array, Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-10-24 18:56:06 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:56:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:56:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:56:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:56:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'id' inconnu dans where clause
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\Database\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(422): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(303): Cake\Database\Connection->update('users', Array, Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-10-24 19:33:58 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 19:33:58 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:301
+2017-10-24 19:33:58 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 19:35:53 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 19:35:53 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:301
+2017-10-24 19:35:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 19:39:28 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-24 19:39:28 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:301
+2017-10-24 19:39:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-24 21:49:11 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:49:11 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:49:11 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:49:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:43 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:55 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:57:50 Error: [LogicException] Controller actions can only return Cake\Http\Response or null.
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+
+
+2017-10-24 21:57:50 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:57:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:57:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:57:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:00:08 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:00:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:00:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:00:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:01:38 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:01:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:01:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:01:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:04:10 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(254): Cake\Mailer\Email->send()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-25 10:39:21 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 10:39:21 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:301
+2017-10-25 10:39:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')' in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 14:58:01 Error: Fatal Error (1): Call to a member function query() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 14:58:02 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-25 14:58:02 Error: [Cake\Error\FatalErrorException] Call to a member function query() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 15:19:01 Error: Fatal Error (1): Call to a member function newQuery() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 15:19:01 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-25 15:19:01 Error: [Cake\Error\FatalErrorException] Call to a member function newQuery() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 15:19:42 Error: Fatal Error (1): Call to a member function newQuery() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 15:19:42 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-10-25 15:19:42 Error: [Cake\Error\FatalErrorException] Call to a member function newQuery() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 15:20:07 Error: [BadMethodCallException] Unknown method "newQuery"
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(301): Cake\ORM\Table->__call('newQuery', Array)
+#1 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(301): App\Model\Table\UsersTable->newQuery()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->resetpassword()
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-10-25 16:47:17 Error: Fatal Error (4): syntax error, unexpected '$query' (T_VARIABLE) in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 16:47:17 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:301
+2017-10-25 16:47:17 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$query' (T_VARIABLE) in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:08:42 Error: Fatal Error (1): Class 'App\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:08:42 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:301
+2017-10-25 17:08:42 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 301
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\wamp64\\www\\6...', 301)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:18:31 Error: Fatal Error (1): Class 'App\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 302]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:18:31 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:302
+2017-10-25 17:18:31 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 302
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\wamp64\\www\\6...', 302)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:18:36 Error: Fatal Error (1): Class 'App\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 302]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:18:36 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:302
+2017-10-25 17:18:36 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 302
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\wamp64\\www\\6...', 302)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:25:01 Error: Fatal Error (1): Class 'Cake\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 302]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:25:01 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:302
+2017-10-25 17:25:01 Error: [Cake\Error\FatalErrorException] Class 'Cake\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 302
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Cake\\Con...', 'C:\\wamp64\\www\\6...', 302)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:25:11 Error: Fatal Error (1): Class 'Cake\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 302]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:25:11 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:302
+2017-10-25 17:25:11 Error: [Cake\Error\FatalErrorException] Class 'Cake\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 302
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Cake\\Con...', 'C:\\wamp64\\www\\6...', 302)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:25:36 Error: Fatal Error (1): Class 'App\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 302]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:25:36 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:302
+2017-10-25 17:25:36 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 302
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\wamp64\\www\\6...', 302)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:25:46 Error: Fatal Error (1): Class 'App\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 302]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:25:46 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:302
+2017-10-25 17:25:46 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 302
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\wamp64\\www\\6...', 302)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:31:00 Error: Fatal Error (1): Class 'App\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 304]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:31:00 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:304
+2017-10-25 17:31:00 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 304
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\wamp64\\www\\6...', 304)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 17:31:49 Error: Fatal Error (1): Class 'App\Controller\Security' not found in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 304]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 17:31:49 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:304
+2017-10-25 17:31:49 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Security' not found in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 304
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\wamp64\\www\\6...', 304)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-25 18:05:51 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [C:\wamp64\www\6bernetics\src\Model\Entity\User.php, line 56]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-25 18:05:51 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Model\Entity\User.php:56
+2017-10-25 18:05:51 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting ')' in C:\wamp64\www\6bernetics\src\Model\Entity\User.php on line 56
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:17:27 Error: Fatal Error (1): Call to a member function setPassword() on null in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:17:27 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:17:27 Error: [Cake\Error\FatalErrorException] Call to a member function setPassword() on null in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:19:51 Error: Fatal Error (1): Call to a member function setPassword() on array in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:19:51 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:19:51 Error: [Cake\Error\FatalErrorException] Call to a member function setPassword() on array in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:21:18 Error: Fatal Error (1): Call to a member function setPassword() on array in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:21:18 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:21:18 Error: [Cake\Error\FatalErrorException] Call to a member function setPassword() on array in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:21:31 Error: Fatal Error (1): Call to a member function setPassword() on array in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:21:31 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:21:31 Error: [Cake\Error\FatalErrorException] Call to a member function setPassword() on array in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:23:16 Error: Fatal Error (1): Call to a member function setPassword() on array in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:23:16 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:23:16 Error: [Cake\Error\FatalErrorException] Call to a member function setPassword() on array in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:25:44 Error: Fatal Error (1): Call to a member function setPassword() on array in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:25:44 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:25:44 Error: [Cake\Error\FatalErrorException] Call to a member function setPassword() on array in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:27:20 Error: Fatal Error (1): Call to undefined function App\Controller\setPassword() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:27:20 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:27:20 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\setPassword() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 00:30:11 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::setPassword() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 00:30:11 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 00:30:11 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::setPassword() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

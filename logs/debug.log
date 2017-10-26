@@ -6480,3 +6480,2077 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
 2017-10-19 16:26:43 Debug: App Controller initialize
 2017-10-19 16:26:43 Debug: Users Controller initialize
 2017-10-19 16:26:43 Debug: AC beforeRender: Not loggedIn
+2017-10-19 18:02:42 Debug: App Controller initialize
+2017-10-19 18:02:42 Debug: Users Controller initialize
+2017-10-19 18:02:42 Debug: AC beforeRender: Not loggedIn
+2017-10-20 19:52:03 Debug: App Controller initialize
+2017-10-20 19:52:03 Debug: Users Controller initialize
+2017-10-20 19:52:06 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:14:25 Debug: App Controller initialize
+2017-10-22 11:14:25 Debug: Users Controller initialize
+2017-10-22 11:14:26 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:15:10 Debug: App Controller initialize
+2017-10-22 11:15:10 Debug: Users Controller initialize
+2017-10-22 11:15:10 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:15:26 Debug: App Controller initialize
+2017-10-22 11:15:26 Debug: Users Controller initialize
+2017-10-22 11:15:26 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:34:55 Debug: App Controller initialize
+2017-10-22 11:34:55 Debug: Users Controller initialize
+2017-10-22 11:34:56 Notice: Notice (8): Undefined index: User in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 199]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::forgotPassword() - APP/Controller\UsersController.php, line 199
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-22 11:34:56 Debug: App Controller initialize
+2017-10-22 11:34:56 Debug: Users Controller initialize
+2017-10-22 11:34:56 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:36:20 Debug: App Controller initialize
+2017-10-22 11:36:20 Debug: Users Controller initialize
+2017-10-22 11:36:21 Notice: Notice (8): Undefined index: User in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 199]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::forgotPassword() - APP/Controller\UsersController.php, line 199
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-22 11:36:21 Debug: App Controller initialize
+2017-10-22 11:36:21 Debug: Users Controller initialize
+2017-10-22 11:36:21 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:38:53 Debug: App Controller initialize
+2017-10-22 11:38:53 Debug: Users Controller initialize
+2017-10-22 11:38:53 Notice: Notice (8): Undefined index: User in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 216]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::forgotPassword() - APP/Controller\UsersController.php, line 216
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-22 11:38:54 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:14 Debug: App Controller initialize
+2017-10-22 11:42:14 Debug: Users Controller initialize
+2017-10-22 11:42:14 Notice: Notice (8): Undefined index: User in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 216]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::forgotPassword() - APP/Controller\UsersController.php, line 216
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-22 11:42:14 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:17 Debug: App Controller initialize
+2017-10-22 11:42:17 Debug: Users Controller initialize
+2017-10-22 11:42:17 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:19 Debug: App Controller initialize
+2017-10-22 11:42:19 Debug: Users Controller initialize
+2017-10-22 11:42:19 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:24 Debug: App Controller initialize
+2017-10-22 11:42:24 Debug: Users Controller initialize
+2017-10-22 11:42:25 Notice: Notice (8): Undefined index: User in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 216]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::forgotPassword() - APP/Controller\UsersController.php, line 216
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-22 11:42:25 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:33 Debug: App Controller initialize
+2017-10-22 11:42:33 Debug: Users Controller initialize
+2017-10-22 11:42:33 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:40 Debug: App Controller initialize
+2017-10-22 11:42:40 Debug: Users Controller initialize
+2017-10-22 11:42:41 Notice: Notice (8): Undefined index: User in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 216]
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::forgotPassword() - APP/Controller\UsersController.php, line 216
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-22 11:42:41 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:49 Debug: App Controller initialize
+2017-10-22 11:42:49 Debug: Users Controller initialize
+2017-10-22 11:42:49 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:55 Debug: App Controller initialize
+2017-10-22 11:42:55 Debug: Users Controller initialize
+2017-10-22 11:42:56 Debug: App Controller initialize
+2017-10-22 11:42:56 Debug: Users Controller initialize
+2017-10-22 11:42:56 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:42:57 Debug: App Controller initialize
+2017-10-22 11:42:57 Debug: Users Controller initialize
+2017-10-22 11:42:58 Debug: App Controller initialize
+2017-10-22 11:42:58 Debug: Users Controller initialize
+2017-10-22 11:42:58 Debug: AC beforeRender: Not loggedIn
+2017-10-22 11:47:40 Debug: App Controller initialize
+2017-10-22 11:47:40 Debug: Users Controller initialize
+2017-10-22 11:47:40 Debug: AC beforeRender: Not loggedIn
+2017-10-22 14:49:34 Debug: App Controller initialize
+2017-10-22 14:49:34 Debug: Users Controller initialize
+2017-10-22 14:49:41 Debug: AC beforeRender: Not loggedIn
+2017-10-22 14:49:41 Debug: AC beforeRender: Not loggedIn
+2017-10-22 15:34:21 Debug: App Controller initialize
+2017-10-22 15:34:21 Debug: Users Controller initialize
+2017-10-22 15:34:22 Debug: AC beforeRender: Not loggedIn
+2017-10-22 15:34:35 Debug: App Controller initialize
+2017-10-22 15:34:35 Debug: Users Controller initialize
+2017-10-22 15:34:43 Debug: AC beforeRender: Not loggedIn
+2017-10-22 15:34:43 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:02:40 Debug: App Controller initialize
+2017-10-22 16:02:40 Debug: Users Controller initialize
+2017-10-22 16:02:42 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:02:42 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:02:58 Debug: App Controller initialize
+2017-10-22 16:02:58 Debug: Users Controller initialize
+2017-10-22 16:03:00 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:03:00 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:11:23 Debug: App Controller initialize
+2017-10-22 16:11:23 Debug: Users Controller initialize
+2017-10-22 16:11:25 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:11:25 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:39:33 Debug: App Controller initialize
+2017-10-22 16:39:33 Debug: Users Controller initialize
+2017-10-22 16:40:04 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:40:04 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:40:40 Debug: App Controller initialize
+2017-10-22 16:40:40 Debug: Users Controller initialize
+2017-10-22 16:40:40 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:40:55 Debug: App Controller initialize
+2017-10-22 16:40:55 Debug: Users Controller initialize
+2017-10-22 16:41:25 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:41:25 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:41:58 Debug: App Controller initialize
+2017-10-22 16:41:58 Debug: Users Controller initialize
+2017-10-22 16:42:09 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:42:09 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:42:24 Debug: App Controller initialize
+2017-10-22 16:42:24 Debug: Users Controller initialize
+2017-10-22 16:42:24 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:42:32 Debug: App Controller initialize
+2017-10-22 16:42:32 Debug: Users Controller initialize
+2017-10-22 16:42:44 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:42:44 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:45:52 Debug: App Controller initialize
+2017-10-22 16:45:52 Debug: Users Controller initialize
+2017-10-22 16:46:04 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:46:04 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:46:30 Debug: App Controller initialize
+2017-10-22 16:46:30 Debug: Users Controller initialize
+2017-10-22 16:46:41 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:46:41 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:47:00 Debug: App Controller initialize
+2017-10-22 16:47:00 Debug: Users Controller initialize
+2017-10-22 16:47:11 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:47:11 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:48:51 Debug: App Controller initialize
+2017-10-22 16:48:51 Debug: Users Controller initialize
+2017-10-22 16:48:57 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:49:09 Debug: App Controller initialize
+2017-10-22 16:49:09 Debug: Users Controller initialize
+2017-10-22 16:49:13 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:58:32 Debug: App Controller initialize
+2017-10-22 16:58:32 Debug: Users Controller initialize
+2017-10-22 16:58:32 Debug: AC beforeRender: Not loggedIn
+2017-10-22 16:58:32 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:12:26 Debug: App Controller initialize
+2017-10-22 17:12:26 Debug: Users Controller initialize
+2017-10-22 17:12:26 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:12:27 Debug: App Controller initialize
+2017-10-22 17:12:27 Debug: Users Controller initialize
+2017-10-22 17:12:27 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:12:27 Debug: App Controller initialize
+2017-10-22 17:12:27 Debug: Users Controller initialize
+2017-10-22 17:12:28 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:12:32 Debug: App Controller initialize
+2017-10-22 17:12:32 Debug: Users Controller initialize
+2017-10-22 17:12:32 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:19:00 Debug: App Controller initialize
+2017-10-22 17:19:00 Debug: Users Controller initialize
+2017-10-22 17:19:00 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:19:04 Debug: App Controller initialize
+2017-10-22 17:19:04 Debug: Users Controller initialize
+2017-10-22 17:19:04 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:19:10 Debug: App Controller initialize
+2017-10-22 17:19:11 Debug: Users Controller initialize
+2017-10-22 17:19:16 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:20:29 Debug: App Controller initialize
+2017-10-22 17:20:29 Debug: Users Controller initialize
+2017-10-22 17:20:29 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:21:27 Debug: App Controller initialize
+2017-10-22 17:21:27 Debug: Users Controller initialize
+2017-10-22 17:21:29 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:21:44 Debug: App Controller initialize
+2017-10-22 17:21:44 Debug: Users Controller initialize
+2017-10-22 17:21:44 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:50:13 Debug: App Controller initialize
+2017-10-22 17:50:13 Debug: Users Controller initialize
+2017-10-22 17:50:15 Debug: AC beforeRender: Not loggedIn
+2017-10-22 17:50:15 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:34:16 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:37:21 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:38:50 Debug: App Controller initialize
+2017-10-22 18:38:50 Debug: Users Controller initialize
+2017-10-22 18:38:50 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:38:55 Debug: App Controller initialize
+2017-10-22 18:38:55 Debug: Users Controller initialize
+2017-10-22 18:38:55 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:39:08 Debug: App Controller initialize
+2017-10-22 18:39:08 Debug: Users Controller initialize
+2017-10-22 18:39:10 Debug: App Controller initialize
+2017-10-22 18:39:10 Debug: Users Controller initialize
+2017-10-22 18:39:10 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:40:08 Debug: App Controller initialize
+2017-10-22 18:40:08 Debug: Users Controller initialize
+2017-10-22 18:40:08 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:40:18 Debug: App Controller initialize
+2017-10-22 18:40:18 Debug: Users Controller initialize
+2017-10-22 18:40:18 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:40:34 Debug: App Controller initialize
+2017-10-22 18:40:34 Debug: Users Controller initialize
+2017-10-22 18:40:34 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:41:26 Debug: App Controller initialize
+2017-10-22 18:41:26 Debug: Users Controller initialize
+2017-10-22 18:41:26 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:41:29 Debug: App Controller initialize
+2017-10-22 18:41:29 Debug: Users Controller initialize
+2017-10-22 18:41:29 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:41:36 Debug: App Controller initialize
+2017-10-22 18:41:37 Debug: Users Controller initialize
+2017-10-22 18:41:44 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:42:01 Debug: App Controller initialize
+2017-10-22 18:42:01 Debug: Users Controller initialize
+2017-10-22 18:42:01 Debug: AC beforeRender: Not loggedIn
+2017-10-22 18:42:34 Debug: App Controller initialize
+2017-10-22 18:42:34 Debug: Users Controller initialize
+2017-10-22 18:42:35 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 290
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-22 18:42:35 Debug: AC beforeRender: Not loggedIn
+2017-10-23 10:21:43 Debug: App Controller initialize
+2017-10-23 10:21:43 Debug: Users Controller initialize
+2017-10-23 10:21:44 Debug: App Controller initialize
+2017-10-23 10:21:44 Debug: Users Controller initialize
+2017-10-23 10:21:44 Debug: AC beforeRender: Not loggedIn
+2017-10-23 10:21:50 Debug: AC beforeRender: Not loggedIn
+2017-10-23 11:08:36 Debug: App Controller initialize
+2017-10-23 11:08:36 Debug: Users Controller initialize
+2017-10-23 11:08:36 Debug: AC beforeRender: Not loggedIn
+2017-10-23 11:11:59 Debug: App Controller initialize
+2017-10-23 11:11:59 Debug: Users Controller initialize
+2017-10-23 11:12:01 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 290
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-23 11:12:01 Debug: AC beforeRender: Not loggedIn
+2017-10-23 12:46:50 Debug: App Controller initialize
+2017-10-23 12:46:50 Debug: Users Controller initialize
+2017-10-23 12:46:51 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 290
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-23 12:46:51 Debug: AC beforeRender: Not loggedIn
+2017-10-23 12:47:09 Debug: App Controller initialize
+2017-10-23 12:47:09 Debug: Users Controller initialize
+2017-10-23 12:47:10 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 290
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-23 12:47:10 Debug: AC beforeRender: Not loggedIn
+2017-10-23 14:57:13 Debug: App Controller initialize
+2017-10-23 14:57:13 Debug: Users Controller initialize
+2017-10-23 14:57:13 Debug: AC beforeRender: Not loggedIn
+2017-10-23 14:57:15 Debug: App Controller initialize
+2017-10-23 14:57:15 Debug: Users Controller initialize
+2017-10-23 14:57:16 Debug: AC beforeRender: Not loggedIn
+2017-10-23 16:33:59 Debug: App Controller initialize
+2017-10-23 16:33:59 Debug: Users Controller initialize
+2017-10-23 16:34:11 Debug: AC beforeRender: Not loggedIn
+2017-10-23 16:50:16 Debug: App Controller initialize
+2017-10-23 16:50:16 Debug: Users Controller initialize
+2017-10-23 16:50:21 Debug: App Controller initialize
+2017-10-23 16:50:21 Debug: Users Controller initialize
+2017-10-23 16:50:21 Debug: AC beforeRender: Not loggedIn
+2017-10-23 16:57:10 Debug: App Controller initialize
+2017-10-23 16:57:10 Debug: Users Controller initialize
+2017-10-23 16:57:10 Debug: AC beforeRender: Not loggedIn
+2017-10-23 16:57:25 Debug: App Controller initialize
+2017-10-23 16:57:25 Debug: Users Controller initialize
+2017-10-23 16:57:26 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 290]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 290
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-23 16:57:26 Debug: AC beforeRender: Not loggedIn
+2017-10-23 16:57:57 Debug: App Controller initialize
+2017-10-23 16:57:57 Debug: Users Controller initialize
+2017-10-23 16:57:57 Debug: AC beforeRender: Not loggedIn
+2017-10-23 16:58:06 Debug: App Controller initialize
+2017-10-23 16:58:06 Debug: Users Controller initialize
+2017-10-23 16:58:07 Debug: App Controller initialize
+2017-10-23 16:58:07 Debug: Users Controller initialize
+2017-10-23 16:58:07 Debug: AC beforeRender: Not loggedIn
+2017-10-23 16:58:14 Debug: App Controller initialize
+2017-10-23 16:58:14 Debug: Users Controller initialize
+2017-10-23 16:58:14 Debug: AC beforeRender: Not loggedIn
+2017-10-23 17:58:04 Debug: App Controller initialize
+2017-10-23 17:58:04 Debug: Users Controller initialize
+2017-10-23 17:58:04 Debug: AC beforeRender: Not loggedIn
+2017-10-24 14:59:29 Debug: App Controller initialize
+2017-10-24 14:59:29 Debug: Users Controller initialize
+2017-10-24 14:59:30 Debug: AC beforeRender: Not loggedIn
+2017-10-24 14:59:40 Debug: App Controller initialize
+2017-10-24 14:59:40 Debug: Users Controller initialize
+2017-10-24 14:59:42 Debug: AC beforeRender: Not loggedIn
+2017-10-24 14:59:45 Debug: App Controller initialize
+2017-10-24 14:59:45 Debug: Users Controller initialize
+2017-10-24 14:59:45 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:12:04 Debug: App Controller initialize
+2017-10-24 15:12:04 Debug: Users Controller initialize
+2017-10-24 15:12:15 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:13:59 Debug: App Controller initialize
+2017-10-24 15:13:59 Debug: Users Controller initialize
+2017-10-24 15:13:59 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:14:16 Debug: App Controller initialize
+2017-10-24 15:14:16 Debug: Users Controller initialize
+2017-10-24 15:14:17 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 291]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 291
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 15:14:17 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:25:00 Debug: App Controller initialize
+2017-10-24 15:25:00 Debug: Users Controller initialize
+2017-10-24 15:25:03 Debug: App Controller initialize
+2017-10-24 15:25:03 Debug: Users Controller initialize
+2017-10-24 15:25:03 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:25:20 Debug: App Controller initialize
+2017-10-24 15:25:20 Debug: Users Controller initialize
+2017-10-24 15:25:20 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:26:10 Debug: App Controller initialize
+2017-10-24 15:26:10 Debug: Users Controller initialize
+2017-10-24 15:26:11 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:26:45 Debug: App Controller initialize
+2017-10-24 15:26:45 Debug: Users Controller initialize
+2017-10-24 15:26:46 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:27:34 Debug: App Controller initialize
+2017-10-24 15:27:34 Debug: Users Controller initialize
+2017-10-24 15:27:35 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:28:42 Debug: App Controller initialize
+2017-10-24 15:28:42 Debug: Users Controller initialize
+2017-10-24 15:28:42 Debug: AC beforeRender: Not loggedIn
+2017-10-24 15:29:07 Debug: App Controller initialize
+2017-10-24 15:29:07 Debug: Users Controller initialize
+2017-10-24 15:29:08 Debug: App Controller initialize
+2017-10-24 15:29:08 Debug: Questions Controller isAuthorized
+2017-10-24 15:29:08 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-24 15:29:08 Debug: Index
+2017-10-24 15:29:09 Debug: AC beforeRender: isLoggedIn
+2017-10-24 15:29:24 Debug: App Controller initialize
+2017-10-24 15:29:24 Debug: Users Controller initialize
+2017-10-24 15:29:25 Debug: App Controller initialize
+2017-10-24 15:29:25 Debug: Users Controller initialize
+2017-10-24 15:29:25 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:07:43 Debug: App Controller initialize
+2017-10-24 16:07:43 Debug: Users Controller initialize
+2017-10-24 16:07:44 Debug: App Controller initialize
+2017-10-24 16:07:44 Debug: Questions Controller isAuthorized
+2017-10-24 16:07:44 Debug: Array
+(
+    [id_user] => 5
+    [username] => SANOGOi
+    [email] => issa2@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-08T15:14:00+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-24 16:07:44 Debug: Index
+2017-10-24 16:07:44 Debug: AC beforeRender: isLoggedIn
+2017-10-24 16:07:49 Debug: App Controller initialize
+2017-10-24 16:07:49 Debug: Users Controller initialize
+2017-10-24 16:07:50 Debug: App Controller initialize
+2017-10-24 16:07:50 Debug: Users Controller initialize
+2017-10-24 16:07:50 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:08:03 Debug: App Controller initialize
+2017-10-24 16:08:03 Debug: Users Controller initialize
+2017-10-24 16:08:04 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:08:19 Debug: App Controller initialize
+2017-10-24 16:08:19 Debug: Users Controller initialize
+2017-10-24 16:08:19 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:08:30 Debug: App Controller initialize
+2017-10-24 16:08:30 Debug: Users Controller initialize
+2017-10-24 16:08:30 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:08:53 Debug: App Controller initialize
+2017-10-24 16:08:53 Debug: Users Controller initialize
+2017-10-24 16:08:53 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:09:04 Debug: App Controller initialize
+2017-10-24 16:09:04 Debug: Users Controller initialize
+2017-10-24 16:09:04 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:31:02 Debug: App Controller initialize
+2017-10-24 16:31:02 Debug: Users Controller initialize
+2017-10-24 16:31:08 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:31:24 Debug: App Controller initialize
+2017-10-24 16:31:24 Debug: Users Controller initialize
+2017-10-24 16:31:24 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:31:28 Debug: App Controller initialize
+2017-10-24 16:31:28 Debug: Users Controller initialize
+2017-10-24 16:31:28 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:31:48 Debug: App Controller initialize
+2017-10-24 16:31:48 Debug: Users Controller initialize
+2017-10-24 16:31:48 Debug: AC beforeRender: Not loggedIn
+2017-10-24 16:32:46 Debug: App Controller initialize
+2017-10-24 16:32:46 Debug: Users Controller initialize
+2017-10-24 16:32:46 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 291]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 291
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 16:32:46 Debug: AC beforeRender: Not loggedIn
+2017-10-24 17:50:17 Debug: App Controller initialize
+2017-10-24 17:50:17 Debug: Users Controller initialize
+2017-10-24 17:50:18 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:01:31 Debug: App Controller initialize
+2017-10-24 18:01:31 Debug: Users Controller initialize
+2017-10-24 18:01:31 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:01:40 Debug: App Controller initialize
+2017-10-24 18:01:40 Debug: Users Controller initialize
+2017-10-24 18:01:40 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:01:49 Debug: App Controller initialize
+2017-10-24 18:01:49 Debug: Users Controller initialize
+2017-10-24 18:01:49 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:01:59 Debug: App Controller initialize
+2017-10-24 18:01:59 Debug: Users Controller initialize
+2017-10-24 18:02:07 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:02:55 Debug: App Controller initialize
+2017-10-24 18:02:55 Debug: Users Controller initialize
+2017-10-24 18:02:58 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:03:41 Debug: App Controller initialize
+2017-10-24 18:03:41 Debug: Users Controller initialize
+2017-10-24 18:03:46 Debug: App Controller initialize
+2017-10-24 18:03:46 Debug: Users Controller initialize
+2017-10-24 18:03:46 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:04:25 Debug: App Controller initialize
+2017-10-24 18:04:25 Debug: Users Controller initialize
+2017-10-24 18:04:25 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:04:50 Debug: App Controller initialize
+2017-10-24 18:04:50 Debug: Users Controller initialize
+2017-10-24 18:04:51 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 291]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 291
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:04:51 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:06:56 Debug: App Controller initialize
+2017-10-24 18:06:56 Debug: Users Controller initialize
+2017-10-24 18:06:56 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:13:00 Debug: App Controller initialize
+2017-10-24 18:13:00 Debug: Users Controller initialize
+2017-10-24 18:13:01 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 297]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 297
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:13:01 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:13:01 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:13:49 Debug: App Controller initialize
+2017-10-24 18:13:49 Debug: Users Controller initialize
+2017-10-24 18:13:50 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:29:41 Debug: App Controller initialize
+2017-10-24 18:29:41 Debug: Users Controller initialize
+2017-10-24 18:29:41 Notice: Notice (8): Undefined variable: users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 296
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:29:41 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:40:14 Debug: App Controller initialize
+2017-10-24 18:40:14 Debug: Users Controller initialize
+2017-10-24 18:40:14 Notice: Notice (8): Undefined variable: users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 296
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:40:14 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:41:02 Debug: App Controller initialize
+2017-10-24 18:41:02 Debug: Users Controller initialize
+2017-10-24 18:41:02 Notice: Notice (8): Undefined variable: user in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 296
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:41:02 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:41:23 Debug: App Controller initialize
+2017-10-24 18:41:23 Debug: Users Controller initialize
+2017-10-24 18:41:23 Notice: Notice (8): Undefined variable: Users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 296
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:41:23 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:41:48 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:43:09 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:43:16 Debug: App Controller initialize
+2017-10-24 18:43:16 Debug: Users Controller initialize
+2017-10-24 18:43:16 Notice: Notice (8): Undefined variable: users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 296
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:43:16 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:48:51 Debug: App Controller initialize
+2017-10-24 18:48:51 Debug: Users Controller initialize
+2017-10-24 18:48:51 Notice: Notice (8): Undefined variable: users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 296]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 296
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:48:51 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:53:40 Debug: App Controller initialize
+2017-10-24 18:53:40 Debug: Users Controller initialize
+2017-10-24 18:53:42 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:54:18 Debug: App Controller initialize
+2017-10-24 18:54:18 Debug: Users Controller initialize
+2017-10-24 18:54:18 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:54:18 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:56:05 Debug: App Controller initialize
+2017-10-24 18:56:05 Debug: Users Controller initialize
+2017-10-24 18:56:05 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 18:56:05 Debug: AC beforeRender: Not loggedIn
+2017-10-24 18:56:13 Debug: App Controller initialize
+2017-10-24 18:56:13 Debug: Users Controller initialize
+2017-10-24 18:56:14 Debug: AC beforeRender: Not loggedIn
+2017-10-24 19:02:12 Debug: App Controller initialize
+2017-10-24 19:02:12 Debug: Users Controller initialize
+2017-10-24 19:02:12 Debug: AC beforeRender: Not loggedIn
+2017-10-24 19:02:40 Debug: App Controller initialize
+2017-10-24 19:02:40 Debug: Users Controller initialize
+2017-10-24 19:02:40 Debug: AC beforeRender: Not loggedIn
+2017-10-24 19:02:57 Debug: App Controller initialize
+2017-10-24 19:02:57 Debug: Users Controller initialize
+2017-10-24 19:02:57 Debug: AC beforeRender: Not loggedIn
+2017-10-24 19:03:12 Debug: App Controller initialize
+2017-10-24 19:03:12 Debug: Users Controller initialize
+2017-10-24 19:03:13 Debug: App Controller initialize
+2017-10-24 19:03:13 Debug: Questions Controller isAuthorized
+2017-10-24 19:03:13 Debug: Array
+(
+    [id_user] => 3
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-24 19:03:13 Debug: Index
+2017-10-24 19:03:13 Debug: AC beforeRender: isLoggedIn
+2017-10-24 19:22:49 Debug: App Controller initialize
+2017-10-24 19:22:49 Debug: Users Controller initialize
+2017-10-24 19:22:49 Debug: AC beforeRender: isLoggedIn
+2017-10-24 19:33:58 Debug: AC beforeRender: Not loggedIn
+2017-10-24 19:35:53 Debug: AC beforeRender: Not loggedIn
+2017-10-24 19:39:28 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:48:07 Debug: App Controller initialize
+2017-10-24 21:48:07 Debug: Users Controller initialize
+2017-10-24 21:48:07 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:48:29 Debug: App Controller initialize
+2017-10-24 21:48:29 Debug: Users Controller initialize
+2017-10-24 21:48:29 Debug: App Controller initialize
+2017-10-24 21:48:29 Debug: Users Controller initialize
+2017-10-24 21:48:29 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:48:51 Debug: App Controller initialize
+2017-10-24 21:48:51 Debug: Users Controller initialize
+2017-10-24 21:48:51 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:49:11 Debug: App Controller initialize
+2017-10-24 21:49:11 Debug: Users Controller initialize
+2017-10-24 21:49:11 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:49:11 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:51:42 Debug: App Controller initialize
+2017-10-24 21:51:42 Debug: Users Controller initialize
+2017-10-24 21:51:42 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:42 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:51:54 Debug: App Controller initialize
+2017-10-24 21:51:54 Debug: Users Controller initialize
+2017-10-24 21:51:55 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:51:55 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:52:01 Debug: App Controller initialize
+2017-10-24 21:52:01 Debug: Users Controller initialize
+2017-10-24 21:52:01 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:52:13 Debug: App Controller initialize
+2017-10-24 21:52:13 Debug: Users Controller initialize
+2017-10-24 21:52:14 Debug: App Controller initialize
+2017-10-24 21:52:14 Debug: Questions Controller isAuthorized
+2017-10-24 21:52:14 Debug: Array
+(
+    [id_user] => 3
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-24 21:52:14 Debug: Index
+2017-10-24 21:52:14 Debug: AC beforeRender: isLoggedIn
+2017-10-24 21:52:27 Debug: App Controller initialize
+2017-10-24 21:52:27 Debug: Users Controller initialize
+2017-10-24 21:52:27 Debug: AC beforeRender: isLoggedIn
+2017-10-24 21:52:38 Debug: App Controller initialize
+2017-10-24 21:52:38 Debug: Users Controller initialize
+2017-10-24 21:52:39 Debug: App Controller initialize
+2017-10-24 21:52:39 Debug: Users Controller initialize
+2017-10-24 21:52:39 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:52:42 Debug: App Controller initialize
+2017-10-24 21:52:42 Debug: Users Controller initialize
+2017-10-24 21:52:42 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:52:47 Debug: App Controller initialize
+2017-10-24 21:52:47 Debug: Users Controller initialize
+2017-10-24 21:52:47 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:57:49 Debug: App Controller initialize
+2017-10-24 21:57:49 Debug: Users Controller initialize
+2017-10-24 21:57:50 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 21:57:50 Debug: AC beforeRender: Not loggedIn
+2017-10-24 21:57:50 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:00:07 Debug: App Controller initialize
+2017-10-24 22:00:07 Debug: Users Controller initialize
+2017-10-24 22:00:07 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:00:07 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:00:17 Debug: App Controller initialize
+2017-10-24 22:00:17 Debug: Users Controller initialize
+2017-10-24 22:00:17 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:00:33 Debug: App Controller initialize
+2017-10-24 22:00:33 Debug: Users Controller initialize
+2017-10-24 22:00:33 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:00:40 Debug: App Controller initialize
+2017-10-24 22:00:40 Debug: Users Controller initialize
+2017-10-24 22:00:40 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:01:00 Debug: App Controller initialize
+2017-10-24 22:01:00 Debug: Users Controller initialize
+2017-10-24 22:01:00 Debug: App Controller initialize
+2017-10-24 22:01:00 Debug: Questions Controller isAuthorized
+2017-10-24 22:01:00 Debug: Array
+(
+    [id_user] => 3
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-24 22:01:00 Debug: Index
+2017-10-24 22:01:01 Debug: AC beforeRender: isLoggedIn
+2017-10-24 22:01:06 Debug: App Controller initialize
+2017-10-24 22:01:06 Debug: Users Controller initialize
+2017-10-24 22:01:07 Debug: App Controller initialize
+2017-10-24 22:01:07 Debug: Users Controller initialize
+2017-10-24 22:01:07 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:01:10 Debug: App Controller initialize
+2017-10-24 22:01:10 Debug: App Controller initialize
+2017-10-24 22:01:10 Debug: Users Controller initialize
+2017-10-24 22:01:10 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:01:13 Debug: App Controller initialize
+2017-10-24 22:01:13 Debug: Users Controller initialize
+2017-10-24 22:01:13 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:01:16 Debug: App Controller initialize
+2017-10-24 22:01:16 Debug: Users Controller initialize
+2017-10-24 22:01:16 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:01:37 Debug: App Controller initialize
+2017-10-24 22:01:37 Debug: Users Controller initialize
+2017-10-24 22:01:38 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 303]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 303
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-24 22:01:38 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:02:08 Debug: App Controller initialize
+2017-10-24 22:02:08 Debug: Users Controller initialize
+2017-10-24 22:02:08 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:02:31 Debug: App Controller initialize
+2017-10-24 22:02:31 Debug: Users Controller initialize
+2017-10-24 22:02:31 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:03:22 Debug: App Controller initialize
+2017-10-24 22:03:22 Debug: Users Controller initialize
+2017-10-24 22:03:23 Debug: App Controller initialize
+2017-10-24 22:03:23 Debug: Questions Controller isAuthorized
+2017-10-24 22:03:23 Debug: Array
+(
+    [id_user] => 3
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-24 22:03:23 Debug: Index
+2017-10-24 22:03:23 Debug: AC beforeRender: isLoggedIn
+2017-10-24 22:03:29 Debug: App Controller initialize
+2017-10-24 22:03:29 Debug: Users Controller initialize
+2017-10-24 22:03:30 Debug: App Controller initialize
+2017-10-24 22:03:30 Debug: Users Controller initialize
+2017-10-24 22:03:30 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:03:48 Debug: App Controller initialize
+2017-10-24 22:03:48 Debug: Users Controller initialize
+2017-10-24 22:03:48 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:03:53 Debug: App Controller initialize
+2017-10-24 22:03:53 Debug: Users Controller initialize
+2017-10-24 22:03:53 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:04:03 Debug: App Controller initialize
+2017-10-24 22:04:03 Debug: Users Controller initialize
+2017-10-24 22:04:03 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:04:10 Debug: App Controller initialize
+2017-10-24 22:04:10 Debug: Users Controller initialize
+2017-10-24 22:04:10 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:04:10 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:04:27 Debug: App Controller initialize
+2017-10-24 22:04:27 Debug: Users Controller initialize
+2017-10-24 22:04:27 Debug: AC beforeRender: Not loggedIn
+2017-10-24 22:05:47 Debug: App Controller initialize
+2017-10-24 22:05:47 Debug: Users Controller initialize
+2017-10-24 22:05:47 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:11:24 Debug: App Controller initialize
+2017-10-25 10:11:24 Debug: Users Controller initialize
+2017-10-25 10:11:24 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:13:56 Debug: App Controller initialize
+2017-10-25 10:13:56 Debug: Users Controller initialize
+2017-10-25 10:14:02 Debug: App Controller initialize
+2017-10-25 10:14:02 Debug: Users Controller initialize
+2017-10-25 10:14:02 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:14:21 Debug: App Controller initialize
+2017-10-25 10:14:21 Debug: Users Controller initialize
+2017-10-25 10:14:21 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:14:42 Debug: App Controller initialize
+2017-10-25 10:14:42 Debug: Users Controller initialize
+2017-10-25 10:14:42 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:16:39 Debug: App Controller initialize
+2017-10-25 10:16:39 Debug: Users Controller initialize
+2017-10-25 10:16:39 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:16:54 Debug: App Controller initialize
+2017-10-25 10:16:54 Debug: Users Controller initialize
+2017-10-25 10:16:55 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:17:03 Debug: App Controller initialize
+2017-10-25 10:17:03 Debug: Users Controller initialize
+2017-10-25 10:17:04 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:17:21 Debug: App Controller initialize
+2017-10-25 10:17:21 Debug: Users Controller initialize
+2017-10-25 10:17:22 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:17:34 Debug: App Controller initialize
+2017-10-25 10:17:34 Debug: Users Controller initialize
+2017-10-25 10:17:34 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:17:48 Debug: App Controller initialize
+2017-10-25 10:17:48 Debug: Users Controller initialize
+2017-10-25 10:17:48 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:18:04 Debug: App Controller initialize
+2017-10-25 10:18:04 Debug: Users Controller initialize
+2017-10-25 10:18:05 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:18:15 Debug: App Controller initialize
+2017-10-25 10:18:15 Debug: Users Controller initialize
+2017-10-25 10:18:16 Debug: App Controller initialize
+2017-10-25 10:18:16 Debug: Questions Controller isAuthorized
+2017-10-25 10:18:16 Debug: Array
+(
+    [id_user] => 3
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-02T03:28:58+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-25 10:18:16 Debug: Index
+2017-10-25 10:18:16 Debug: AC beforeRender: isLoggedIn
+2017-10-25 10:18:22 Debug: App Controller initialize
+2017-10-25 10:18:22 Debug: Users Controller initialize
+2017-10-25 10:18:23 Debug: App Controller initialize
+2017-10-25 10:18:23 Debug: Users Controller initialize
+2017-10-25 10:18:24 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:19:03 Debug: App Controller initialize
+2017-10-25 10:19:03 Debug: Users Controller initialize
+2017-10-25 10:19:04 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:19:11 Debug: App Controller initialize
+2017-10-25 10:19:11 Debug: Users Controller initialize
+2017-10-25 10:19:11 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:19:23 Debug: App Controller initialize
+2017-10-25 10:19:23 Debug: Users Controller initialize
+2017-10-25 10:19:24 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:39:21 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:40:28 Debug: App Controller initialize
+2017-10-25 10:40:28 Debug: Users Controller initialize
+2017-10-25 10:40:28 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:40:39 Debug: App Controller initialize
+2017-10-25 10:40:39 Debug: Users Controller initialize
+2017-10-25 10:40:39 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:40:59 Debug: App Controller initialize
+2017-10-25 10:40:59 Debug: Users Controller initialize
+2017-10-25 10:40:59 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:41:06 Debug: App Controller initialize
+2017-10-25 10:41:06 Debug: Users Controller initialize
+2017-10-25 10:41:06 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:41:37 Debug: App Controller initialize
+2017-10-25 10:41:37 Debug: Users Controller initialize
+2017-10-25 10:41:42 Debug: App Controller initialize
+2017-10-25 10:41:42 Debug: Users Controller initialize
+2017-10-25 10:41:42 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:42:15 Debug: App Controller initialize
+2017-10-25 10:42:15 Debug: Users Controller initialize
+2017-10-25 10:42:15 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:42:35 Debug: App Controller initialize
+2017-10-25 10:42:35 Debug: Users Controller initialize
+2017-10-25 10:42:35 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:42:48 Debug: App Controller initialize
+2017-10-25 10:42:48 Debug: Users Controller initialize
+2017-10-25 10:42:48 Debug: AC beforeRender: Not loggedIn
+2017-10-25 10:43:08 Debug: App Controller initialize
+2017-10-25 10:43:08 Debug: Users Controller initialize
+2017-10-25 10:43:08 Debug: AC beforeRender: Not loggedIn
+2017-10-25 11:03:24 Debug: App Controller initialize
+2017-10-25 11:03:24 Debug: Users Controller initialize
+2017-10-25 11:03:25 Debug: AC beforeRender: Not loggedIn
+2017-10-25 11:03:39 Debug: App Controller initialize
+2017-10-25 11:03:39 Debug: Users Controller initialize
+2017-10-25 11:03:39 Debug: AC beforeRender: Not loggedIn
+2017-10-25 11:04:12 Debug: App Controller initialize
+2017-10-25 11:04:12 Debug: Users Controller initialize
+2017-10-25 11:04:12 Debug: AC beforeRender: Not loggedIn
+2017-10-25 11:04:27 Debug: App Controller initialize
+2017-10-25 11:04:27 Debug: Users Controller initialize
+2017-10-25 11:04:27 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:31:51 Debug: App Controller initialize
+2017-10-25 14:31:51 Debug: Users Controller initialize
+2017-10-25 14:31:51 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:34:14 Debug: App Controller initialize
+2017-10-25 14:34:14 Debug: Users Controller initialize
+2017-10-25 14:34:14 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:34:33 Debug: App Controller initialize
+2017-10-25 14:34:33 Debug: Users Controller initialize
+2017-10-25 14:34:33 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:35:15 Debug: App Controller initialize
+2017-10-25 14:35:15 Debug: Users Controller initialize
+2017-10-25 14:35:16 Debug: User beforeSave
+2017-10-25 14:35:17 Debug: {
+    "username": "kouna",
+    "email": "ikounadi02@gmail.com",
+    "created": "2017-10-25T14:35:16+00:00",
+    "modified": "2017-10-25T14:35:16+00:00"
+}
+2017-10-25 14:35:17 Debug: User generateApiKey
+2017-10-25 14:35:17 Debug: {
+    "username": "kouna",
+    "email": "ikounadi02@gmail.com",
+    "created": "2017-10-25T14:35:16+00:00",
+    "modified": "2017-10-25T14:35:16+00:00",
+    "apiKeyPlain": "8fcc1634a0480eeb9a75518ea214638e25786384",
+    "apiKey": "$2y$10$4eK8LG6IX79I82QthIQJq.BE5t34WHfVLMHFd3Lc83MZSP5fV8HHq",
+    "authData": "6bernetics:7b5a462c-2b43-4cde-8ce4-32a3b593ffe4"
+}
+2017-10-25 14:35:18 Debug: App Controller initialize
+2017-10-25 14:35:18 Debug: Users Controller initialize
+2017-10-25 14:35:18 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:36:23 Debug: App Controller initialize
+2017-10-25 14:36:23 Debug: Users Controller initialize
+2017-10-25 14:36:25 Debug: App Controller initialize
+2017-10-25 14:36:25 Debug: Questions Controller isAuthorized
+2017-10-25 14:36:25 Debug: Array
+(
+    [id_user] => 16
+    [username] => kouna
+    [email] => ikounadi02@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-25T14:35:16+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-25T14:35:16+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-25 14:36:25 Debug: Index
+2017-10-25 14:36:26 Debug: AC beforeRender: isLoggedIn
+2017-10-25 14:36:34 Debug: App Controller initialize
+2017-10-25 14:36:34 Debug: Users Controller initialize
+2017-10-25 14:36:34 Debug: App Controller initialize
+2017-10-25 14:36:34 Debug: Users Controller initialize
+2017-10-25 14:36:34 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:36:41 Debug: App Controller initialize
+2017-10-25 14:36:41 Debug: Users Controller initialize
+2017-10-25 14:36:41 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:36:52 Debug: App Controller initialize
+2017-10-25 14:36:52 Debug: Users Controller initialize
+2017-10-25 14:36:59 Debug: App Controller initialize
+2017-10-25 14:36:59 Debug: Users Controller initialize
+2017-10-25 14:36:59 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:40:24 Debug: App Controller initialize
+2017-10-25 14:40:24 Debug: Users Controller initialize
+2017-10-25 14:40:24 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:40:42 Debug: App Controller initialize
+2017-10-25 14:40:42 Debug: Users Controller initialize
+2017-10-25 14:40:42 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:41:05 Debug: App Controller initialize
+2017-10-25 14:41:05 Debug: Users Controller initialize
+2017-10-25 14:41:05 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:41:26 Debug: App Controller initialize
+2017-10-25 14:41:26 Debug: Users Controller initialize
+2017-10-25 14:41:27 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:56:56 Debug: App Controller initialize
+2017-10-25 14:56:56 Debug: Users Controller initialize
+2017-10-25 14:56:56 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:57:06 Debug: App Controller initialize
+2017-10-25 14:57:06 Debug: Users Controller initialize
+2017-10-25 14:57:09 Debug: App Controller initialize
+2017-10-25 14:57:09 Debug: Users Controller initialize
+2017-10-25 14:57:09 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:57:41 Debug: App Controller initialize
+2017-10-25 14:57:41 Debug: Users Controller initialize
+2017-10-25 14:57:41 Debug: AC beforeRender: Not loggedIn
+2017-10-25 14:58:00 Debug: App Controller initialize
+2017-10-25 14:58:00 Debug: Users Controller initialize
+2017-10-25 14:58:01 Notice: Notice (8): Undefined variable: users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 301
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-25 14:58:01 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:19:01 Debug: App Controller initialize
+2017-10-25 15:19:01 Debug: Users Controller initialize
+2017-10-25 15:19:01 Notice: Notice (8): Undefined variable: users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 301
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-25 15:19:01 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:19:42 Debug: App Controller initialize
+2017-10-25 15:19:42 Debug: Users Controller initialize
+2017-10-25 15:19:42 Notice: Notice (8): Undefined variable: Users in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 301]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 301
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-25 15:19:42 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:20:06 Debug: App Controller initialize
+2017-10-25 15:20:06 Debug: Users Controller initialize
+2017-10-25 15:20:06 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:20:06 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:20:19 Debug: App Controller initialize
+2017-10-25 15:20:19 Debug: Users Controller initialize
+2017-10-25 15:20:20 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:20:32 Debug: App Controller initialize
+2017-10-25 15:20:32 Debug: Users Controller initialize
+2017-10-25 15:20:32 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:20:48 Debug: App Controller initialize
+2017-10-25 15:20:48 Debug: Users Controller initialize
+2017-10-25 15:20:48 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:21:09 Debug: App Controller initialize
+2017-10-25 15:21:09 Debug: Users Controller initialize
+2017-10-25 15:21:10 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:21:50 Debug: App Controller initialize
+2017-10-25 15:21:50 Debug: Users Controller initialize
+2017-10-25 15:21:54 Debug: App Controller initialize
+2017-10-25 15:21:54 Debug: Users Controller initialize
+2017-10-25 15:21:54 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:22:11 Debug: App Controller initialize
+2017-10-25 15:22:11 Debug: Users Controller initialize
+2017-10-25 15:22:11 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:22:27 Debug: App Controller initialize
+2017-10-25 15:22:27 Debug: Users Controller initialize
+2017-10-25 15:22:28 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:22:35 Debug: App Controller initialize
+2017-10-25 15:22:35 Debug: Users Controller initialize
+2017-10-25 15:22:35 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:22:51 Debug: App Controller initialize
+2017-10-25 15:22:51 Debug: Users Controller initialize
+2017-10-25 15:22:52 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:23:01 Debug: App Controller initialize
+2017-10-25 15:23:01 Debug: Users Controller initialize
+2017-10-25 15:23:02 Debug: App Controller initialize
+2017-10-25 15:23:02 Debug: Questions Controller isAuthorized
+2017-10-25 15:23:02 Debug: Array
+(
+    [id_user] => 16
+    [username] => kouna
+    [email] => ikounadi02@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-25T14:35:16+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-25T14:35:16+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-25 15:23:02 Debug: Index
+2017-10-25 15:23:02 Debug: AC beforeRender: isLoggedIn
+2017-10-25 15:23:11 Debug: App Controller initialize
+2017-10-25 15:23:11 Debug: Users Controller initialize
+2017-10-25 15:23:11 Debug: App Controller initialize
+2017-10-25 15:23:11 Debug: Users Controller initialize
+2017-10-25 15:23:11 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:27:06 Debug: App Controller initialize
+2017-10-25 15:27:06 Debug: Users Controller initialize
+2017-10-25 15:27:06 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:27:10 Debug: App Controller initialize
+2017-10-25 15:27:10 Debug: Users Controller initialize
+2017-10-25 15:27:10 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:27:22 Debug: App Controller initialize
+2017-10-25 15:27:22 Debug: Users Controller initialize
+2017-10-25 15:27:28 Debug: App Controller initialize
+2017-10-25 15:27:28 Debug: Users Controller initialize
+2017-10-25 15:27:28 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:27:46 Debug: App Controller initialize
+2017-10-25 15:27:46 Debug: Users Controller initialize
+2017-10-25 15:27:46 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:28:02 Debug: App Controller initialize
+2017-10-25 15:28:02 Debug: Users Controller initialize
+2017-10-25 15:28:05 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:28:11 Debug: App Controller initialize
+2017-10-25 15:28:11 Debug: Users Controller initialize
+2017-10-25 15:28:11 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:28:27 Debug: App Controller initialize
+2017-10-25 15:28:27 Debug: Users Controller initialize
+2017-10-25 15:28:27 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:28:43 Debug: App Controller initialize
+2017-10-25 15:28:43 Debug: Users Controller initialize
+2017-10-25 15:28:43 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:29:58 Debug: App Controller initialize
+2017-10-25 15:29:58 Debug: Users Controller initialize
+2017-10-25 15:29:58 Debug: AC beforeRender: Not loggedIn
+2017-10-25 15:30:10 Debug: App Controller initialize
+2017-10-25 15:30:10 Debug: Users Controller initialize
+2017-10-25 15:30:10 Debug: AC beforeRender: Not loggedIn
+2017-10-25 16:47:17 Debug: AC beforeRender: Not loggedIn
+2017-10-25 16:47:41 Debug: App Controller initialize
+2017-10-25 16:47:41 Debug: Users Controller initialize
+2017-10-25 16:47:41 Debug: AC beforeRender: Not loggedIn
+2017-10-25 16:47:50 Debug: App Controller initialize
+2017-10-25 16:47:50 Debug: Users Controller initialize
+2017-10-25 16:47:55 Debug: App Controller initialize
+2017-10-25 16:47:55 Debug: Users Controller initialize
+2017-10-25 16:47:55 Debug: AC beforeRender: Not loggedIn
+2017-10-25 16:48:11 Debug: App Controller initialize
+2017-10-25 16:48:11 Debug: Users Controller initialize
+2017-10-25 16:48:11 Debug: AC beforeRender: Not loggedIn
+2017-10-25 16:48:30 Debug: App Controller initialize
+2017-10-25 16:48:30 Debug: Users Controller initialize
+2017-10-25 16:48:30 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:08:06 Debug: App Controller initialize
+2017-10-25 17:08:06 Debug: Users Controller initialize
+2017-10-25 17:08:10 Debug: App Controller initialize
+2017-10-25 17:08:10 Debug: Users Controller initialize
+2017-10-25 17:08:10 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:08:29 Debug: App Controller initialize
+2017-10-25 17:08:29 Debug: Users Controller initialize
+2017-10-25 17:08:29 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:08:42 Debug: App Controller initialize
+2017-10-25 17:08:42 Debug: Users Controller initialize
+2017-10-25 17:08:42 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:18:30 Debug: App Controller initialize
+2017-10-25 17:18:30 Debug: Users Controller initialize
+2017-10-25 17:18:31 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:18:36 Debug: App Controller initialize
+2017-10-25 17:18:36 Debug: Users Controller initialize
+2017-10-25 17:18:36 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:25:00 Debug: App Controller initialize
+2017-10-25 17:25:00 Debug: Users Controller initialize
+2017-10-25 17:25:01 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:25:10 Debug: App Controller initialize
+2017-10-25 17:25:10 Debug: Users Controller initialize
+2017-10-25 17:25:11 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:25:35 Debug: App Controller initialize
+2017-10-25 17:25:35 Debug: Users Controller initialize
+2017-10-25 17:25:36 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:25:45 Debug: App Controller initialize
+2017-10-25 17:25:45 Debug: Users Controller initialize
+2017-10-25 17:25:46 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:28:24 Debug: App Controller initialize
+2017-10-25 17:28:24 Debug: Users Controller initialize
+2017-10-25 17:28:24 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:28:55 Debug: App Controller initialize
+2017-10-25 17:28:55 Debug: Users Controller initialize
+2017-10-25 17:28:59 Debug: App Controller initialize
+2017-10-25 17:28:59 Debug: Users Controller initialize
+2017-10-25 17:28:59 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:29:15 Debug: App Controller initialize
+2017-10-25 17:29:15 Debug: Users Controller initialize
+2017-10-25 17:29:15 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:29:33 Debug: App Controller initialize
+2017-10-25 17:29:33 Debug: Users Controller initialize
+2017-10-25 17:29:33 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:30:58 Debug: App Controller initialize
+2017-10-25 17:30:58 Debug: Users Controller initialize
+2017-10-25 17:31:00 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:31:49 Debug: App Controller initialize
+2017-10-25 17:31:49 Debug: Users Controller initialize
+2017-10-25 17:31:49 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:36:32 Debug: App Controller initialize
+2017-10-25 17:36:32 Debug: Users Controller initialize
+2017-10-25 17:36:33 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:37:01 Debug: App Controller initialize
+2017-10-25 17:37:01 Debug: Users Controller initialize
+2017-10-25 17:37:01 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:37:11 Debug: App Controller initialize
+2017-10-25 17:37:11 Debug: Users Controller initialize
+2017-10-25 17:37:17 Debug: App Controller initialize
+2017-10-25 17:37:17 Debug: Users Controller initialize
+2017-10-25 17:37:17 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:37:31 Debug: App Controller initialize
+2017-10-25 17:37:31 Debug: Users Controller initialize
+2017-10-25 17:37:31 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:37:43 Debug: App Controller initialize
+2017-10-25 17:37:43 Debug: Users Controller initialize
+2017-10-25 17:37:43 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:40:17 Debug: App Controller initialize
+2017-10-25 17:40:17 Debug: Users Controller initialize
+2017-10-25 17:40:19 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:40:29 Debug: App Controller initialize
+2017-10-25 17:40:29 Debug: Users Controller initialize
+2017-10-25 17:40:32 Debug: App Controller initialize
+2017-10-25 17:40:32 Debug: Users Controller initialize
+2017-10-25 17:40:32 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:40:42 Debug: App Controller initialize
+2017-10-25 17:40:42 Debug: Users Controller initialize
+2017-10-25 17:40:42 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:40:58 Debug: App Controller initialize
+2017-10-25 17:40:58 Debug: Users Controller initialize
+2017-10-25 17:40:59 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:41:40 Debug: App Controller initialize
+2017-10-25 17:41:40 Debug: Users Controller initialize
+2017-10-25 17:41:40 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:41:45 Debug: App Controller initialize
+2017-10-25 17:41:45 Debug: Users Controller initialize
+2017-10-25 17:41:45 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:42:03 Debug: App Controller initialize
+2017-10-25 17:42:03 Debug: Users Controller initialize
+2017-10-25 17:42:04 Debug: User beforeSave
+2017-10-25 17:42:04 Debug: {
+    "username": "SANOGO",
+    "email": "issasanogo007@gmail.com",
+    "created": "2017-10-25T17:42:04+00:00",
+    "modified": "2017-10-25T17:42:04+00:00"
+}
+2017-10-25 17:42:04 Debug: User generateApiKey
+2017-10-25 17:42:04 Debug: {
+    "username": "SANOGO",
+    "email": "issasanogo007@gmail.com",
+    "created": "2017-10-25T17:42:04+00:00",
+    "modified": "2017-10-25T17:42:04+00:00",
+    "apiKeyPlain": "b7fe9d4d13dcaf4db2657bdc4fcc8fd44a274e39",
+    "apiKey": "$2y$10$Zt82\/FgvYXIUi5UsO7ZoB.YCBbhtcUTtilXBFHpmwbEPxM5QV\/oW2",
+    "authData": "6bernetics:89037927-8401-4997-8095-342ff7cd7f52"
+}
+2017-10-25 17:42:05 Debug: App Controller initialize
+2017-10-25 17:42:05 Debug: Users Controller initialize
+2017-10-25 17:42:05 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:42:16 Debug: App Controller initialize
+2017-10-25 17:42:16 Debug: Users Controller initialize
+2017-10-25 17:42:17 Debug: App Controller initialize
+2017-10-25 17:42:17 Debug: Questions Controller isAuthorized
+2017-10-25 17:42:17 Debug: Array
+(
+    [id_user] => 17
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-25T17:42:04+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-25T17:42:04+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-10-25 17:42:17 Debug: Index
+2017-10-25 17:42:17 Debug: AC beforeRender: isLoggedIn
+2017-10-25 17:42:22 Debug: App Controller initialize
+2017-10-25 17:42:22 Debug: Users Controller initialize
+2017-10-25 17:42:22 Debug: App Controller initialize
+2017-10-25 17:42:22 Debug: Users Controller initialize
+2017-10-25 17:42:22 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:42:25 Debug: App Controller initialize
+2017-10-25 17:42:25 Debug: Users Controller initialize
+2017-10-25 17:42:25 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:42:31 Debug: App Controller initialize
+2017-10-25 17:42:31 Debug: Users Controller initialize
+2017-10-25 17:42:35 Debug: App Controller initialize
+2017-10-25 17:42:35 Debug: Users Controller initialize
+2017-10-25 17:42:35 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:43:05 Debug: App Controller initialize
+2017-10-25 17:43:05 Debug: Users Controller initialize
+2017-10-25 17:43:05 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:43:21 Debug: App Controller initialize
+2017-10-25 17:43:21 Debug: Users Controller initialize
+2017-10-25 17:43:21 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:43:57 Debug: App Controller initialize
+2017-10-25 17:43:57 Debug: Users Controller initialize
+2017-10-25 17:43:57 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:44:08 Debug: App Controller initialize
+2017-10-25 17:44:08 Debug: Users Controller initialize
+2017-10-25 17:44:08 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:44:17 Debug: App Controller initialize
+2017-10-25 17:44:17 Debug: Users Controller initialize
+2017-10-25 17:44:17 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:52:51 Debug: App Controller initialize
+2017-10-25 17:52:51 Debug: Users Controller initialize
+2017-10-25 17:52:51 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:53:06 Debug: App Controller initialize
+2017-10-25 17:53:06 Debug: Users Controller initialize
+2017-10-25 17:53:06 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:53:14 Debug: App Controller initialize
+2017-10-25 17:53:14 Debug: Users Controller initialize
+2017-10-25 17:53:19 Debug: App Controller initialize
+2017-10-25 17:53:19 Debug: Users Controller initialize
+2017-10-25 17:53:19 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:53:38 Debug: App Controller initialize
+2017-10-25 17:53:38 Debug: Users Controller initialize
+2017-10-25 17:53:38 Debug: AC beforeRender: Not loggedIn
+2017-10-25 17:54:07 Debug: App Controller initialize
+2017-10-25 17:54:07 Debug: Users Controller initialize
+2017-10-25 17:54:09 Debug: AC beforeRender: Not loggedIn
+2017-10-25 18:04:21 Debug: App Controller initialize
+2017-10-25 18:04:21 Debug: Users Controller initialize
+2017-10-25 18:04:59 Debug: App Controller initialize
+2017-10-25 18:04:59 Debug: Users Controller initialize
+2017-10-25 18:05:21 Debug: App Controller initialize
+2017-10-25 18:05:21 Debug: Users Controller initialize
+2017-10-25 18:05:21 Debug: AC beforeRender: Not loggedIn
+2017-10-25 18:05:51 Debug: App Controller initialize
+2017-10-25 18:05:51 Debug: Users Controller initialize
+2017-10-25 18:05:51 Debug: AC beforeRender: Not loggedIn
+2017-10-25 18:06:35 Debug: App Controller initialize
+2017-10-25 18:06:35 Debug: Users Controller initialize
+2017-10-25 18:06:35 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:17:26 Debug: App Controller initialize
+2017-10-26 00:17:26 Debug: Users Controller initialize
+2017-10-26 00:17:27 Notice: Notice (8): Undefined variable: user in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+App\Controller\UsersController::resetpassword() - APP/Controller\UsersController.php, line 308
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 441
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-26 00:17:27 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:19:50 Debug: App Controller initialize
+2017-10-26 00:19:50 Debug: Users Controller initialize
+2017-10-26 00:19:51 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:21:18 Debug: App Controller initialize
+2017-10-26 00:21:18 Debug: Users Controller initialize
+2017-10-26 00:21:18 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:21:31 Debug: App Controller initialize
+2017-10-26 00:21:31 Debug: Users Controller initialize
+2017-10-26 00:21:31 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:23:16 Debug: App Controller initialize
+2017-10-26 00:23:16 Debug: Users Controller initialize
+2017-10-26 00:23:16 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:25:43 Debug: App Controller initialize
+2017-10-26 00:25:43 Debug: Users Controller initialize
+2017-10-26 00:25:44 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:27:20 Debug: App Controller initialize
+2017-10-26 00:27:20 Debug: Users Controller initialize
+2017-10-26 00:27:20 Debug: AC beforeRender: Not loggedIn
+2017-10-26 00:30:10 Debug: App Controller initialize
+2017-10-26 00:30:10 Debug: Users Controller initialize
+2017-10-26 00:30:11 Debug: AC beforeRender: Not loggedIn
