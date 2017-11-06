@@ -17,6 +17,8 @@
         <legend><?= __('Add Company') ?></legend>
         <?php
             echo $this->Form->control('name_company');
+            echo $this->Form->control('town_city');
+            echo $this->Form->control('company_website');
             echo $this->Form->control('email');
             echo $this->Form->control('sponsor');
             echo $this->Form->control('industri_id', ['options' => $industries]);

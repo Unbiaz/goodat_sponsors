@@ -64,6 +64,16 @@ class CompaniesTable extends Table
             ->notEmpty('name_company');
 
         $validator
+            ->scalar('town_city')
+            ->requirePresence('town_city', 'create')
+            ->notEmpty('town_city');
+
+        $validator
+            ->scalar('company_website')
+            ->requirePresence('company_website', 'create')
+            ->notEmpty('company_website');
+
+        $validator
             ->email('email')
             ->requirePresence('email', 'create')
             ->notEmpty('email');

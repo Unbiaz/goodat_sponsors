@@ -48,11 +48,11 @@ class CompaniesController extends AppController
         }
 
         // Check that the entity belongs to the current user.
-        $id = $this->request->params['pass'][0];
-        $entity = $this->Companies->get($id);
-        if ($entity->user_id == $user['id']) {
-            return true;
-        }
+        // $id = $this->request->params['pass'][0];
+        // $entity = $this->Companies->get($id);
+        // if ($entity->user_id == $user['id']) {
+        //     return true;
+        // }
 
         return parent::isAuthorized($user);
     }
@@ -67,11 +67,26 @@ class CompaniesController extends AppController
         $this->paginate = [
             'contain' => ['Industries']
         ];
+    
         $companies = $this->paginate($this->Companies);
 
         $this->set(compact('companies'));
         $this->set('_serialize', ['companies']);
     }
+
+    public function category($cat_id)
+    {
+        $this->paginate = [
+            'contain' => ['Industries'],
+            'conditions' => ['Companies.industri_id' => $cat_id]
+        ];
+    
+        $companies = $this->paginate($this->Companies);
+
+        $this->set(compact('companies'));
+        $this->set('_serialize', ['companies']);
+    }
+
 
     /**
      * View method

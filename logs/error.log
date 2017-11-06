@@ -11941,3 +11941,1914 @@ Stack Trace:
 #2 {main}
 
 
+2017-10-26 12:08:19 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::setPassword() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 308]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 12:08:20 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:308
+2017-10-26 12:08:20 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::setPassword() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 308
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 308)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-26 16:21:19 Error: Fatal Error (1): Call to undefined method App\Controller\UsersController::setPassword() in [C:\wamp64\www\6bernetics\src\Controller\UsersController.php, line 272]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-26 16:21:19 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\UsersController.php:272
+2017-10-26 16:21:19 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\UsersController::setPassword() in C:\wamp64\www\6bernetics\src\Controller\UsersController.php on line 272
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 272)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-28 13:09:23 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(220): Cake\Mailer\Email->send()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-28 14:46:28 Error: [Cake\Network\Exception\SocketException] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+Request URL: /users/forgot-password
+Referer URL: http://localhost/6bernetics/users/forgot-password
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(207): Cake\Network\Socket->connect()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Transport\SmtpTransport.php(162): Cake\Mailer\Transport\SmtpTransport->_connect()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Mailer\Transport\DebugKitTransport.php(79): Cake\Mailer\Transport\SmtpTransport->send(Object(Cake\Mailer\Email))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Mailer\Email.php(2058): DebugKit\Mailer\Transport\DebugKitTransport->send(Object(Cake\Mailer\Email))
+#4 C:\wamp64\www\6bernetics\src\Controller\UsersController.php(220): Cake\Mailer\Email->send()
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\UsersController->forgotPassword()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-10-30 10:04:14 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-30 10:04:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-30 10:04:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-30 10:04:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /users/reset-password
+Referer URL: http://localhost/6bernetics/users/reset-password
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-10-31 01:01:01 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "companies" with primary key [NULL]
+Request URL: /companies/view
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(87): Cake\ORM\Table->get(NULL, Array)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->view()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-10-31 01:01:15 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "companies" with primary key [NULL]
+Request URL: /companies/view
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(87): Cake\ORM\Table->get(NULL, Array)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->view()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-10-31 01:44:08 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-10-31 01:54:18 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-10-31 02:37:35 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 111]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies%2F
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-10-31 02:37:35 Error: [Cake\Error\FatalErrorException] syntax error, unexpected end of file in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 111
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies%2F
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 111)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-10-31 14:28:12 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies?sort=industri_id&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-10-31 14:31:22 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies?sort=industri_id&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-10-31 17:27:55 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Information%20Technology%20and%20Services
+Referer URL: http://localhost/6bernetics/companies?sort=Location&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Information Tec...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Information Tec...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-10-31 17:29:27 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Information%20Technology%20and%20Services
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Information Tec...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Information Tec...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-02 14:04:36 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-02 16:47:58 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-02 17:12:17 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Widget\SelectBoxWidget.php, line 235]
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\View\Widget\SelectBoxWidget::_renderOptions() - CORE\src\View\Widget\SelectBoxWidget.php, line 235
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE\src\View\Widget\SelectBoxWidget.php, line 166
+Cake\View\Widget\SelectBoxWidget::render() - CORE\src\View\Widget\SelectBoxWidget.php, line 116
+Cake\View\Helper\FormHelper::widget() - CORE\src\View\Helper\FormHelper.php, line 2775
+Cake\View\Helper\FormHelper::select() - CORE\src\View\Helper\FormHelper.php, line 2076
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1251
+Cake\View\Helper\FormHelper::control() - CORE\src\View\Helper\FormHelper.php, line 1149
+include - APP/Template\Companies\add.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-02 17:14:13 Error: Fatal Error (1): Cannot access empty property in [C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp, line 24]
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 17:14:13 Error: [Cake\Error\FatalErrorException] Cannot access empty property in C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp on line 24
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot access e...', 'C:\\wamp64\\www\\6...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 17:21:59 Error: Fatal Error (4): syntax error, unexpected ''categori_indus'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp, line 24]
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 17:21:59 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''categori_indus'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp on line 24
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 17:23:09 Error: Fatal Error (4): syntax error, unexpected ''$categori_indus'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp, line 24]
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 17:23:10 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''$categori_indus'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp on line 24
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 17:30:25 Error: [Cake\View\Exception\MissingHelperException] Helper class []Helper could not be found.
+Exception Attributes: array (
+  'class' => '[]Helper',
+  'plugin' => NULL,
+)
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(94): Cake\View\HelperRegistry->_throwMissingClassError('[]', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\HelperRegistry.php(67): Cake\Core\ObjectRegistry->load('[]')
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1087): Cake\View\HelperRegistry->__isset('[]')
+#3 C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp(24): Cake\View\View->__get('[]')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1196): include('C:\\wamp64\\www\\6...')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1157): Cake\View\View->_evaluate('C:\\wamp64\\www\\6...', Array)
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(765): Cake\View\View->_render('C:\\wamp64\\www\\6...')
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(624): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-11-02 17:32:04 Error: [Cake\View\Exception\MissingHelperException] Helper class []Helper could not be found.
+Exception Attributes: array (
+  'class' => '[]Helper',
+  'plugin' => NULL,
+)
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies?sort=Company&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(94): Cake\View\HelperRegistry->_throwMissingClassError('[]', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\HelperRegistry.php(67): Cake\Core\ObjectRegistry->load('[]')
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1087): Cake\View\HelperRegistry->__isset('[]')
+#3 C:\wamp64\www\6bernetics\src\Template\Companies\add.ctp(26): Cake\View\View->__get('[]')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1196): include('C:\\wamp64\\www\\6...')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1157): Cake\View\View->_evaluate('C:\\wamp64\\www\\6...', Array)
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(765): Cake\View\View->_render('C:\\wamp64\\www\\6...')
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(624): Cake\View\View->render(NULL, NULL)
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-11-02 17:44:54 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Design%20Printing
+Referer URL: http://localhost/6bernetics/companies?sort=industri_id&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Design Printing', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Design Printing')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-02 17:53:06 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Design
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Design', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Design')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-02 18:00:37 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'industri_id' doesn't have a default value
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1923): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1817): Cake\ORM\Table->_insert(Object(App\Model\Entity\Company), Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1730): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Company), Object(ArrayObject))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1453): Cake\ORM\Table->Cake\ORM\{closure}()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(681): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1454): Cake\Database\Connection->transactional(Object(Closure))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1731): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#12 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(103): Cake\ORM\Table->save(Object(App\Model\Entity\Company))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->add()
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#29 {main}
+
+
+2017-11-02 18:04:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'industri_id' doesn't have a default value
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1923): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1817): Cake\ORM\Table->_insert(Object(App\Model\Entity\Company), Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1730): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Company), Object(ArrayObject))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1453): Cake\ORM\Table->Cake\ORM\{closure}()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(681): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1454): Cake\Database\Connection->transactional(Object(Closure))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1731): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#12 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(103): Cake\ORM\Table->save(Object(App\Model\Entity\Company))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->add()
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#29 {main}
+
+
+2017-11-02 18:05:30 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'industri_id' doesn't have a default value
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1923): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1817): Cake\ORM\Table->_insert(Object(App\Model\Entity\Company), Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1730): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Company), Object(ArrayObject))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1453): Cake\ORM\Table->Cake\ORM\{closure}()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(681): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1454): Cake\Database\Connection->transactional(Object(Closure))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1731): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#12 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(103): Cake\ORM\Table->save(Object(App\Model\Entity\Company))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->add()
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#29 {main}
+
+
+2017-11-02 18:11:43 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'industri_id' doesn't have a default value
+Request URL: /companies/add
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1923): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1817): Cake\ORM\Table->_insert(Object(App\Model\Entity\Company), Array)
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1730): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Company), Object(ArrayObject))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1453): Cake\ORM\Table->Cake\ORM\{closure}()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(681): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1454): Cake\Database\Connection->transactional(Object(Closure))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1731): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#12 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(103): Cake\ORM\Table->save(Object(App\Model\Entity\Company))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->add()
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#29 {main}
+
+
+2017-11-02 18:51:22 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 18:51:22 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 18:52:07 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 18:52:07 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 18:57:21 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 18:57:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 18:58:41 Error: Fatal Error (1): Function name must be a string in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 18:58:41 Error: [Cake\Error\FatalErrorException] Function name must be a string in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Function name m...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 23:11:37 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 23:11:38 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 23:12:34 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 23:12:34 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 23:12:51 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 23:12:51 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-02 23:13:12 Error: Fatal Error (1): Call to undefined method App\View\AppView::Form() in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 56]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-02 23:13:13 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::Form() in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 56
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 56)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-04 10:28:15 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests"
+Request URL: /debug_kit/toolbar/30348764-85bf-4d72-949a-73bed4943f1a
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(66): Cake\ORM\Table->get('30348764-85bf-4...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): DebugKit\Controller\RequestsController->view('30348764-85bf-4...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-04 15:50:42 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Design%20Printing
+Referer URL: http://localhost/6bernetics/companies?sort=industri_id&direction=desc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Design Printing', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Design Printing')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-04 15:59:12 Error: Fatal Error (1): Call to a member function has() on null in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 52]
+Request URL: /companies?sort=industri_id&direction=desc
+Referer URL: http://localhost/6bernetics/companies?sort=industri_id&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-04 15:59:12 Error: [Cake\Error\FatalErrorException] Call to a member function has() on null in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 52
+Request URL: /companies?sort=industri_id&direction=desc
+Referer URL: http://localhost/6bernetics/companies?sort=industri_id&direction=asc
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 52)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-04 17:36:01 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Arts%20and%20Crafts%20
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Arts and Crafts...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Arts and Crafts...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-04 17:43:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies%3Fsort%3Dindustri_id%26direction%3Ddesc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-04 17:45:28 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies%3Fsort%3Dindustri_id%26direction%3Ddesc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-04 17:47:52 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies%3Fsort%3Dindustri_id%26direction%3Ddesc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-04 17:48:10 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies%3Fsort%3Dindustri_id%26direction%3Ddesc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-05 22:39:37 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-06 11:16:56 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests"
+Request URL: /debug_kit/toolbar/30348764-85bf-4d72-949a-73bed4943f1a
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(66): Cake\ORM\Table->get('30348764-85bf-4...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): DebugKit\Controller\RequestsController->view('30348764-85bf-4...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-06 11:48:00 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-06 11:52:28 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-11-06 12:32:46 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Industries\index.ctp, line 26]
+Request URL: /industries
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Industries\index.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 12:34:43 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Industries\index.ctp, line 26]
+Request URL: /industries
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Industries\index.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 12:34:46 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Industries\index.ctp, line 26]
+Request URL: /industries
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Industries\index.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 12:36:47 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 78]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/industries
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 78
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 12:39:53 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/industries
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(70): Cake\Controller\Controller->paginate(false)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->index()
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-11-06 12:44:20 Error: Fatal Error (1): Call to a member function get() on boolean in [C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php, line 38]
+Request URL: /industries/view/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-06 12:44:20 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php:38
+2017-11-06 12:44:20 Error: [Cake\Error\FatalErrorException] Call to a member function get() on boolean in C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php on line 38
+Request URL: /industries/view/1
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-06 12:45:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Compagnies could not be found.
+Exception Attributes: array (
+  'class' => 'Compagnies',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /compagnies/view/1
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-11-06 12:47:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Compagnies could not be found.
+Exception Attributes: array (
+  'class' => 'Compagnies',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /compagnies/view/1
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-11-06 12:47:09 Error: Fatal Error (1): Call to a member function has() on null in [C:\wamp64\www\6bernetics\src\Template\Companies\view.ctp, line 39]
+Request URL: /companies/view/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-06 12:47:09 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-11-06 12:47:09 Error: [Cake\Error\FatalErrorException] Call to a member function has() on null in C:\wamp64\www\6bernetics\src\Template\Companies\view.ctp on line 39
+Request URL: /companies/view/1
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 39)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-06 12:48:59 Error: Fatal Error (1): Call to a member function get() on boolean in [C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php, line 38]
+Request URL: /industries/view/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-06 12:48:59 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php:38
+2017-11-06 12:48:59 Error: [Cake\Error\FatalErrorException] Call to a member function get() on boolean in C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php on line 38
+Request URL: /industries/view/1
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-06 13:06:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Industries.id_indus' inconnu dans where clause
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Query.php(1037): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(287): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Query.php(986): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Datasource\Paginator.php(186): Cake\ORM\Query->all()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(202): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\CompaniesTable), Array, Array)
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(719): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\CompaniesTable), Array)
+#11 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(74): Cake\Controller\Controller->paginate(Object(App\Model\Table\CompaniesTable))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->index()
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-11-06 13:07:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'Industries.id' inconnu dans where clause
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(174): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Database\Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Query.php(1037): Cake\Database\Query->execute()
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(287): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Query.php(986): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Datasource\Paginator.php(186): Cake\ORM\Query->all()
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(202): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\CompaniesTable), Array, Array)
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(719): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\CompaniesTable), Array)
+#11 C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php(74): Cake\Controller\Controller->paginate(Object(App\Model\Table\CompaniesTable))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\CompaniesController->index()
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#28 {main}
+
+
+2017-11-06 13:14:27 Error: Fatal Error (1): Call to undefined method App\View\AppView::Html() in [C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp, line 85]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-06 13:14:27 Warning: Headers already sent in C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850
+2017-11-06 13:14:27 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::Html() in C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp on line 85
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\6...', 85)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-06 13:15:25 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:15:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:15:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:15:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:52 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:58 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:17:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:18:54 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:18:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:18:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:18:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:19 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:54 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /companies/category/3
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /companies/category/3
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/3
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:21:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/3
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:33:10 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /companies/category/5
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:33:10 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /companies/category/5
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:33:10 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/5
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-06 13:33:10 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /companies/category/5
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+

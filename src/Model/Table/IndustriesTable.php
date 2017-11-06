@@ -33,7 +33,7 @@ class IndustriesTable extends Table
         parent::initialize($config);
 
         $this->setTable('industries');
-        $this->setDisplayField('id_indus');
+        $this->setDisplayField('categori_indus');
         $this->setPrimaryKey('id_indus');
 
         $this->addBehavior('Timestamp');
