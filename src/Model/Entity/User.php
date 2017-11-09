@@ -52,7 +52,6 @@ class User extends Entity
       $hasher = new DefaultPasswordHasher();
       return $hasher->hash($value);
     }
-
     public function isAdmin() {
       return (strcasecmp($this->role, 'admin') == 0);
     }

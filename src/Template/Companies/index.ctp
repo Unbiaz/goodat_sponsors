@@ -40,18 +40,29 @@ tr:nth-child(even) {
 }
 </style>
 
-<!-- <div class="btn-group btn-info pull-right">
-  <button type="button" class="btn btn-default">Industries</button>
+<div class="btn-group btn-info pull-right">
+  <button type="button" class="btn btn-default">Choose an industry</button>
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    <span class="caret"></span>
    <span class="sr-only">Toggle Dropdown</span>
   </button>
-  <ul class="dropdown-menu">
-    
-     <li><?= $this->Form->input('indus_id', ['options' => $industries]) ?><li>
-    
-     
-  </ul>
-</div> </br> -->
+  <?php
+   $tab_indus= [];
+   foreach ($industries as $industry) {
+      array_push($tab_indus, $this->Html->link($industry->categori_indus, ['action' => 'category',$industry->id_indus]));
+  } ?>
+
+  
+  <?= $this->Html->nestedList($tab_indus, ['tag'=>'ul', 'class'=>'dropdown-menu']); ?>
+
+</div> </br></br>
+
+
+<!--             <?php
+            $this->Html->link(['options' => $companies->Industries ], ['action' => 'category']);
+            ?> -->
+
+        
+               
 
 
 

@@ -39,13 +39,29 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 </style>
-<div>
+<!-- <div>
 <?php $this->start('navHeader'); ?>
 
     <?= $this->Html->link(__('Back'), ['action' => 'index'], ['class' => 'btn btn-info pull-right']) ?>
 
 <?php $this->end(); ?>
-</div>
+</div> -->
+
+<div class="btn-group btn-info pull-right">
+  <button type="button" class="btn btn-default"> <?= (!$companies->isEmpty()) ? $companies->first()->industry->categori_indus : 'Choose an industry';?> </button>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    <span class="caret"></span>
+   <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <?php
+   $tab_indus= [];
+   foreach ($industries as $industry) {
+      array_push($tab_indus, $this->Html->link($industry->categori_indus, ['action' => 'category',$industry->id_indus]));
+  } ?>
+
+  
+  <?= $this->Html->nestedList($tab_indus, ['tag'=>'ul', 'class'=>'dropdown-menu']); ?>
+
+</div> </br></br>
 
 <div class="companies index large-9 medium-8 columns content">
     <!-- <h3><?= __('Companies') ?></h3> -->

@@ -27,7 +27,7 @@
 			</div>
 
 			<div class="form-group text-left">
-				<?= $this->Form->input('email', ['class' => 'form-control', 'placeholder' => 'Enter email', 'label' => 'Email']); ?>
+				<?= $this->Form->input('email', ['name' => '','class' => 'form-control', 'placeholder' => 'Enter email', 'label' => 'Email']); ?>
 			</div> </br>
 
 			<div class="form-group label-link text-left">

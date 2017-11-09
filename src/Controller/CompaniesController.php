@@ -70,6 +70,10 @@ class CompaniesController extends AppController
     
         $companies = $this->paginate($this->Companies);
 
+        $industries = $this->Companies->Industries->find('all', ['limit' => 200]);
+        $this->set(compact('company', 'industries'));
+        $this->set('_serialize', ['company']);
+
         $this->set(compact('companies'));
         $this->set('_serialize', ['companies']);
     }
@@ -82,9 +86,10 @@ class CompaniesController extends AppController
         ];
     
         $companies = $this->paginate($this->Companies);
+        $industries = $this->Companies->Industries->find('all', ['limit' => 200]);
 
-        $this->set(compact('companies'));
-        $this->set('_serialize', ['companies']);
+        $this->set(compact('companies', 'industries'));
+        $this->set('_serialize', ['companies', 'industries']);
     }
 
 

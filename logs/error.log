@@ -13852,3 +13852,2420 @@ Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
 
 
 
+2017-11-07 00:59:14 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 00:59:15 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:09:13 Error: Fatal Error (1): Cannot access empty property in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:09:13 Error: [Cake\Error\FatalErrorException] Cannot access empty property in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot access e...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:12:04 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:12:04 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:19:09 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:19:09 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:23:16 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:23:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:23:19 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:23:19 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:23:21 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:23:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:23:26 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:23:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 01:23:34 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 57]
+Request URL: /companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 01:23:34 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 57
+Request URL: /companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 57)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 12:26:26 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 60]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 12:26:26 Error: [Cake\Error\FatalErrorException] Call to a member function input() on null in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 60
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 60)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 12:36:31 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php, line 76]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 12:36:31 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php:76
+2017-11-07 12:36:31 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php on line 76
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 12:37:39 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php, line 76]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 12:37:39 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php:76
+2017-11-07 12:37:39 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php on line 76
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 12:38:23 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php, line 76]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 12:38:23 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php:76
+2017-11-07 12:38:23 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php on line 76
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 12:38:57 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php, line 76]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 12:38:57 Warning: Headers already sent in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php:76
+2017-11-07 12:38:57 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean in C:\wamp64\www\6bernetics\src\Controller\CompaniesController.php on line 76
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:09:34 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 61]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:09:34 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 61
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 61)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:13:05 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 61]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:13:05 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 61
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 61)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:23:21 Error: [Cake\Network\Exception\ForbiddenException] You are not authorized to access that location.
+Request URL: /companies/category
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(324): Cake\Controller\Component\AuthComponent->_unauthorized(Object(App\Controller\CompaniesController))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(268): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventManager.php(416): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventManager.php(393): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(110): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(507): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(114): Cake\Controller\Controller->startupProcess()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-11-07 13:36:53 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:36:54 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ']' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:37:47 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:37:47 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:38:19 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:38:19 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:44:20 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:44:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:44:37 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:44:37 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:44:47 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:44:47 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:44:48 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:44:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:45:21 Error: Fatal Error (1): Call to a member function has() on null in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:45:21 Error: [Cake\Error\FatalErrorException] Call to a member function has() on null in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:45:24 Error: Fatal Error (1): Call to a member function has() on null in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:45:24 Error: [Cake\Error\FatalErrorException] Call to a member function has() on null in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:45:25 Error: Fatal Error (1): Call to a member function has() on null in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:45:25 Error: [Cake\Error\FatalErrorException] Call to a member function has() on null in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:46:15 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:46:15 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ':', expecting ',' or ';' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:47:21 Error: Fatal Error (1): Call to a member function has() on null in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:47:21 Error: [Cake\Error\FatalErrorException] Call to a member function has() on null in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:57:58 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:57:58 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:58:22 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:58:22 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:58:25 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:58:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 13:58:27 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-07 13:58:27 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-07 14:00:24 Warning: Warning (2): substr() expects parameter 1 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2577]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+substr - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2577
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:00:24 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2581]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+explode - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2581
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:00:24 Warning: Warning (2): array_shift() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2582]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_shift - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2582
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:03:27 Warning: Warning (2): substr() expects parameter 1 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2577]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+substr - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2577
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:03:27 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2581]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+explode - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2581
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:03:27 Warning: Warning (2): array_shift() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2582]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_shift - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2582
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:03:30 Warning: Warning (2): substr() expects parameter 1 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2577]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+substr - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2577
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:03:30 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2581]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+explode - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2581
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:03:30 Warning: Warning (2): array_shift() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2582]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_shift - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2582
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:04:52 Warning: Warning (2): substr() expects parameter 1 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2577]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+substr - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2577
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:04:52 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2581]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+explode - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2581
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-07 14:04:52 Warning: Warning (2): array_shift() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2582]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_shift - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2582
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 11:16:29 Warning: Warning (2): substr() expects parameter 1 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2577]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+substr - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2577
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 11:16:29 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2581]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+explode - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2581
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 11:16:29 Warning: Warning (2): array_shift() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2582]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_shift - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2582
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 11:20:31 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:20:31 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:20:47 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:20:47 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:24:37 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:24:37 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:42:49 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:42:49 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?>' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:43:05 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:43:05 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?>' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:44:06 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 55]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:44:06 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 55
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 55)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:44:28 Warning: Warning (4096): Argument 1 passed to Cake\View\Helper\HtmlHelper::nestedList() must be of the type array, object given, called in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 55 and defined in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 1244]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\View\Helper\HtmlHelper::nestedList() - CORE\src\View\Helper\HtmlHelper.php, line 1244
+include - APP/Template\Companies\index.ctp, line 55
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 11:45:56 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:45:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:48:13 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:48:13 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:48:15 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:48:15 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:48:30 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:48:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:48:32 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 50]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 11:48:32 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 50
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 11:57:56 Warning: Warning (2): substr() expects parameter 1 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2577]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+substr - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2577
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 11:57:56 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2581]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+explode - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2581
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 11:57:56 Warning: Warning (2): array_shift() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php, line 2582]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_shift - [internal], line ??
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2582
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1653
+Cake\View\Helper\FormHelper::link() - APP/Template\Companies\index.ctp, line 50
+include - APP/Template\Companies\index.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:06:18 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 12:06:18 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 51
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 12:07:34 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:07:34 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:07:34 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:07:34 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:07:34 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:07:34 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:07:34 Warning: Warning (4096): Argument 1 passed to Cake\View\Helper\HtmlHelper::nestedList() must be of the type array, null given, called in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 54 and defined in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 1244]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\View\Helper\HtmlHelper::nestedList() - CORE\src\View\Helper\HtmlHelper.php, line 1244
+include - APP/Template\Companies\index.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:07:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 1269]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\View\Helper\HtmlHelper::_nestedListItem() - CORE\src\View\Helper\HtmlHelper.php, line 1269
+Cake\View\Helper\HtmlHelper::nestedList() - CORE\src\View\Helper\HtmlHelper.php, line 1247
+include - APP/Template\Companies\index.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (4096): Argument 1 passed to Cake\View\Helper\HtmlHelper::nestedList() must be of the type array, null given, called in C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp on line 54 and defined in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 1244]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\View\Helper\HtmlHelper::nestedList() - CORE\src\View\Helper\HtmlHelper.php, line 1244
+include - APP/Template\Companies\index.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 1269]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\View\Helper\HtmlHelper::_nestedListItem() - CORE\src\View\Helper\HtmlHelper.php, line 1269
+Cake\View\Helper\HtmlHelper::nestedList() - CORE\src\View\Helper\HtmlHelper.php, line 1247
+include - APP/Template\Companies\index.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:19 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:19 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:19 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:19 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:19 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:19 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:47 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:47 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:47 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:47 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:47 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:10:47 Warning: Warning (2): array_push() expects parameter 1 to be array, null given in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 51]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+array_push - [internal], line ??
+include - APP/Template\Companies\index.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:25:04 Error: [Cake\Network\Exception\ForbiddenException] You are not authorized to access that location.
+Request URL: /companies/category
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(324): Cake\Controller\Component\AuthComponent->_unauthorized(Object(App\Controller\CompaniesController))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(268): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventManager.php(416): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventManager.php(393): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(110): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(507): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(114): Cake\Controller\Controller->startupProcess()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2017-11-09 12:47:23 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp, line 57]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\category.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-09 12:55:59 Error: Fatal Error (4): syntax error, unexpected '.0' (T_DNUMBER), expecting ',' or ';' in [C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp, line 51]
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 12:55:59 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '.0' (T_DNUMBER), expecting ',' or ';' in C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp on line 51
+Request URL: /companies/category/1
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 13:08:51 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp, line 51]
+Request URL: /companies/category/6
+Referer URL: http://localhost/6bernetics/companies/category/5
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 13:08:51 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp on line 51
+Request URL: /companies/category/6
+Referer URL: http://localhost/6bernetics/companies/category/5
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 13:09:07 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp, line 51]
+Request URL: /companies/category/6
+Referer URL: http://localhost/6bernetics/companies/category/5
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 13:09:08 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp on line 51
+Request URL: /companies/category/6
+Referer URL: http://localhost/6bernetics/companies/category/5
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-09 13:09:10 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp, line 51]
+Request URL: /companies/category/6
+Referer URL: http://localhost/6bernetics/companies/category/5
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-09 13:09:10 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Companies\category.ctp on line 51
+Request URL: /companies/category/6
+Referer URL: http://localhost/6bernetics/companies/category/5
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
