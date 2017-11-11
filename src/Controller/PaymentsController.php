@@ -2,6 +2,16 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Core\App;
+use Cake\I18n\Time;
+use Cake\Database\FunctionsBuilder;
+use Cake\Database\Type\DateTimeType;
+use DateTime;
+use DateInterval;
+
+$path = App::path('src');
+require_once(dirname(dirname($path[0])).'\vendor\stripe\stripe\init.php');
+
 
 /**
  * Payments Controller
@@ -18,6 +28,51 @@ class PaymentsController extends AppController
      *
      * @return \Cake\Http\Response|void
      */
+
+    public function isAuthorized($user)
+    {
+        //debug($user);
+        $this->log('Questions Controller isAuthorized', 'debug');
+        $this->log($user, 'debug');
+
+        // This whole section is to allow content specific access on
+        // actions such as /edit/nnn
+
+        $action = $this->request->params['action'];
+
+        // The index actions are always allowed.
+        if (in_array($action, ['charge'])) {
+            $this->log('Charge', 'debug');
+            return true;
+        }
+
+        if(!$this->isSubcriber()){
+            return $this->redirect(['controller' => 'Users', 'action'=>'subscribe']);
+        }
+
+        // The index actions are always allowed.
+        if (in_array($action, ['index','add']) && $this->isAdmin()) {
+            $this->log('Add Always Allowed for Admin', 'debug');
+            return true;
+        }
+        
+        // All other actions require an id.
+        if (empty($this->request->params['pass'][0])) {
+            $this->log('No ID', 'debug');
+            //$this->log($this->request->params, 'debug');
+            return false;
+        }
+
+        // Check that the entity belongs to the current user.
+        // $id = $this->request->params['pass'][0];
+        // $entity = $this->Companies->get($id);
+        // if ($entity->user_id == $user['id']) {
+        //     return true;
+        // }
+
+        return parent::isAuthorized($user);
+    }
+
     public function index()
     {
         $this->paginate = [
@@ -66,6 +121,50 @@ class PaymentsController extends AppController
         $users = $this->Payments->Users->find('list', ['limit' => 200]);
         $this->set(compact('payment', 'users'));
         $this->set('_serialize', ['payment']);
+    }
+
+    public function charge(){
+      
+      if ($this->request->is('post')) {
+
+            /*$token = $this->request->getData();*/
+            $token = 'tok_visa';
+
+            $stripe = [
+              "secret_key"      => "sk_test_FlbEqwDc2FiPm2r3VKrUokBX",
+              "publishable_key" => "pk_test_aR9Jna6TQ1dNDXWGTvtSESUT"
+            ];
+
+            \Stripe\Stripe::setApiKey($stripe['secret_key']);
+            \Stripe\Stripe::setVerifySslCerts(false);
+
+            $charge = \Stripe\Charge::create(array(
+                  'amount'   => 2000,
+                  'currency' => 'usd',
+                  'description' => 'charge test',
+                  'source' => $token
+              ));
+
+            $newdate = new DateTime();
+            $newdate->add(new DateInterval('P1D'));
+
+            $payment = $this->Payments->newEntity();
+            $payment = $this->Payments->patchEntity($payment, [
+                'amount' => 2000,
+                //'validTo' => Time::now(),
+                'validTo' => $newdate,
+                'user_id' => $this->Auth->user()['id_user'],
+                'created' => Time::now()
+                ]);
+            
+            if ($this->Payments->save($payment)) {
+
+                $this->Flash->success(__('The payment has been validated.'));
+                return $this->redirect(['controller' => 'Companies', 'action'=>'index']);
+            }
+
+        }
+
     }
 
     /**

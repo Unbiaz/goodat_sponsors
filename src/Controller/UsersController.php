@@ -8,6 +8,12 @@ use Cake\Utility\Text;
 use Cake\Mailer\Email;
 use Cake\Datasource\ConnectionManager;
 use Cake\Auth\DefaultPasswordHasher;
+use Cake\I18n\Time;
+use \Cake\Routing\Router;
+use Cake\Core\App;
+
+$path = App::path('src');
+require_once(dirname(dirname($path[0])).'\vendor\stripe\stripe\init.php');
 
 
 /**
@@ -37,7 +43,7 @@ class UsersController extends AppController
         $action = $this->request->params['action'];
 
         // The index actions are always allowed.
-        if (in_array($action, ['index'])) {
+        if (in_array($action, ['index','subscribe'])) {
             $this->log('Index Always Allowed', 'debug');
             return true;
         }
@@ -48,11 +54,6 @@ class UsersController extends AppController
             return true;
         }
 
-        // // The showLostPasswordReminder action are always allowed for admin.
-        // if (in_array($action, ['showLostPasswordReminder']) && $this->isAdmin()) {
-        //     $this->log('showLostPasswordReminder Always Allowed for Admin', 'debug');
-        //     return true;
-        // }
 
         // All other actions require an id.
         if (empty($this->request->params['pass'][0])) {
@@ -180,11 +181,37 @@ class UsersController extends AppController
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
-                return $this->redirect($this->Auth->redirectUrl(['controller' => 'Companies','action' => 'index']));
+                return $this->redirect(['action' => 'subscribe']);
             }
             $this->Flash->error('Your email or password is incorrect.');
         }
     }
+
+    public function subscribe()
+    {
+        $payment = $this->Users->get($this->Auth->user()['id_user'], [
+            'contain' => ['Payments']
+        ]);
+
+        if($payment['payments']){
+
+            $pay_count = 0;
+            foreach ($payment['payments'] as $pay) {
+                if($pay['validTo'] > Time::now() ) $pay_count++;
+            }
+            //$pay_date = Time::now();
+
+            if($pay_count >= 1)
+                return $this->redirect(['controller'=>'Companies', 'action' => 'index']);
+    
+        }
+
+        $pageCharge = Router::url(['controller'=>'Payments', 'action'=>'charge']);
+        $userEmail = $this->Auth->user()['email'];
+
+        $this->set(compact('pageCharge','userEmail'));
+    }
+
 
     public function forgotPassword()
     {

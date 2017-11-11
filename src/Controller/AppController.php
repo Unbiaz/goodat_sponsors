@@ -19,6 +19,7 @@ use Cake\Event\Event;
 use Cake\Utility\Inflector;
 use Cake\Log\Log;
 use Cake\Mailer\Email;
+use Cake\I18n\Time;
 
 /**
  * Application Controller
@@ -85,6 +86,28 @@ class AppController extends Controller
 
         return (strcasecmp($thisUser['role'], 'admin') == 0);
     }
+
+    public function isSubcriber(){
+
+        $this->loadModel('Users');
+        $pay = $this->Users->get($this->Auth->user()['id_user'], [
+            'contain' => ['Payments']
+        ]);
+
+        if($pay['payments']){
+
+            $pay_count = 0;
+            foreach ($pay['payments'] as $pay) {
+                if($pay['validTo'] > Time::now() ) $pay_count++;
+            }
+
+            if($pay_count >= 1)
+                return true;
+        }
+
+        return false;
+    }
+
     
     public function isLoggedIn()
     {
@@ -98,6 +121,7 @@ class AppController extends Controller
     // All actions disallowed by default unless Admin
     public function isAuthorized($user)
     {
+
         // Check user status, if available
         //debug($user);
         $this->log('App Controller isAuthorized', 'debug');
@@ -158,6 +182,7 @@ class AppController extends Controller
             $this->log('AC beforeRender: isLoggedIn', 'debug');
             $this->set('isLoggedIn', true);
             $this->set('isAdmin', false);
+            $this->set('isSubcriber', $this->isSubcriber());
             $this->set('username', $this->Auth->user('username'));
             $this->set('user_id', $this->Auth->user('id_user'));
 
