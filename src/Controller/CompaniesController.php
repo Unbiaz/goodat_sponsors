@@ -29,12 +29,13 @@ class CompaniesController extends AppController
         $action = $this->request->params['action'];
 
         // The index actions are always allowed.
-        if (in_array($action, ['index','view']) && $this->isSubcriber()) {
+        if ( (in_array($action, ['index','view','category']) ) && ($this->isSubcriber() || $this->isAdmin()) ) {
             $this->log('Index', 'debug');
             return true;
         }
+        
 
-        if(!$this->isSubcriber()){
+        if(!$this->isAdmin() && !$this->isSubcriber()){
             return $this->redirect(['controller' => 'Users', 'action'=>'subscribe']);
         }
 

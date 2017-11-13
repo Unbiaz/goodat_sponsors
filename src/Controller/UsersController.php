@@ -181,7 +181,11 @@ class UsersController extends AppController
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
-                return $this->redirect(['action' => 'subscribe']);
+
+                if(!$this->isAdmin())
+                    return $this->redirect(['action' => 'subscribe']);
+
+                return $this->redirect(['controller'=>'Companies', 'action' => 'index']);
             }
             $this->Flash->error('Your email or password is incorrect.');
         }
@@ -189,6 +193,7 @@ class UsersController extends AppController
 
     public function subscribe()
     {
+
         $payment = $this->Users->get($this->Auth->user()['id_user'], [
             'contain' => ['Payments']
         ]);

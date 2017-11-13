@@ -46,7 +46,7 @@ class PaymentsController extends AppController
             return true;
         }
 
-        if(!$this->isSubcriber()){
+        if(!$this->isAdmin() && !$this->isSubcriber()){
             return $this->redirect(['controller' => 'Users', 'action'=>'subscribe']);
         }
 
@@ -136,7 +136,6 @@ class PaymentsController extends AppController
             ];
 
             \Stripe\Stripe::setApiKey($stripe['secret_key']);
-            \Stripe\Stripe::setVerifySslCerts(false);
 
             $charge = \Stripe\Charge::create(array(
                   'amount'   => 2000,

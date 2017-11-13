@@ -32,7 +32,7 @@
                 <td><?= $this->Number->format($payment->id_pay) ?></td>
                 <td><?= $this->Number->format($payment->amount) ?></td>
                 <td><?= h($payment->validTo) ?></td>
-                <td><?= $payment->has('user') ? $this->Html->link($payment->user->id_user, ['controller' => 'Users', 'action' => 'view', $payment->user->id_user]) : '' ?></td>
+                <td><?= $payment->has('user') ? $this->Html->link($payment->user->username, ['controller' => 'Users', 'action' => 'view', $payment->user->id_user]) : '' ?></td>
                 <td><?= h($payment->created) ?></td>
                 <td><?= h($payment->modified) ?></td>
                 <td class="actions">

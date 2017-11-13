@@ -17808,3 +17808,29 @@ Stack Trace:
 #21 {main}
 
 
+2017-11-13 11:10:07 Error: [Cake\Network\Exception\ForbiddenException] You are not authorized to access that location.
+Request URL: /companies/category/3
+Referer URL: http://localhost/6bernetics/companies
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(324): Cake\Controller\Component\AuthComponent->_unauthorized(Object(App\Controller\CompaniesController))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(268): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventManager.php(416): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventManager.php(393): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(110): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(507): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(114): Cake\Controller\Controller->startupProcess()
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+
+
