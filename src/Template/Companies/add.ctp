@@ -21,7 +21,7 @@
             echo $this->Form->control('company_website');
             echo $this->Form->control('email');
             echo $this->Form->control('sponsor');
-            echo $this->Form->control('industri', ['options' => $industries]);
+            echo $this->Form->control('industri_id', ['options' => $industries]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

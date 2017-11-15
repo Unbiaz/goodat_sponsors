@@ -136,6 +136,7 @@ class PaymentsController extends AppController
             ];
 
             \Stripe\Stripe::setApiKey($stripe['secret_key']);
+            \Stripe\Stripe::setVerifySslCerts(false);
 
             $charge = \Stripe\Charge::create(array(
                   'amount'   => 2000,

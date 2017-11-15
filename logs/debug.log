@@ -52782,3 +52782,1887 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
 2017-11-13 12:52:22 Debug: Add Always Allowed for Admin
 2017-11-13 12:52:23 Debug: AC beforeRender: isLoggedIn
 2017-11-13 12:52:23 Debug: AC beforeRender: isAdmin
+2017-11-13 13:49:29 Debug: App Controller initialize
+2017-11-13 13:49:29 Debug: Users Controller initialize
+2017-11-13 13:49:30 Debug: App Controller initialize
+2017-11-13 13:49:30 Debug: Users Controller initialize
+2017-11-13 13:49:30 Debug: AC beforeRender: Not loggedIn
+2017-11-13 14:04:14 Debug: App Controller initialize
+2017-11-13 14:04:14 Debug: Users Controller initialize
+2017-11-13 14:04:16 Debug: App Controller initialize
+2017-11-13 14:04:16 Debug: Questions Controller isAuthorized
+2017-11-13 14:04:16 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-11-13 14:04:16 Debug: Index
+2017-11-13 14:04:16 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:04:16 Debug: AC beforeRender: isAdmin
+2017-11-13 14:04:17 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:04:41 Debug: App Controller initialize
+2017-11-13 14:04:41 Debug: Questions Controller isAuthorized
+2017-11-13 14:04:41 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-11-13 14:04:41 Debug: Index
+2017-11-13 14:04:41 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:04:41 Debug: AC beforeRender: isAdmin
+2017-11-13 14:04:41 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:10:06 Debug: App Controller initialize
+2017-11-13 14:10:06 Debug: Questions Controller isAuthorized
+2017-11-13 14:10:06 Debug: Array
+(
+    [id_user] => 15
+    [username] => Ehoussoud
+    [email] => mehouabolet@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-16T00:21:51+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => Admin
+    [email_address] => 
+)
+
+2017-11-13 14:10:06 Debug: Index
+2017-11-13 14:10:07 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:10:07 Debug: AC beforeRender: isAdmin
+2017-11-13 14:10:07 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:10:20 Debug: App Controller initialize
+2017-11-13 14:10:20 Debug: Users Controller initialize
+2017-11-13 14:10:20 Debug: App Controller initialize
+2017-11-13 14:10:20 Debug: Users Controller initialize
+2017-11-13 14:10:20 Debug: AC beforeRender: Not loggedIn
+2017-11-13 14:10:33 Debug: App Controller initialize
+2017-11-13 14:10:33 Debug: Users Controller initialize
+2017-11-13 14:10:36 Debug: App Controller initialize
+2017-11-13 14:10:36 Debug: Users Controller initialize
+2017-11-13 14:10:36 Debug: Users Controller
+2017-11-13 14:10:36 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:10:36 Debug: Index Always Allowed
+2017-11-13 14:10:37 Debug: App Controller initialize
+2017-11-13 14:10:37 Debug: Questions Controller isAuthorized
+2017-11-13 14:10:37 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:10:37 Debug: Index
+2017-11-13 14:10:37 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:10:37 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:10:52 Debug: App Controller initialize
+2017-11-13 14:10:52 Debug: Questions Controller isAuthorized
+2017-11-13 14:10:52 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:10:52 Debug: Index
+2017-11-13 14:10:52 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:10:56 Debug: App Controller initialize
+2017-11-13 14:10:56 Debug: Questions Controller isAuthorized
+2017-11-13 14:10:56 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:10:56 Debug: Index
+2017-11-13 14:10:56 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:10:56 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:19:18 Debug: App Controller initialize
+2017-11-13 14:19:18 Debug: Questions Controller isAuthorized
+2017-11-13 14:19:18 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:19:19 Debug: Index
+2017-11-13 14:19:19 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:19:19 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 68]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 68
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:19:47 Debug: App Controller initialize
+2017-11-13 14:19:47 Debug: Questions Controller isAuthorized
+2017-11-13 14:19:47 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:19:48 Debug: Index
+2017-11-13 14:19:48 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:19:48 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:28:58 Debug: App Controller initialize
+2017-11-13 14:28:58 Debug: Questions Controller isAuthorized
+2017-11-13 14:28:58 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:28:58 Debug: Index
+2017-11-13 14:28:58 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:28:58 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:29:11 Debug: App Controller initialize
+2017-11-13 14:29:11 Debug: Questions Controller isAuthorized
+2017-11-13 14:29:11 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:29:12 Debug: Index
+2017-11-13 14:29:12 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:29:12 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 63]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 63
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:29:16 Debug: App Controller initialize
+2017-11-13 14:29:16 Debug: Questions Controller isAuthorized
+2017-11-13 14:29:16 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:29:17 Debug: Index
+2017-11-13 14:29:17 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:29:17 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 63]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 63
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:29:19 Debug: App Controller initialize
+2017-11-13 14:29:19 Debug: Questions Controller isAuthorized
+2017-11-13 14:29:19 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:29:19 Debug: Index
+2017-11-13 14:29:19 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:29:20 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 63]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 63
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 14:30:11 Debug: App Controller initialize
+2017-11-13 14:30:11 Debug: Questions Controller isAuthorized
+2017-11-13 14:30:11 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 14:30:11 Debug: Index
+2017-11-13 14:30:11 Debug: AC beforeRender: isLoggedIn
+2017-11-13 14:30:11 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 64]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:02:24 Debug: App Controller initialize
+2017-11-13 15:02:24 Debug: App Controller initialize
+2017-11-13 15:02:24 Debug: Users Controller initialize
+2017-11-13 15:02:24 Debug: AC beforeRender: Not loggedIn
+2017-11-13 15:02:35 Debug: App Controller initialize
+2017-11-13 15:02:35 Debug: Users Controller initialize
+2017-11-13 15:02:36 Debug: App Controller initialize
+2017-11-13 15:02:36 Debug: Users Controller initialize
+2017-11-13 15:02:36 Debug: Users Controller
+2017-11-13 15:02:36 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:02:36 Debug: Index Always Allowed
+2017-11-13 15:02:36 Debug: App Controller initialize
+2017-11-13 15:02:36 Debug: Questions Controller isAuthorized
+2017-11-13 15:02:36 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:02:36 Debug: Index
+2017-11-13 15:02:36 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:02:36 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:03:04 Debug: App Controller initialize
+2017-11-13 15:03:04 Debug: Questions Controller isAuthorized
+2017-11-13 15:03:04 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:03:04 Debug: Index
+2017-11-13 15:03:04 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:03:05 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fcompanies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:03:10 Debug: App Controller initialize
+2017-11-13 15:03:10 Debug: Questions Controller isAuthorized
+2017-11-13 15:03:10 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:03:10 Debug: Index
+2017-11-13 15:03:10 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:03:14 Debug: App Controller initialize
+2017-11-13 15:03:14 Debug: Questions Controller isAuthorized
+2017-11-13 15:03:14 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:03:14 Debug: Index
+2017-11-13 15:03:14 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:03:58 Debug: App Controller initialize
+2017-11-13 15:03:58 Debug: Questions Controller isAuthorized
+2017-11-13 15:03:58 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:03:58 Debug: Index
+2017-11-13 15:03:58 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:03:58 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:04:48 Debug: App Controller initialize
+2017-11-13 15:04:48 Debug: Questions Controller isAuthorized
+2017-11-13 15:04:48 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:04:48 Debug: Index
+2017-11-13 15:04:48 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:04:48 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:04:51 Debug: App Controller initialize
+2017-11-13 15:04:51 Debug: Questions Controller isAuthorized
+2017-11-13 15:04:51 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:04:51 Debug: Index
+2017-11-13 15:04:51 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:04:51 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:04:55 Debug: App Controller initialize
+2017-11-13 15:04:55 Debug: Questions Controller isAuthorized
+2017-11-13 15:04:55 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:04:55 Debug: Index
+2017-11-13 15:04:55 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:05:03 Debug: App Controller initialize
+2017-11-13 15:05:03 Debug: Questions Controller isAuthorized
+2017-11-13 15:05:03 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:05:03 Debug: Index
+2017-11-13 15:05:03 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:05:06 Debug: App Controller initialize
+2017-11-13 15:05:06 Debug: Questions Controller isAuthorized
+2017-11-13 15:05:06 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:05:06 Debug: Index
+2017-11-13 15:05:07 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:05:43 Debug: App Controller initialize
+2017-11-13 15:05:43 Debug: Questions Controller isAuthorized
+2017-11-13 15:05:43 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:05:43 Debug: Index
+2017-11-13 15:05:43 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:05:43 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:05:50 Debug: App Controller initialize
+2017-11-13 15:05:50 Debug: Questions Controller isAuthorized
+2017-11-13 15:05:50 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:05:50 Debug: Index
+2017-11-13 15:05:50 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:05:50 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:05:59 Debug: App Controller initialize
+2017-11-13 15:05:59 Debug: Questions Controller isAuthorized
+2017-11-13 15:05:59 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:05:59 Debug: Index
+2017-11-13 15:05:59 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:27:07 Debug: App Controller initialize
+2017-11-13 15:27:07 Debug: Questions Controller isAuthorized
+2017-11-13 15:27:07 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:27:07 Debug: Index
+2017-11-13 15:27:07 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:27:13 Debug: App Controller initialize
+2017-11-13 15:27:13 Debug: Questions Controller isAuthorized
+2017-11-13 15:27:13 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:27:13 Debug: Index
+2017-11-13 15:27:13 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:27:13 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:34:22 Debug: App Controller initialize
+2017-11-13 15:34:22 Debug: Questions Controller isAuthorized
+2017-11-13 15:34:22 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:34:22 Debug: Index
+2017-11-13 15:34:22 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:34:22 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:36:38 Debug: App Controller initialize
+2017-11-13 15:36:38 Debug: Questions Controller isAuthorized
+2017-11-13 15:36:38 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:36:38 Debug: Index
+2017-11-13 15:36:38 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:36:38 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:36:43 Debug: App Controller initialize
+2017-11-13 15:36:43 Debug: Questions Controller isAuthorized
+2017-11-13 15:36:43 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:36:43 Debug: Index
+2017-11-13 15:36:43 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:36:43 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:39:32 Debug: App Controller initialize
+2017-11-13 15:39:32 Debug: Questions Controller isAuthorized
+2017-11-13 15:39:32 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:39:33 Debug: Index
+2017-11-13 15:39:33 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:39:33 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 15:39:40 Debug: App Controller initialize
+2017-11-13 15:39:40 Debug: Questions Controller isAuthorized
+2017-11-13 15:39:40 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:39:40 Debug: Index
+2017-11-13 15:39:40 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:39:47 Debug: App Controller initialize
+2017-11-13 15:39:47 Debug: Questions Controller isAuthorized
+2017-11-13 15:39:47 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:39:47 Debug: Index
+2017-11-13 15:39:47 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:39:49 Debug: App Controller initialize
+2017-11-13 15:39:49 Debug: Questions Controller isAuthorized
+2017-11-13 15:39:49 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-13 15:39:49 Debug: Index
+2017-11-13 15:39:49 Debug: AC beforeRender: isLoggedIn
+2017-11-13 15:39:49 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/companies/category/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2017-11-13 16:50:26 Debug: App Controller initialize
+2017-11-13 16:50:26 Debug: App Controller initialize
+2017-11-13 16:50:26 Debug: Users Controller initialize
+2017-11-13 16:50:26 Debug: AC beforeRender: Not loggedIn
+2017-11-15 01:08:25 Debug: App Controller initialize
+2017-11-15 01:08:25 Debug: Users Controller initialize
+2017-11-15 01:08:25 Debug: AC beforeRender: Not loggedIn
+2017-11-15 09:46:43 Debug: App Controller initialize
+2017-11-15 09:46:43 Debug: Users Controller initialize
+2017-11-15 09:46:43 Debug: AC beforeRender: Not loggedIn
+2017-11-15 12:03:21 Debug: App Controller initialize
+2017-11-15 12:03:21 Debug: Users Controller initialize
+2017-11-15 12:03:22 Debug: AC beforeRender: Not loggedIn
+2017-11-15 12:03:42 Debug: App Controller initialize
+2017-11-15 12:03:42 Debug: Users Controller initialize
+2017-11-15 12:03:46 Debug: App Controller initialize
+2017-11-15 12:03:46 Debug: Users Controller initialize
+2017-11-15 12:03:46 Debug: Users Controller
+2017-11-15 12:03:46 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-15 12:03:46 Debug: Index Always Allowed
+2017-11-15 12:03:46 Debug: AC beforeRender: isLoggedIn
+2017-11-15 12:04:36 Debug: App Controller initialize
+2017-11-15 12:04:36 Debug: Questions Controller isAuthorized
+2017-11-15 12:04:36 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-15 12:04:36 Debug: Charge
+2017-11-15 12:04:39 Debug: AC beforeRender: isLoggedIn
+2017-11-15 12:15:03 Debug: App Controller initialize
+2017-11-15 12:15:03 Debug: Users Controller initialize
+2017-11-15 12:15:04 Debug: Users Controller
+2017-11-15 12:15:04 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-15 12:15:04 Debug: Index Always Allowed
+2017-11-15 12:15:04 Debug: AC beforeRender: isLoggedIn
+2017-11-15 12:15:18 Debug: App Controller initialize
+2017-11-15 12:15:18 Debug: Users Controller initialize
+2017-11-15 12:15:18 Debug: App Controller initialize
+2017-11-15 12:15:18 Debug: Users Controller initialize
+2017-11-15 12:15:19 Debug: AC beforeRender: Not loggedIn
+2017-11-15 12:15:38 Debug: App Controller initialize
+2017-11-15 12:15:38 Debug: Users Controller initialize
+2017-11-15 12:15:39 Debug: App Controller initialize
+2017-11-15 12:15:39 Debug: Users Controller initialize
+2017-11-15 12:15:39 Debug: Users Controller
+2017-11-15 12:15:39 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-15 12:15:39 Debug: Index Always Allowed
+2017-11-15 12:15:39 Debug: AC beforeRender: isLoggedIn
+2017-11-15 12:16:06 Debug: App Controller initialize
+2017-11-15 12:16:06 Debug: Questions Controller isAuthorized
+2017-11-15 12:16:06 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-15 12:16:06 Debug: Charge
+2017-11-15 12:16:11 Debug: App Controller initialize
+2017-11-15 12:16:11 Debug: Questions Controller isAuthorized
+2017-11-15 12:16:11 Debug: Array
+(
+    [id_user] => 18
+    [username] => SANOGO
+    [email] => issasanogo007@gmail.com
+    [created] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [modified] => Cake\I18n\FrozenTime Object
+        (
+            [time] => 2017-10-28T13:09:10+00:00
+            [timezone] => UTC
+            [fixedNowTime] => 
+        )
+
+    [role] => 
+    [email_address] => 
+)
+
+2017-11-15 12:16:12 Debug: Index
+2017-11-15 12:16:13 Debug: AC beforeRender: isLoggedIn
+2017-11-15 12:16:13 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$Industries in [C:\wamp64\www\6bernetics\src\Template\Companies\index.ctp, line 67]
+Request URL: /companies
+Referer URL: http://localhost/6bernetics/users/subscribe
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Companies\index.ctp, line 67
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 624
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
