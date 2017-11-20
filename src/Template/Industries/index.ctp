@@ -4,12 +4,38 @@
   * @var \App\Model\Entity\Industry[]|\Cake\Collection\CollectionInterface $industries
   */
 ?>
-<!-- <nav class="large-3 medium-4 columns" id="actions-sidebar">
+
+<style>
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  td, th {
+      border: 2px solid #87CEFA;
+      text-align: left;
+      padding: 8px;
+  }
+
+  th {
+      color: #48c2c5;
+  }
+
+  a{
+      color: #4169E1;
+  }
+
+  tr:nth-child(even) {
+      background-color: #FFF;
+  }
+</style>
+<nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('New Industry'), ['action' => 'add']) ?></li>
     </ul>
-</nav> -->
+</nav> 
 <div class="industries index large-9 medium-8 columns content">
     <h3><?= __('Industries') ?></h3>
     <table cellpadding="0" cellspacing="0">

@@ -18031,3 +18031,722 @@ Stack Trace:
 #21 {main}
 
 
+2017-11-15 16:14:49 Error: Fatal Error (1): Class 'CakePlugin' not found in [C:\wamp64\www\6bernetics\config\bootstrap.php, line 174]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-15 16:14:49 Error: [Cake\Error\FatalErrorException] Class 'CakePlugin' not found in C:\wamp64\www\6bernetics\config\bootstrap.php on line 174
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CakePlug...', 'C:\\wamp64\\www\\6...', 174)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-15 16:14:51 Error: Fatal Error (1): Class 'CakePlugin' not found in [C:\wamp64\www\6bernetics\config\bootstrap.php, line 174]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-15 16:14:52 Error: [Cake\Error\FatalErrorException] Class 'CakePlugin' not found in C:\wamp64\www\6bernetics\config\bootstrap.php on line 174
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CakePlug...', 'C:\\wamp64\\www\\6...', 174)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:33:59 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::%3Ca%20href=() could not be found, or is not accessible.
+Request URL: /users/%253Ca%2520href=
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-16 00:36:10 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 18]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fusers%2Fsubscribe
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:36:11 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 18
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fusers%2Fsubscribe
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 18)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:36:16 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 18]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fusers%2Fsubscribe
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:36:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 18
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login?redirect=%2Fusers%2Fsubscribe
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 18)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:36:36 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 18]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:36:36 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 18
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 18)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:37:09 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 17]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:37:09 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 17
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:37:10 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 17]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:37:10 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 17
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:37:48 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 17]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:37:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';' in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 17
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:38:51 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 17]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:38:51 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO) in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 17
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:47:26 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp, line 17]
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 00:47:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<' in C:\wamp64\www\6bernetics\src\Template\Users\subscribe.ctp on line 17
+Request URL: /users/subscribe
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 00:47:56 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::%3Cimg%20src='img() could not be found, or is not accessible.
+Request URL: /users/%253Cimg%2520src=%27img/goodat-hand-logo.png%27%2520alt=%27Logo%2520Internet%2520Explorer%27%2520/%253E
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-16 00:48:29 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::%3Cimg%20src='..() could not be found, or is not accessible.
+Request URL: /users/%253Cimg%2520src=%27../img/goodat-hand-logo.png%27%2520alt=%27Logo%2520Internet%2520Explorer%27%2520/%253E
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-16 00:49:19 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::%3Cimg%20src='() could not be found, or is not accessible.
+Request URL: /users/%253Cimg%2520src=%27/img/goodat-hand-logo.png%27%2520alt=%27Logo%2520Internet%2520Explorer%27%2520/%253E
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-16 01:13:08 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::%3Cimg%20src='goodatHandLogo.png'() could not be found, or is not accessible.
+Request URL: /users/%253Cimg%2520src=%27goodat-hand-logo.png%27/%253E
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-16 01:14:29 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::%3Cimg%20src=%22goodatHandLogo.png%22() could not be found, or is not accessible.
+Request URL: /users/%253Cimg%2520src=%2522goodat-hand-logo.png%2522/%253E
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-16 01:15:22 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::%3Cimg%20src='goodatHandLogo.png'() could not be found, or is not accessible.
+Request URL: /users/%253Cimg%2520src=%27goodat-hand-logo.png%27/%253E
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-16 13:31:57 Error: Fatal Error (4): syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\wamp64\www\6bernetics\src\Template\Users\login.ctp, line 74]
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 13:31:57 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\6bernetics\src\Template\Users\login.ctp on line 74
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 74)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 13:31:59 Error: Fatal Error (4): syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\wamp64\www\6bernetics\src\Template\Users\login.ctp, line 74]
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 13:31:59 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\6bernetics\src\Template\Users\login.ctp on line 74
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 74)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-16 13:32:12 Error: Fatal Error (4): syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\wamp64\www\6bernetics\src\Template\Users\login.ctp, line 74]
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-11-16 13:32:12 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\6bernetics\src\Template\Users\login.ctp on line 74
+Request URL: /users/login
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\6...', 74)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-11-19 15:43:18 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Request URL: /users/login?redirect=%2Fpayments
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(94): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\HelperRegistry.php(67): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1087): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp64\www\6bernetics\src\Template\Layout\default.ctp(96): Cake\View\View->__get('webroot')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1196): include('C:\\wamp64\\www\\6...')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1157): Cake\View\View->_evaluate('C:\\wamp64\\www\\6...', Array)
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(812): Cake\View\View->_render('C:\\wamp64\\www\\6...')
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(770): Cake\View\View->renderLayout('', 'default')
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(624): Cake\View\View->render(NULL, NULL)
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#22 {main}
+
+
+2017-11-19 15:43:30 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Request URL: /
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(94): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\HelperRegistry.php(67): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1087): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp64\www\6bernetics\src\Template\Layout\default.ctp(96): Cake\View\View->__get('webroot')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1196): include('C:\\wamp64\\www\\6...')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1157): Cake\View\View->_evaluate('C:\\wamp64\\www\\6...', Array)
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(812): Cake\View\View->_render('C:\\wamp64\\www\\6...')
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(770): Cake\View\View->renderLayout('', 'default')
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(624): Cake\View\View->render(NULL, NULL)
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#22 {main}
+
+
+2017-11-19 15:43:52 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found.
+Request URL: /
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(94): Cake\View\HelperRegistry->_throwMissingClassError('webroot', NULL)
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\HelperRegistry.php(67): Cake\Core\ObjectRegistry->load('webroot')
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1087): Cake\View\HelperRegistry->__isset('webroot')
+#3 C:\wamp64\www\6bernetics\src\Template\Layout\default.ctp(96): Cake\View\View->__get('webroot')
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1196): include('C:\\wamp64\\www\\6...')
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(1157): Cake\View\View->_evaluate('C:\\wamp64\\www\\6...', Array)
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(812): Cake\View\View->_render('C:\\wamp64\\www\\6...')
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\View\View.php(770): Cake\View\View->renderLayout('', 'default')
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(624): Cake\View\View->render(NULL, NULL)
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#22 {main}
+
+
+2017-11-19 15:46:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /img/img/goodathand.jpg
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 15:46:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /img/img/goodathand.jpg
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 15:46:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /img/img/goodathand.jpg
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 15:46:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /img/img/goodathand.jpg
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 15:46:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Request URL: /img/img/goodathand.jpg
+Referer URL: http://localhost/6bernetics/
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 16:11:46 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::webroot() could not be found, or is not accessible.
+Request URL: /users/webroot/img/header.jpg
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 16:24:06 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::webroot() could not be found, or is not accessible.
+Request URL: /users/webroot/img/header.jpg
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 16:42:53 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::webroot() could not be found, or is not accessible.
+Request URL: /users/webroot/img/Fotolia_122773539_M.jpg
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 20:42:36 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::webroot() could not be found, or is not accessible.
+Request URL: /users/webroot/img/data-entreprises-donnees-stockage-informatique.jpg
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-19 20:42:37 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::webroot() could not be found, or is not accessible.
+Request URL: /users/webroot/img/data-entreprises-donnees-stockage-informatique.jpg
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-20 13:21:08 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::webroot() could not be found, or is not accessible.
+Request URL: /users/webroot/img/data-entreprises-donnees-stockage-informatique.jpg
+Referer URL: http://localhost/6bernetics/users/login
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-20 13:25:04 Error: [Cake\Controller\Exception\MissingActionException] Action CompaniesController::webroot() could not be found, or is not accessible.
+Request URL: /companies/webroot/img/data-entreprises-donnees-stockage-informatique.jpg
+Referer URL: http://localhost/6bernetics/companies/add
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CompaniesController))
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-11-20 14:10:43 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "industries"
+Request URL: /industries/view/Management%20Consulting
+Referer URL: http://localhost/6bernetics/companies/view/1
+Stack Trace:
+#0 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\ORM\Table.php(1439): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\6bernetics\src\Controller\IndustriesController.php(40): Cake\ORM\Table->get('Management Cons...', Array)
+#2 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Controller\Controller.php(441): App\Controller\IndustriesController->view('Management Cons...')
+#3 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndustriesController))
+#5 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\BaseApplication.php(103): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\wamp64\www\6bernetics\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\wamp64\www\6bernetics\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+

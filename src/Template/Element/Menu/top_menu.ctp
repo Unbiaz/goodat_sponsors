@@ -2,37 +2,23 @@
 
 ?>
 
-<div class="navbar-header">
+    <style>
 
-	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	</button><!-- /.navbar-toggle -->
+/*		.navbar-header {
+		  Couleur de fond de la barre de navigation 
+		 background-color: #F8F8F8;
+		 border-color: #E7E7E7;
+		}*/
 
-</div><!-- /.navbar-header -->
+		a{
+			color:white;
+		}
+
+    </style>
 
 <div class="collapse navbar-collapse navbar-ex1-collapse">
 
-	<ul class="nav navbar-nav">
-		<!-- <li <?php echo strcasecmp($this->request->params['controller'], 'Users') ? '' : 'class="active"'; ?> >
-			<?= $this->Html->link(__('Home'), ['controller' => 'Users', 'action' => 'add']); ?>
-		</li> -->
-
-		<?php if ($isLoggedIn) { ?>
-			<li <?php echo strcasecmp($this->request->params['controller'], 'Companies') ? '' : 'class="active"'; ?> >
-				<!--<?= $this->Html->link(__('Companies'), ['controller' => 'Companies', 'action' => 'view']); ?>-->
-			</li>
-		<?php } ?>
-
-	</ul><!-- /.nav navbar-nav -->
-
-	<ul class="nav navbar-nav navbar-right">
-
-<!-- 		<li <?php echo strcasecmp($this->request->params['controller'], 'Pages') ?> >
-			<?= $this->Html->link(__('SignUp'), ['controller' => 'Users', 'action' => 'add']); ?>
-		</li> -->
+	<ul class="nav navbar-nav navbar-right" id="txtmenu">
 
 		<?php if ($isAdmin) { ?>
 		
@@ -88,6 +74,5 @@
 		<?php } ?>
 
 	</ul><!-- /.nav navbar-nav navbar-right-->
-
 </div><!-- /.navbar-collapse -->
 

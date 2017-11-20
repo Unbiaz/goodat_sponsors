@@ -139,18 +139,18 @@ class PaymentsController extends AppController
             \Stripe\Stripe::setVerifySslCerts(false);
 
             $charge = \Stripe\Charge::create(array(
-                  'amount'   => 2000,
-                  'currency' => 'usd',
+                  'amount'   => 499,
+                  'currency' => 'gbp',
                   'description' => 'charge test',
                   'source' => $token
               ));
 
             $newdate = new DateTime();
-            $newdate->add(new DateInterval('P1D'));
+            $newdate->add(new DateInterval('P180D'));
 
             $payment = $this->Payments->newEntity();
             $payment = $this->Payments->patchEntity($payment, [
-                'amount' => 2000,
+                'amount' => 499,
                 //'validTo' => Time::now(),
                 'validTo' => $newdate,
                 'user_id' => $this->Auth->user()['id_user'],

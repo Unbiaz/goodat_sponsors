@@ -1,3 +1,15 @@
+<style>
+
+        #send{
+            background-color: #ec933b;
+            color: white;
+        }
+
+        .jumbotron{
+            background-color: #48c2c5;
+        }
+
+</style>
 
 <div class="row">
 
@@ -35,8 +47,8 @@
 			</div> </br>
 
 
-			<div class="form-group label-link text-left">
-				<?= $this->Form->button('Change password', ['type' => 'submit', 'class' => 'btn btn-large btn-block btn-success']); ?>
+			<div class="form-group text-left">
+				<?= $this->Form->button('Change password', ['type' => 'submit', 'id'=>'send', 'class' => 'btn btn-large btn-block']); ?>
 			</div>
 		</div>
 			<?= $this->Form->end() ?><hr />

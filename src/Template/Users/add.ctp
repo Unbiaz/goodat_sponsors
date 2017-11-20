@@ -35,6 +35,27 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->script('bootstrap.min'); ?>
     <?= $this->fetch('script') ?>
+
+    <style>
+
+        #send{
+            background-color: #ec933b;
+            color: white;
+        }
+
+        a, #labelPE{
+            color: white;
+        }
+
+/*        h1, h3{
+            color: white;
+        }*/
+
+        .jumbotron{
+            background-color: #48c2c5;
+        }
+
+    </style>
     
 </head>
 <body>
@@ -46,9 +67,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
                 <div >
     
-                    <h1 style="font-size: 50px">Employer paying data on Goodat</h1>
-                    <strong><p class="text-info" style="font-size: 20px">Phrase d'introduction ou d'accrochage</p></strong>
-
+                    <strong><h1 style="font-size: 20px font-family: Arial">Get access to Employers that </br> recruit international talents</h1></strong>
+                    <!-- <strong><p class="text-info" style="font-size: 20px">Phrase d'introduction ou d'accrochage</p></strong>
+ -->
                 </div>
 
             </div>
@@ -66,15 +87,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
                     <div class="jumbotron">
 
-                        <div class="form-group text-left">
+                        <div class="form-group text-left" id="labelPE">
                             <?= $this->Form->input('username', ['class' => 'form-control', 'placeholder' => 'Pick a username', 'label' => 'Username', 'required' => true]); ?>
                         </div></br>
                         
-                        <div class="form-group text-left">
+                        <div class="form-group text-left" id="labelPE">
                             <?= $this->Form->input('email', ['class' => 'form-control', 'placeholder' => 'you@example.com', 'label' => 'Email', 'required' => true]); ?>
                         </div></br>
 
-                        <div class="form-group text-left">
+                        <div class="form-group text-left" id="labelPE">
                             <?= $this->Form->input('password', ['class' => 'form-control', 'placeholder' => 'Create a password', 'label' => 'Password' ,'required' => true]); ?>
                         </div></br>
 
@@ -83,13 +104,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         </div></br> -->
 
                         <div class="form-group text-left">
-                            <?= $this->Form->button('Sign Up', ['type' => 'submit', 'class' => 'btn btn-large btn-block btn-success']); ?>
+                            <?= $this->Form->button('Sign Up', ['type' => 'submit', 'id'=>'send', 'class' => 'btn btn-large btn-block']); ?>
                         </div>
 
                         <div class="text-right"> 
                             <label for="login" class="label-link">
-                                <?= $this->Html->link(__('Already an account'), ['action' => 'login']) ?></li>
-                            </label>?
+                                <?= $this->Html->link(__('Already an account ?'), ['action' => 'login']) ?></li>
+                            </label>
                         </div>
                         
                     </div>

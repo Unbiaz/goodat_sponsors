@@ -34,7 +34,6 @@ $goodAtTheme = false;
     <meta name="this-is-bootstrap.ctp" content="yes">
 
     <title>
-        <? //= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
     </title>
 
@@ -83,11 +82,28 @@ $goodAtTheme = false;
 
     <?= $this->fetch('script') ?>
 
+    <style>
+
+        #txtmenu{
+            color: white;
+        }
+
+/*        body{
+            position: relative;
+            width: 100%;
+            min-height: auto;
+            color: white;
+            background-position: center;
+            background-image:url('webroot/img/data-entreprises-donnees-stockage-informatique.jpg');
+        }
+*/
+    </style>
+
 </head>
 <body>
 
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default" role="navigation"  style="background-color: #48c2c5;">
+        <div class="container-fluid"  style="color:white;">
             <?php echo $this->element('Menu/top_menu', array('badges' => null)); ?>
         </div><!-- container -->
     </nav><!-- /.navbar navbar-default -->

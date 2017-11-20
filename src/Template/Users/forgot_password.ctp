@@ -1,3 +1,15 @@
+<style>
+
+        #send{
+            background-color: #ec933b;
+            color: white;
+        }
+
+        .jumbotron{
+            background-color: #48c2c5;
+        }
+
+</style>
 
 <div class="row">
 
@@ -9,10 +21,6 @@
 	<div class="col-md-1">
 
 	</div> 
-	
-	
-	
-
 
 	<div class="col-md-3">
 
@@ -31,7 +39,7 @@
 			</div> </br>
 
 			<div class="form-group label-link text-left">
-				<?= $this->Form->button('Send password reset email', ['type' => 'submit', 'class' => 'btn btn-large btn-block btn-success']); ?>
+				<?= $this->Form->button('Send password reset email', ['type' => 'submit','id'=>'send', 'class' => 'btn btn-large btn-block']); ?>
 			</div>
 		</div>
 			<?= $this->Form->end() ?><hr />

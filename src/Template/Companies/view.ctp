@@ -4,6 +4,15 @@
   * @var \App\Model\Entity\Company $company
   */
 ?>
+
+<style>
+
+  a{
+      color: #4169E1;
+  }
+
+</style>
+
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
 <!--     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>

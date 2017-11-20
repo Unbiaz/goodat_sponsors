@@ -4,6 +4,34 @@
   * @var \App\Model\Entity\User $user
   */
 ?>
+
+<style>
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+   }
+
+  td, th {
+      border: 2px solid #87CEFA;
+      text-align: left;
+      padding: 8px;
+  }
+
+  th {
+      color: #48c2c5;
+  }
+ tr:nth-child(even) {
+      background-color: #FFF;
+  }
+
+  a{
+      color: #4169E1;
+  }
+  
+</style>
+
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>

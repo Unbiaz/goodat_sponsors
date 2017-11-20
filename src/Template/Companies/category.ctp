@@ -23,26 +23,30 @@ use Cake\Routing\Route\DashedRoute;
 </nav> -->
 
 <style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
+  td, th {
+      border: 2px solid #87CEFA;;
+      text-align: left;
+      padding: 8px;
+  }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+  th {
+      color: #48c2c5;
+  }
+
+  tr:nth-child(even) {
+      background-color: #48c2c5;
+  }
 </style>
 <!-- <div>
 <?php $this->start('navHeader'); ?>
 
-    <?= $this->Html->link(__('Back'), ['action' => 'index'], ['class' => 'btn btn-info pull-right']) ?>
+    <?= $this->Html->link(__('All'), ['action' => 'index'], ['class' => 'btn btn-info pull-right']) ?>
 
 <?php $this->end(); ?>
 </div> -->
@@ -69,12 +73,12 @@ tr:nth-child(even) {
         <thead>
             <tr>
 <!--                 <th scope="col"><?= $this->Paginator->sort('id_cmpny') ?></th> -->
-                <th scope="col"><?= $this->Paginator->sort('Company') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Website') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Email') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Location') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('industri_id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('sponsor') ?></th>
+                <th scope="col">Company</th>
+                <th scope="col">Website</th>
+                <th scope="col">Email address</th>
+                <th scope="col">Location</th>
+                <th scope="col">Industry</th>
+                <th scope="col">Sponsor</th>
                 <!-- <th scope="col"><?= $this->Paginator->sort('created') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('modified') ?></th> -->
 <!--                 <th scope="col" class="actions"><?= __('Actions') ?></th> -->

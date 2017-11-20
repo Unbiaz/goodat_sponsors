@@ -3,12 +3,22 @@
   * @var \App\View\AppView $this
   */
 ?>
-<!-- <nav class="large-3 medium-4 columns" id="actions-sidebar">
+
+<style>
+
+  a{
+      color: #4169E1;
+  }
+  
+</style>
+
+
+<nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('List Industries'), ['action' => 'index']) ?></li>
     </ul>
-</nav> -->
+</nav>
 <div class="industries form large-9 medium-8 columns content">
     <?= $this->Form->create($industry) ?>
     <fieldset>

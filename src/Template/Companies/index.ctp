@@ -23,21 +23,29 @@ use Cake\Routing\Route\DashedRoute;
 </nav> -->
 
 <style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
+  td, th {
+      border: 2px solid #87CEFA;
+      text-align: left;
+      padding: 8px;
+  }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+  th {
+      color: #48c2c5;
+  }
+
+  a{
+      color: #4169E1;
+  }
+
+  tr:nth-child(even) {
+      background-color: #48c2c5;
+  }
 </style>
 
 <div class="btn-group btn-info pull-right">
@@ -78,15 +86,17 @@ tr:nth-child(even) {
         <thead>
             <tr>
 <!--                 <th scope="col"><?= $this->Paginator->sort('id_cmpny') ?></th> -->
-                <th scope="col"><?= $this->Paginator->sort('Company') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Website') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Email') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Location') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('industri_id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('sponsor') ?></th>
-                <!-- <th scope="col"><?= $this->Paginator->sort('created') ?></th>
+                <th scope="col">Company</th>
+                <th scope="col">Website</th>
+                <th scope="col">Email address</th>
+                <th scope="col">Location</th>
+                <th scope="col">Industry</th>
+                <th scope="col">Sponsor</th>
+<!--                 <th scope="col"><?= $this->Paginator->sort('created') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('modified') ?></th> -->
-<!--                 <th scope="col" class="actions"><?= __('Actions') ?></th> -->
+              <?php if ($isAdmin) { ?>
+                <th scope="col" class="actions"><?= __('Actions') ?></th>
+              <?php } ?>
             </tr>
         </thead>
         <tbody>
@@ -102,11 +112,13 @@ tr:nth-child(even) {
                 <td><?= $company->sponsor ? __('Yes') : __('No'); ?></td>
                <!--  <td><?= h($company->created) ?></td>
                 <td><?= h($company->modified) ?></td> -->
-                <!-- <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $company->id_cmpny]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $company->id_cmpny]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $company->id_cmpny], ['confirm' => __('Are you sure you want to delete # {0}?', $company->id_cmpny)]) ?>
-                </td> -->
+                <?php if ($isAdmin) { ?>
+                  <td class="actions">
+                      <?= $this->Html->link(__('View'), ['action' => 'view', $company->id_cmpny]) ?>
+                      <?= $this->Html->link(__('Edit'), ['action' => 'edit', $company->id_cmpny]) ?>
+                      <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $company->id_cmpny], ['confirm' => __('Are you sure you want to delete # {0}?', $company->id_cmpny)]) ?>
+                  </td>
+                <?php } ?>
             </tr>
             <?php endforeach; ?>
         </tbody>
