@@ -4,18 +4,14 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Payment Entity
+ * ContratType Entity
  *
- * @property int $id_pay
- * @property float $amount
- * @property \Cake\I18n\FrozenTime $validTo
- * @property int $user_id
+ * @property int $id
+ * @property string $name
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
- *
- * @property \App\Model\Entity\User $user
  */
-class Payment extends Entity
+class ContratType extends Entity
 {
 
     /**
@@ -29,6 +25,6 @@ class Payment extends Entity
      */
     protected $_accessible = [
         '*' => true,
-        'id_pay' => false
+        'id' => false
     ];
 }

@@ -56,6 +56,11 @@ class IndustriesTable extends Table
             ->requirePresence('categori_indus', 'create')
             ->notEmpty('categori_indus');
 
+        $validator
+            ->scalar('desc_indus')
+            ->requirePresence('desc_indus', 'create')
+            ->notEmpty('desc_indus');
+
         return $validator;
     }
 }
