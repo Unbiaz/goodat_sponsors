@@ -1,78 +1,105 @@
-<?php
 
-?>
+<?php if ($isAdmin): ?>
+<div class="uk-padding-smaller uk-display-inline-block">
 
-    <style>
+	<div class="uk-button-group">
+		<div class="uk-inline">
+	        <button class="uk-button uk-button-primary bg-green uk-button-small" type="button">Admin <i class="uk-margin-small-left" uk-icon="icon:  triangle-down"></i></button>
+	    	<div class="uk-padding-small" uk-dropdown="mode: click">
+	    		<ul class="uk-nav uk-nav-parent-icon" uk-nav>
+					<li class="uk-parent">
+						<a>Companies</a>
+						<ul class="uk-sub-nav">
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New Company'), ['controller' => 'Companies', 'action' => 'add']) ?></li>
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List Companies'), ['controller' => 'Companies', 'action' => 'index']) ?></li>
+						</ul>
+					</li>
+					<li class="uk-parent">
+						<a>Industries</a>
+						<ul class="uk-sub-nav">
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New Industry'), ['controller' => 'Industries', 'action' => 'add']) ?></li>
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List Industries'), ['controller' => 'Industries', 'action' => 'index']) ?></li>
+						</ul>
+					</li>
+                    <li class="uk-parent">
+						<a>Jobs</a>
+						<ul>
+                            <li>
+                                <a>Hot Jobs</a>
+                                <ul class="uk-sub-nav">
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New Job'), ['controller' => 'Jobs', 'action' => 'add']) ?></li>
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List of jobs'), ['controller' => 'Jobs', 'action' => 'index']) ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Contrat types</a>
+                                <ul class="uk-sub-nav">
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New Contrat type'), ['controller' => 'ContratTypes', 'action' => 'add']) ?></li>
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List contrat types'), ['controller' => 'ContratTypes', 'action' => 'index']) ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Functional areas</a>
+                                <ul class="uk-sub-nav">
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New Function area'), ['controller' => 'FunctionalAreas', 'action' => 'add']) ?></li>
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List of areas'), ['controller' => 'FunctionalAreas', 'action' => 'index']) ?></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Locations</a>
+                                <ul class="uk-sub-nav">
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New location'), ['controller' => 'Locations', 'action' => 'add']) ?></li>
+                                    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List of locations'), ['controller' => 'Locations', 'action' => 'index']) ?></li>
+                                </ul>
+                            </li>
+						</ul>
+					</li>
+					<li class="uk-parent">
+						<a>Payments</a>
+						<ul class="uk-sub-nav">
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New Payment'), ['controller' => 'Payments', 'action' => 'add']) ?></li>
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index']) ?></li>
+						</ul>
+					</li>
+					<li class="uk-parent">
+						<a>Users</a>
+						<ul class="uk-sub-nav">
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
+						    <li><i class="uk-margin-small-right uk-float-left" uk-icon="icon:chevron-right"></i><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
+						</ul>
+					</li>
+	    		</ul>
+	    	</div>
+		</div>
+	</div>
 
-/*		.navbar-header {
-		  Couleur de fond de la barre de navigation 
-		 background-color: #F8F8F8;
-		 border-color: #E7E7E7;
-		}*/
+</div>
+				
+<?php endif; ?>
 
-		a{
-			color:white;
-		}
 
-    </style>
+<?php if ($isLoggedIn): ?>
 
-<div class="collapse navbar-collapse navbar-ex1-collapse">
+<div class="uk-padding-smaller uk-display-inline-block">
 
-	<ul class="nav navbar-nav navbar-right" id="txtmenu">
-
-		<?php if ($isAdmin) { ?>
-		
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin <b class="caret"></b></a>
-				<ul class="dropdown-menu">
-
-					<li class="divider"></li>
-					<li class="dropdown-header">Companies</li>
-					<li class="divider"></li>
-					    <li><?= $this->Html->link(__('New Company'), ['controller' => 'Companies', 'action' => 'add']) ?></li>
-					    <li><?= $this->Html->link(__('List Companies'), ['controller' => 'Companies', 'action' => 'index']) ?></li>
-
-					<li class="divider"></li>
-					<li class="dropdown-header">Industries</li>
-					<li class="divider"></li>
-					    <li><?= $this->Html->link(__('New Industry'), ['controller' => 'Industries', 'action' => 'add']) ?></li>
-					    <li><?= $this->Html->link(__('List Industries'), ['controller' => 'Industries', 'action' => 'index']) ?></li>
-
-					<li class="divider"></li>
-					<li class="dropdown-header">Payements</li>
-					<li class="divider"></li>
-					    <li><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index']) ?></li>
-
-					<li class="divider"></li>
-					<li class="dropdown-header">Users</li>
-					<li class="divider"></li>
-					    <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
-                        <!-- <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li> -->
-
+	<div class="uk-button-group">
+		<div class="uk-inline">
+	        <button class="uk-button uk-button-primary bg-orange uk-button-small" type="button"><?= $username ?> <i class="uk-margin-small-left" uk-icon="icon:  triangle-down"></i></button>
+	    	<div uk-dropdown="mode: click">
+	    		<ul class="uk-nav">
+                    <li><?= $this->Html->link(__('Companies'), ['controller'=>'Companies', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('Hot Jobs'), ['controller'=>'Jobs', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('Edit profile'), ['controller'=>'Users', 'action' => 'edit', $user_id]) ?></li>
+                    <li class="uk-parent">
+                        <?= $this->Html->link(__('Logout'), ['controller' => 'Users', 'action' => 'logout'], ['class' => 'uk-display-inline-block']); ?>
+                        <i class="uk-display-inline-block" uk-icon="icon: sign-out"></i>
+                    </li>
 				</ul>
-			</li>
-			
-		<?php } ?>
+			</div>
+		</div>
+	</div>
 
-		<?php if ($isLoggedIn) { ?>
+</div>
 
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Logout <b class="caret"></b></a>
-				<ul class="dropdown-menu">
-
-					<li class="dropdown-header"><?= $username ?></li>
-
-					<li class="divider"></li>
-					<li><?= $this->Html->link(__('Logout'), ['controller' => 'Users', 'action' => 'logout']); ?></li>
-				</ul>
-			</li>
-
-		<?php } else { ?>
-
-			<li><?= $this->Html->link(__('Login'), ['controller' => 'Users', 'action' => 'login']); ?></li>
-
-		<?php } ?>
-
-	</ul><!-- /.nav navbar-nav navbar-right-->
-</div><!-- /.navbar-collapse -->
+<?php endif; ?>
 

@@ -3,30 +3,21 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Form->postLink(
-                __('Delete'),
-                ['action' => 'delete', $user->id_user],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $user->id_user)]
-            )
-        ?></li>
-        <li><?= $this->Html->link(__('List Users'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Payment'), ['controller' => 'Payments', 'action' => 'add']) ?></li>
-    </ul>
-</nav>
-<div class="users form large-9 medium-8 columns content">
-    <?= $this->Form->create($user) ?>
-    <fieldset>
-        <legend><?= __('Edit User') ?></legend>
-        <?php
-            echo $this->Form->control('username');
-            echo $this->Form->control('email');
-            echo $this->Form->control('password');
-        ?>
-    </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+
+<h4 class="uk-margin-small-bottom uk-margin-large-top txt-green uk-text-center">Edit user</h4>
+
+<div class="uk-panel uk-padding-small bg-green">
+    <?= $this->Form->create($user, ['class' => 'uk-grid-small uk-grid-match uk-child-width-1-2@s uk-child-width-1-3@m', 'uk-grid'=>'']) ?>
+
+        <?= $this->Form->control('username', ['class' => 'uk-input uk-form-small', 'placeholder' => 'Enter a username']); ?>
+        <?= $this->Form->control('email', ['class' => 'uk-input uk-form-small', 'placeholder' => 'Enter an email']); ?>
+        <?= $this->Form->control('password', ['class' => 'uk-input uk-form-small', 'placeholder' => 'Enter a password', 'value'=>'']); ?>
+        <?php if($isAdmin): ?>
+        <?= $this->Form->control('role', ['options' => [''=>'Editor', 'Admin'=>'Admin'], 'class' => 'uk-select uk-form-small', 'label' => 'Select role']); ?>
+        <?php endif; ?>
+
+        <div class="uk-width-1-1 uk-text-center">
+            <?= $this->Form->button(__('Submit'), ['class' => 'uk-button uk-button-primary uk-button-small uk-width-small bg-orange txt-white']) ?>
+        </div>
     <?= $this->Form->end() ?>
 </div>

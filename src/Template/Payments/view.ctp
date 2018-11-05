@@ -5,51 +5,47 @@
   */
 ?>
 
-<style>
-
-  a{
-      color: #4169E1;
-  }
-  
-</style>
-
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Payment'), ['action' => 'edit', $payment->id_pay]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Payment'), ['action' => 'delete', $payment->id_pay], ['confirm' => __('Are you sure you want to delete # {0}?', $payment->id_pay)]) ?> </li>
-        <li><?= $this->Html->link(__('List Payments'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Payment'), ['action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?> </li>
-    </ul>
-</nav>
-<div class="payments view large-9 medium-8 columns content">
-    <h3><?= h($payment->id_pay) ?></h3>
-    <table class="vertical-table">
-        <tr>
-            <th scope="row"><?= __('User') ?></th>
-            <td><?= $payment->has('user') ? $this->Html->link($payment->user->id_user, ['controller' => 'Users', 'action' => 'view', $payment->user->id_user]) : '' ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Id Pay') ?></th>
-            <td><?= $this->Number->format($payment->id_pay) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Amount') ?></th>
-            <td><?= $this->Number->format($payment->amount) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('ValidTo') ?></th>
-            <td><?= h($payment->validTo) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($payment->created) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($payment->modified) ?></td>
-        </tr>
-    </table>
+<div class="uk-article txt-black uk-margin-large-top">
+    <div class="details">
+        <ul class="uk-list uk-list-divider-bottom uk-child-width-1-2@s uk-grid-medium" uk-grid>
+            <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h4 class="txt-green uk-margin-small-bottom">Payment Id</h4>
+                    <p class="uk-margin-small-top"><?= h($payment->id_pay) ?></p>
+                </div>
+            </li>
+            <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h4 class="txt-green uk-margin-small-bottom">Username</h4>
+                    <p class="uk-margin-small-top">
+                        <?= $payment->has('user') ? $this->Html->link($payment->user->username, ['controller' => 'Users', 'action' => 'view', $payment->user->id_user]) : 'Nothing' ?>
+                    </p>
+                </div>
+            </li>
+            <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h4 class="txt-green uk-margin-small-bottom">Payment Amount</h4>
+                    <p class="uk-margin-small-top"><?= '£'.h($payment->amount) ?></p>
+                </div>
+            </li>
+            <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h4 class="txt-green uk-margin-small-bottom">Valid to</h4>
+                    <p class="uk-margin-small-top"><?= date_format($payment->validTo, 'D d M Y à H:i:s') ?></p>
+                </div>
+            </li>
+            <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h4 class="txt-green uk-margin-small-bottom">Created date</h4>
+                    <p class="uk-margin-small-top"><?= date_format($payment->created, 'D d M Y à H:i:s') ?></p>
+                </div>
+            </li>
+            <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h4 class="txt-green uk-margin-small-bottom">Last modified date</h4>
+                    <p class="uk-margin-small-top"><?= date_format($payment->modified, 'D d M Y à H:i:s') ?></p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>

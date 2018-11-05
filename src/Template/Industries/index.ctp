@@ -3,49 +3,81 @@
   * @var \App\View\AppView $this
   * @var \App\Model\Entity\Industry[]|\Cake\Collection\CollectionInterface $industries
   */
+
+use mobiledetect\mobiledetectlib;
+
+$detect = new Mobile_Detect;
+$isMob = ($detect->isMobile() && !$detect->isTablet());
+
 ?>
 
-<style>
-  table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-  }
+<h4 class="uk-margin-small-bottom uk-margin-large-top txt-green">List of industries</h4>
 
-  td, th {
-      border: 2px solid #87CEFA;
-      text-align: left;
-      padding: 8px;
-  }
+<?php if($isMob): ?>
+<div class="accordion-list-title txt-white bg-green">Industries</div>
+<ul class="txt-black accordion-list" uk-accordion>
+  <?php foreach ($industries as $industry): ?>
+    <li>
+        <h3 class="uk-accordion-title"><?= h($industry->categori_indus) ?></h3>
+        <div class="uk-accordion-content">
+          <ul class="uk-list uk-child-width-1-1 uk-grid-small" uk-grid>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h5 class="txt-orange uk-margin-remove-bottom">Industry Id</h5>
+                    <p class="uk-margin-remove-top"><?= h($industry->id_indus) ?></p>
+                </div>
+              </li>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                  <div>
+                      <h5 class="txt-orange uk-margin-remove-bottom">Created date</h5>
+                      <p class="uk-margin-remove-top"><?= date_format($industry->created, 'D d M Y à H:i:s') ?></p>
+                  </div>
+              </li>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                  <div>
+                      <h5 class="txt-orange uk-margin-remove-bottom">Last modified date</h5>
+                      <p class="uk-margin-remove-top"><?= date_format($industry->modified, 'D d M Y à H:i:s') ?></p>
+                  </div>
+              </li>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h5 class="txt-orange uk-margin-remove-bottom">Description</h5>
+                    <div class="indusDesc uk-margin-bottom uk-text-justify"><?= $industry->desc_indus ?></div>
+                </div>
+              </li>
+              <li class="uk-margin-remove-top">
+                <div class="uk-margin-bottom">
+                  <h5 class="txt-orange uk-margin-remove-bottom">Actions</h5>
+                  <ul class="uk-padding-remove uk-list">
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'view', $industry->id_indus], ['uk-icon'=>'icon: info']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'edit', $industry->id_indus], ['uk-icon'=>'icon: file-edit']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Form->postLink(__(''), ['action' => 'delete', $industry->id_indus], ['confirm' => __('Are you sure you want to delete # {0}?', $industry->id_indus), 'uk-icon'=>'icon: trash']) ?>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+          </ul>
+        </div>
+    </li>
+  <?php endforeach; ?>
+</ul>
 
-  th {
-      color: #48c2c5;
-  }
+<?php else : ?>
 
-  a{
-      color: #4169E1;
-  }
-
-  tr:nth-child(even) {
-      background-color: #FFF;
-  }
-</style>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Industry'), ['action' => 'add']) ?></li>
-    </ul>
-</nav> 
-<div class="industries index large-9 medium-8 columns content">
-    <h3><?= __('Industries') ?></h3>
-    <table cellpadding="0" cellspacing="0">
+<div class="uk-overflow-auto">
+    <table class="uk-table uk-table-small uk-table-hover uk-table-striped">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('id_indus') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('categori_indus') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('created') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th class="uk-width-small">N° industry</th>
+                <th>Category of industry</th>
+                <th>Description</th>
+                <th class="uk-width-small">Actions</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -53,25 +85,36 @@
             <tr>
                 <td><?= $this->Number->format($industry->id_indus) ?></td>
                 <td><?= h($industry->categori_indus) ?></td>
-                <td><?= h($industry->created) ?></td>
-                <td><?= h($industry->modified) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $industry->id_indus]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $industry->id_indus]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $industry->id_indus], ['confirm' => __('Are you sure you want to delete # {0}?', $industry->id_indus)]) ?>
+                <td><div class="indusDesc"><?= $industry->desc_indus ?></div></td>
+                <td>
+                  <ul class="uk-padding-remove uk-list">
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'view', $industry->id_indus], ['uk-icon'=>'icon: info']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'edit', $industry->id_indus], ['uk-icon'=>'icon: file-edit']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Form->postLink(__(''), ['action' => 'delete', $industry->id_indus], ['confirm' => __('Are you sure you want to delete # {0}?', $industry->id_indus), 'uk-icon'=>'icon: trash']) ?>
+                    </li>
+                  </ul>
                 </td>
+                
             </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
-    <div class="paginator">
-        <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
-            <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
-        </ul>
-        <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
-    </div>
+</div>
+
+<?php endif; ?>
+
+<div class="pagination">
+    <ul class="uk-pagination uk-flex-center uk-margin-top uk-padding-small">
+        <?= $this->Paginator->first('<< ' . __('first')) ?>
+        <?= $this->Paginator->prev('< ' . __('previous')) ?>
+        <?= $this->Paginator->numbers() ?>
+        <?= $this->Paginator->next(__('next') . ' >') ?>
+        <?= $this->Paginator->last(__('last') . ' >>') ?>
+    </ul>
+    <p class="uk-text-center txt-black"> <?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?> </p>
 </div>

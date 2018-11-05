@@ -1,50 +1,28 @@
-<style>
+<?php 
 
-        #send{
-            background-color: #ec933b;
-            color: white;
-        }
+	$this->start('title');
+	echo 'Forgot password';
+	$this->end();
 
-        .jumbotron{
-            background-color: #48c2c5;
-        }
+ ?>
 
-</style>
+<h4 class="uk-margin-small-bottom uk-margin-large-top uk-text-center txt-green">Reset your password</h4> 
 
-<div class="row">
+<div class="uk-panel uk-padding-small bg-green uk-width-1-2@s uk-width-2-5@m uk-container-center">
 
-	<div class="col-md-3">
+	<?= $this->Form->create(null, ['class' => 'uk-grid-small uk-child-width-1-1', 'role' => 'form', 'uk-grid'=>'']) ?>
 
+			
+		<p class="uk-text-center txt-white">Enter your email address and we will send you link to reset your password</p>
 
-	</div>
+			
+		<?= $this->Form->input('email', ['class' => 'uk-input uk-form-small', 'placeholder' => 'Enter email', 'label' => 'Email', 'required'=>'required']); ?>
+			
 
-	<div class="col-md-1">
-
-	</div> 
-
-	<div class="col-md-3">
-
-		<?= $this->Form->create(null, ['class' => 'form-horizontal', 'role' => 'form']) ?>
-
-		<div class="text-center"> <h3><?= __('Reset your password') ?></h3> </div> <hr />
-
-	 	<div class="jumbotron">
-
-			<div class="form-group text-center">
-				<strong>Enter your email address and we will send you link to reset your password</strong>
-			</div>
-
-			<div class="form-group text-left">
-				<?= $this->Form->input('email', ['name' => '','class' => 'form-control', 'placeholder' => 'Enter email', 'label' => 'Email']); ?>
-			</div> </br>
-
-			<div class="form-group label-link text-left">
-				<?= $this->Form->button('Send password reset email', ['type' => 'submit','id'=>'send', 'class' => 'btn btn-large btn-block']); ?>
-			</div>
+		<div class="uk-text-center">
+			<?= $this->Form->button('Send password reset email', ['type' => 'submit', 'class' => 'uk-button uk-button-primary uk-button-small uk-width-auto bg-orange txt-white']); ?>
 		</div>
-			<?= $this->Form->end() ?><hr />
 		
-
-	</div>
-	
+	<?= $this->Form->end() ?>
+		
 </div>

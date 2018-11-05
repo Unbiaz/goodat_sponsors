@@ -3,56 +3,84 @@
   * @var \App\View\AppView $this
   * @var \App\Model\Entity\User[]|\Cake\Collection\CollectionInterface $users
   */
+
+use mobiledetect\mobiledetectlib;
+
+$detect = new Mobile_Detect;
+$isMob = ($detect->isMobile() && !$detect->isTablet());
+
 ?>
 
-<style>
+<h4 class="uk-margin-small-bottom uk-margin-large-top txt-green">List of users</h4>
 
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-   }
+<?php if($isMob): ?>
 
-  td, th {
-      border: 2px solid #87CEFA;
-      text-align: left;
-      padding: 8px;
-  }
+<div class="accordion-list-title txt-white bg-green">Users</div>
+<ul class="txt-black accordion-list" uk-accordion>
+  <?php foreach ($users as $user): ?>
+    <li>
+        <h3 class="uk-accordion-title"><?= h($user->username) ?></h3>
+        <div class="uk-accordion-content">
+          <ul class="uk-list uk-child-width-1-1 uk-grid-small" uk-grid>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h5 class="txt-orange uk-margin-remove-bottom">User Id</h5>
+                    <p class="uk-margin-remove-top"><?= h($user->id_user) ?></p>
+                </div>
+              </li>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                <div>
+                    <h5 class="txt-orange uk-margin-remove-bottom">User email</h5>
+                    <p class="uk-margin-remove-top"><?= $user->email ?></p>
+                </div>
+              </li>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                  <div>
+                      <h5 class="txt-orange uk-margin-remove-bottom">Created date</h5>
+                      <p class="uk-margin-remove-top"><?= date_format($user->created, 'D d M Y à H:i:s') ?></p>
+                  </div>
+              </li>
+              <li class="uk-margin-remove-top uk-margin-small-bottom">
+                  <div>
+                      <h5 class="txt-orange uk-margin-remove-bottom">Last modified date</h5>
+                      <p class="uk-margin-remove-top"><?= date_format($user->modified, 'D d M Y à H:i:s') ?></p>
+                  </div>
+              </li>
+              <li class="uk-margin-remove-top">
+                <div class="uk-margin-bottom">
+                  <h5 class="txt-orange uk-margin-remove-bottom">Actions</h5>
+                  <ul class="uk-padding-remove uk-list">
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'view', $user->id_user], ['uk-icon'=>'icon: info']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'edit', $user->id_user], ['uk-icon'=>'icon: file-edit']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Form->postLink(__(''), ['action' => 'delete', $user->id_user], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id_user), 'uk-icon'=>'icon: trash']) ?>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+          </ul>
+        </div>
+    </li>
+  <?php endforeach; ?>
+</ul>
 
-  th {
-      color: #48c2c5;
-  }
- tr:nth-child(even) {
-      background-color: #FFF;
-  }
+<?php else : ?>
 
-  a{
-      color: #4169E1;
-  }
-  
-</style>
-
-
-<!-- <nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New User'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Payment'), ['controller' => 'Payments', 'action' => 'add']) ?></li>
-    </ul>
-</nav> -->
-<div class="users index large-9 medium-8 columns content">
-    <h3><?= __('Users') ?></h3>
-    <table cellpadding="0" cellspacing="0">
+<div class="uk-overflow-auto">
+    
+    <table class="uk-table uk-table-middle uk-table-small uk-table-hover uk-table-striped">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('id_user') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('username') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('email') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('password') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('created') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th>ID</th>
+                <th>username</th>
+                <th>email</th>
+                <th>created date</th>
+                <th>last modified</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -61,26 +89,39 @@
                 <td><?= $this->Number->format($user->id_user) ?></td>
                 <td><?= h($user->username) ?></td>
                 <td><?= h($user->email) ?></td>
-                <td><?= h($user->password) ?></td>
-                <td><?= h($user->created) ?></td>
-                <td><?= h($user->modified) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $user->id_user]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id_user]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id_user], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id_user)]) ?>
+                <td><?= date_format($user->created, 'D d M Y à H:i:s') ?></td>
+                <td><?= date_format($user->modified, 'D d M Y à H:i:s') ?></td>
+                <td>
+                  <ul class="uk-padding-remove uk-list">
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'view', $user->id_user], ['uk-icon'=>'icon: info']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Html->link(__(''), ['action' => 'edit', $user->id_user], ['uk-icon'=>'icon: file-edit']) ?>
+                    </li>
+                    <li class="uk-display-inline-block uk-margin-small-right">
+                      <?= $this->Form->postLink(__(''), ['action' => 'delete', $user->id_user], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id_user), 'uk-icon'=>'icon: trash']) ?>
+                    </li>
+                  </ul>
                 </td>
             </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
-    <div class="paginator">
-        <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
-            <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
-        </ul>
-        <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
-    </div>
+</div>
+
+<?php endif; ?>
+
+<div class="pagination">
+
+  <ul class="uk-pagination uk-flex-center uk-margin-top uk-padding-small">
+    <?= $this->Paginator->first('<< ' . __('first')) ?>
+    <?= $this->Paginator->prev('< ' . __('previous')) ?>
+    <?= $this->Paginator->numbers() ?>
+    <?= $this->Paginator->next(__('next') . ' >') ?>
+    <?= $this->Paginator->last(__('last') . ' >>') ?>
+  </ul>
+
+  <p class="uk-text-center txt-black"><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
+
 </div>

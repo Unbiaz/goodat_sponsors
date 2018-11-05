@@ -2,27 +2,35 @@
 /**
   * @var \App\View\AppView $this
   */
+
+echo $this->Html->css('jquery-te-1.4.0.min');
+echo $this->Html->script('https://code.jquery.com/jquery.min.js');
+echo $this->Html->script('jquery-te-1.4.0.min');
+
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Form->postLink(
-                __('Delete'),
-                ['action' => 'delete', $industry->id_indus],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $industry->id_indus)]
-            )
-        ?></li>
-        <li><?= $this->Html->link(__('List Industries'), ['action' => 'index']) ?></li>
-    </ul>
-</nav>
-<div class="industries form large-9 medium-8 columns content">
-    <?= $this->Form->create($industry) ?>
-    <fieldset>
-        <legend><?= __('Edit Industry') ?></legend>
-        <?php
-            echo $this->Form->control('categori_indus');
-        ?>
-    </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+<h4 class="uk-margin-small-bottom uk-margin-large-top uk-text-center txt-green">Edit Industry</h4>
+
+<div class="uk-panel uk-padding-small bg-green uk-width-1-3@s uk-width-3-5@m uk-container-center">
+
+    <?= $this->Form->create($industry, ['class' => 'uk-grid-small uk-child-width-1-1', 'uk-grid'=>'']) ?>
+        
+        <?= $this->Form->control('categori_indus', ['class' => 'uk-input uk-form-small', 'label' => 'Name of industry']);?>
+        <?= $this->Form->control('desc_indus', ['class' => 'editor', 'label' => 'Description of industry']); ?>
+
+    <div class="uk-width-1-1 uk-text-center"> 
+    <?= $this->Form->button(__('Submit'), ['class' => 'uk-button uk-button-primary uk-button-small uk-width-small bg-orange txt-white']) ?>
+    </div>
+
     <?= $this->Form->end() ?>
+
 </div>
+
+<script>
+    $( function(){ 
+        $('.editor').jqte({
+            format:false,
+            fsize:false,
+            color:false
+        });
+    } );
+</script>

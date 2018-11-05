@@ -13,140 +13,89 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
-$cakeDescription = 'GoodAt';
-$showSQL = false;
-$debugSQL = true;
-$goodAtTheme = false;
+use mobiledetect\mobiledetectlib;
 
-//if ($debugSQL && (AuthComponent::user('role') == 'admin' || AuthComponent::user('username') == 'ricktest')) {
-    $showSQL = true;
-//}
+$detect = new Mobile_Detect;
+$isMob = ($detect->isMobile() && !$detect->isTablet());
 
 ?>
+
 <?php echo $this->Html->docType('html5'); ?>
 <html lang="en">
 <head>
     <?= $this->Html->charset() ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="this-is-bootstrap.ctp" content="yes">
+    <meta name="google-site-verification" content="KUmaMmX_cP8Boq7IHsrSV8XhqIB-PZHHA3VGGeqq7vQ" />
 
     <title>
-        <?= $this->fetch('title') ?>
+        <?= $this->fetch('title') ?> | Sponsors Goodat
     </title>
 
     <?= $this->Html->meta('icon') ?>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/ico/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="/img/ico/favicon-32x32.png">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="/img/ico/favicon-16x16.png">
+    <meta name='robots' content='noindex,nofollow' />
+
+    <?= $this->Html->css('uikit.min') ?>
+    <?= $this->Html->css('custom') ?>
+
+    <?= $this->Html->script('uikit.min') ?>
+    <?= $this->Html->script('uikit-icons.min') ?>
+
     <?= $this->fetch('meta') ?>
-
-    <? // --------------------- CSS Block --------------------- // ?>
-
-    <?= $goodAtTheme ? $this->Html->css('bootstrap-custom') : $this->Html->css('bootstrap.min'); ?>
-
-    <?= $this->Html->css('sticky-footer'); ?>
-    <?= $this->Html->css('datepicker'); ?>
-    <?= $this->Html->css('jquery.dataTables'); ?>
-    <?= $this->Html->css('https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.css'); ?>
-    <?= $this->Html->css('chosen.min'); ?>
-    <?= $this->Html->css('bootstrap-datetimepicker.min'); ?>
-
     <?= $this->fetch('css') ?>
-
-    <? // --------------------- Script Block --------------------- // ?>
-
-    <?= $this->Html->script('jquery.min'); ?>
-    <?= $this->Html->script('jquery-ui.min'); ?>
-    <?= $this->Html->script('jquery.ui.touch-punch.min'); ?>
-    
-    <? // https://datatables.net ?>
-    <?= $this->Html->script('jquery.dataTables.min'); ?>
-    <?= $this->Html->script('https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.js'); ?>
-    
-    <? // http://www.appelsiini.net/projects/jeditable ?>
-    <?= $this->Html->script('jeditable'); ?>
-
-    <? // http://momentjs.com/docs/#/displaying/ ?>
-    <?= $this->Html->script('moment.min'); ?>
-
-    <?= $this->Html->script('bootstrap.min'); ?>
-    <?= $this->Html->script('bootstrap-datepicker'); ?>
-    <?= $this->Html->script('bootstrap-datetimepicker.min'); ?>
-
-    <?= $this->Html->script('dataTables.bootstrap'); ?>
-    
-    <?= $this->Html->script('rsc-functions'); ?>
-    
-    <? // https://harvesthq.github.io/chosen/ ?>
-    <?= $this->Html->script('chosen.jquery'); ?>
-
     <?= $this->fetch('script') ?>
 
-    <style>
-
-        #txtmenu{
-            color: white;
-        }
-
-/*        body{
-            position: relative;
-            width: 100%;
-            min-height: auto;
-            color: white;
-            background-position: center;
-            background-image:url('webroot/img/data-entreprises-donnees-stockage-informatique.jpg');
-        }
-*/
-    </style>
-
 </head>
-<body>
+<body class="<?php echo ($this->request->here == $this->request->webroot) ? 'homepage':''; echo (($this->request->here == $this->request->webroot) && $isMob) ? ' mob-homepage':''; ?>">
 
-    <nav class="navbar navbar-default" role="navigation"  style="background-color: #48c2c5;">
-        <div class="container-fluid"  style="color:white;">
-            <?php echo $this->element('Menu/top_menu', array('badges' => null)); ?>
-        </div><!-- container -->
-    </nav><!-- /.navbar navbar-default -->
+    <div class="uk-container-header">
+        <div class="uk-container">
+            <div class="uk-position-relative uk-padding-smaller">
+                <div>
+                    <div id="logo">
+                        <a class="uk-logo" href="<?= $this->request->webroot ?>"><img width="270" src="/img/logo/beta.sponsors.goodat.png" alt="sponsors.goodat"></a>
+                    </div>
+                    <?php if($isLoggedIn) echo $this->element('Menu/main_menu'); ?>
+                </div>
 
-    <?= $this->Flash->render() ?>
-    <?= $this->Flash->render('auth') ?>
+                <?php if(!$isLoggedIn): ?>
+                    <div id="login" class="bg-orange uk-padding-small uk-height-1-1 uk-position-top-right uk-width-smaller">
+                        <div class="uk-position-center">
+                            <?= $this->Html->link('LOGIN', ['controller' => 'Users', 'action' => 'login'], ['class' => 'uk-display-inline-block txt-white']); ?>
+                            <i class="uk-display-inline-block txt-white" uk-icon="icon:sign-in"></i>
+                        </div>
+                    </div>
+                <?php elseif($isLoggedIn): ?>
+                    <div class="headerbar uk-position-right">
+                        <?php echo $this->element('Menu/top_menu', ['badges' => null]); ?>
+                    </div>
+                <?php endif; ?>
 
+            </div>
+        </div>
+    </div>
 
-    <section class="container-fluid clearfix">
-        <?= $this->fetch('content') ?>
-    </section>
+    <div id="flash-content">
+        <?= $this->Flash->render() ?>
+        <?= $this->Flash->render('auth') ?>
+    </div>
 
-    <script type="text/javascript">
-        $(function() {
-            $("#tabs").tabs();
-            $('.datepicker').datepicker({
-                 Format: 'dd-mm-yyyy'
-             });
-            $('.datetimepicker').datetimepicker();
-        });
+    <div class="uk-container">
 
-        $('body').on('hidden.bs.modal', '#myModal', function () {
-            $(this).removeData('bs.modal');
-            $(this).find('.modal-content')
-                   .html("<div class='modal-body'><h3>Loading...</h3><h5>If this message persists, check you are still logged in and if you have permission to view this page!</h5></div>");
-        });
+        <section id="content" class="uk-margin-small-top uk-margin-large-bottom">
+            <?= $this->fetch('content') ?>
+        </section>
 
-        $('#myModal').on('loaded.bs.modal', function (e) {
-            //console.log('loaded modal');
-            $('.modal-content').prepend('<button type="button" class="close btn btn-xs" data-dismiss="modal" aria-label="Close">Close <span aria-hidden="true">&times;</span></button>');
-        });
+    </div>
 
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        });
-
-    </script>
-
-    <div class="container">
-        <?php echo $this->element('modalDialog'); ?>
-    </div><!-- /#content .container -->
-
-    <footer>
+    <footer class="uk-padding-small uk-text-center">
+        <div class="uk-container">
+            <p>©2018 Goodat. All Rights Reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
