@@ -12,7 +12,6 @@ use App\Controller\AppController;
  */
 class IndustriesController extends AppController
 {
-
     /**
      * Index method
      *
@@ -20,7 +19,7 @@ class IndustriesController extends AppController
      */
     public function index()
     {
-        $industries = $this->paginate($this->Industries);
+        $industries = $this->paginate($this->Industries, ['order'=>['categori_indus'=>'asc']]);
 
         $this->set(compact('industries'));
         $this->set('_serialize', ['industries']);

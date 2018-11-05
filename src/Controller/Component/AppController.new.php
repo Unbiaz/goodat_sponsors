@@ -43,11 +43,10 @@ class AppController extends Controller
      */
     public function initialize()
     {
-        parent::initialize();
-
+        
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-        $this->loadComponent('Auth', [
+       $this->loadComponent('Auth', [
             'authorize'=> 'Controller',
             'authenticate' => [
                 'Form' => [
@@ -62,15 +61,22 @@ class AppController extends Controller
             'config' => [
                 'params' => ['class' => 'alert alert-warning']
             ],
-         //   'unauthorizedRedirect' => $this->referer()
-              'unauthorizedRedirect' => false
+           'unauthorizedRedirect' => $this->referer()
+        // 'unauthorizedRedirect' => false
         ]);
 
-        // Allow the display action so our pages controller
-        // continues to work.
+        // Allow the display action so our pages controller continues to work.
+
         $this->log('App Controller initialize', 'debug');
         $this->Auth->allow(['display']);
        //$this->Auth->allow();
+    }
+
+// All actions disallowed by default unless Admin
+    public function isAuthorized($user)
+    {
+
+     return false;
     }
 
     public function isAdmin()
@@ -118,40 +124,7 @@ class AppController extends Controller
         return true;
     }
 
-    // All actions disallowed by default unless Admin
-    public function isAuthorized($user)
-    {
-
-        // Check user status, if available
-        //debug($user);
-        $this->log('App Controller isAuthorized', 'debug');
-        //$this->log($user, 'debug');
-
-        $isAdmin = $this->isAdmin();
-        $isLoggedIn = $this->isLoggedIn();
-
-        $this->log('App Controller isAuthorized - Admin status: ' . $isAdmin, 'debug');
-        
-        // Admin can do everything
-        if ($isAdmin) {
-            return true;
-        }
-        
-        if (!$isLoggedIn) {  // Should not be needed
-            return false;
-        }
-        
-        // Always block delete if not admin
-        $action = $this->request->params['action'];
-        if (in_array($action, ['delete'])) {
-            return false;
-        }
-
-        // Everything else set to false. Forces each controller to set
-        // appropriate permissions.
-        
-        return false;
-    }
+    
 
     /**
      * Before render callback.
@@ -201,9 +174,9 @@ class AppController extends Controller
     public function beforeFilter(Event $event){
 
 
-        if ( !$this->request->is('ssl') ){
+      /*  if ( !$this->request->is('ssl') ){
 
             $this->redirect( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], 301 );
-        }
+        }*/
     }
 }

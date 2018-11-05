@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
 use Cake\Log\Log;
 use Cake\Utility\Text;
 use DebugKit;
@@ -19,57 +20,25 @@ class CompaniesController extends AppController
 public function initialize()
     {
         parent::initialize();
-        
-        
-        $this->Auth->allow(['index', 'category']);
+               
+        $this->Auth->allow(['index','category']);
 
-        
+     
     }
         
-    public function isAuthorized($user)
+/*public function isAuthorized($user)
     {
-        //debug($user);
-        $this->log('Questions Controller isAuthorized', 'debug');
-        $this->log($user, 'debug');
-
-        // This whole section is to allow content specific access on
-        // actions such as /edit/nnn
-
+        
         $action = $this->request->params['action'];
 
-        // The index actions are always allowed.
-          if( in_array($action, ['index','category'])&& $this->isLoggedIn()  ) {
+           if(in_array($action, ['index','category'])) {
 
-            $this->log('Index', 'debug');
             return true;
         }
+              
         
-        // The index actions are always allowed.
-        if (in_array($action, ['add', 'view']) && $this->isAdmin()) {
-            $this->log('Add Always Allowed for Admin', 'debug');
-            return true;
-        }
-
-        /*if(!$this->isAdmin() && !$this->isSubcriber()){
-            return $this->redirect(['controller' => 'Users', 'action'=>'subscribe']);
-        }*/
-        
-        // All other actions require an id.
-        if (empty($this->request->params['pass'][0])) {
-            $this->log('No ID', 'debug');
-            //$this->log($this->request->params, 'debug');
-            return false;
-        }
-
-        // Check that the entity belongs to the current user.
-        // $id = $this->request->params['pass'][0];
-        // $entity = $this->Companies->get($id);
-        // if ($entity->user_id == $user['id']) {
-        //     return true;
-        // }
-
-        return parent::isAuthorized($user);
-    }
+       return parent::isAuthorized($user);
+    }*/
 
 /*public function beforeFilter(Event $event) {
    
@@ -86,37 +55,18 @@ public function initialize()
      */
     public function index()
     {
-       // if(!$this->isSubcriber()&& !$this->isAdmin() ){
-
-           // $companies = $this->Companies->find('all',[
-           //     'contain' => ['Industries'], 
-           //     'order'=>['Companies.name_company'=>'asc'],
-           //     'limit'=>20
-           // ]);
- $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'order'=>['Companies.name_company'=>'asc']]);
-      //  } 
-        //else $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'order'=>['Companies.name_company'=>'asc']]);
-
-        $industries = $this->Companies->Industries->find('all', ['order'=>['categori_indus'=>'ASC'] ]);
         
-        $this->set(compact('industries', 'companies'));
-        $this->set('_serialize', ['industries', 'companies']);
+ $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'order'=>['Companies.name_company'=>'asc']]);
+    $industries = $this->Companies->Industries->find('all', ['order'=>['categori_indus'=>'ASC'] ]);
+    $this->set(compact('industries', 'companies'));
+    $this->set('_serialize', ['industries', 'companies']);
     }
 
     public function category($cat_id)
     {
-        //if(!$this->isSubcriber() && !$this->isAdmin()){
-
-          /*  $companies = $this->Companies->find('all',[
-                'contain' => ['Industries'],
-                'conditions' => ['Companies.industri_id' => $cat_id], 
-                'order'=>['Companies.name_company'=>'asc'],
-                'limit'=>20
-            ]);*/
+        
  $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'conditions' => ['Companies.industri_id' => $cat_id], 'order'=>['Companies.name_company'=>'asc']]);
-      //  } 
-       // else $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'conditions' => ['Companies.industri_id' => $cat_id], //'order'=>['Companies.name_company'=>'asc']]);
-    
+            
         $industries = $this->Companies->Industries->find('all', ['order'=>['categori_indus'=>'ASC'] ]);
 
         $this->set(compact('companies', 'industries'));

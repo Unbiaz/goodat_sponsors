@@ -6,6 +6,7 @@ use Cake\Utility\Security;
 use Cake\Log\Log;
 use Cake\Utility\Text;
 use Cake\Mailer\Email;
+use Cake\Mailer\Transport\SmtpTransport;
 use Cake\Datasource\ConnectionManager;
 use Cake\Auth\DefaultPasswordHasher;
 use Cake\I18n\Time;
@@ -13,7 +14,7 @@ use \Cake\Routing\Router;
 use Cake\Core\App;
 
 $path = App::path('src');
-require_once(dirname(dirname($path[0])).'\vendor\stripe\stripe\init.php');
+require_once(dirname(dirname($path[0])).'/vendor/stripe/stripe/init.php');
 
 
 /**
@@ -31,7 +32,14 @@ class UsersController extends AppController
         parent::initialize();
         
         $this->log('Users Controller initialize', 'debug');
-        $this->Auth->allow(['logout','add', 'forgotPassword','resetpassword']);
+        $this->Auth->allow(['logout','useradd', 'forgotPassword','resetpassword']);
+
+        $action = $this->request->params['action'];
+
+        //Redirect to companies index page
+        if( in_array($action, ['useradd', 'forgotPassword', 'resetpassword']) && $this->isLoggedIn() )
+            return $this->redirect(['controller'=>'Companies', 'action' => 'index']);
+
     }
 
     public function isAuthorized($user)
@@ -42,34 +50,33 @@ class UsersController extends AppController
 
         $action = $this->request->params['action'];
 
-        // The index actions are always allowed.
-        if (in_array($action, ['index','subscribe'])) {
-            $this->log('Index Always Allowed', 'debug');
+        // Allowed actions by login users
+        if (in_array($action, ['subscribe']) && $this->isLoggedIn()) {
+            $this->log('Subscribe Always Allowed', 'debug');
             return true;
         }
 
-        // The index actions are always allowed.
-        if (in_array($action, ['add']) && $this->isAdmin()) {
-            $this->log('Add Always Allowed for Admin', 'debug');
+        //for Admin only
+        if (in_array($action, ['index', 'add']) && $this->isAdmin()) {
+            $this->log('Index and Add is allowed for Admin', 'debug');
             return true;
         }
-
 
         // All other actions require an id.
-        if (empty($this->request->params['pass'][0])) {
+        if (empty($this->request->params['pass'])) {
             $this->log('No ID', 'debug');
             //$this->log($this->request->params, 'debug');
             return false;
         }
 
         // Check that the user belongs to the current user.
-        $id = $this->request->params['pass'][0];
-        $thisUser = $this->Users->get($id);
-        if ($thisUser->id == $user['id']) {
+        $request_id = $this->request->params['pass'][0];
+        if ($action == 'edit' && $this->Users->get($request_id)->id_user == $user['id_user']) {
             return true;
         }
 
         return parent::isAuthorized($user);
+
     }
 
     /**
@@ -111,17 +118,40 @@ class UsersController extends AppController
     {
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
-            $user = $this->Users->patchEntity($user, $this->request->getData());
-            if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
+            $data = $this->request->getData();
+            
+            //Check email
+            $ch = curl_init();
+            curl_setopt_array($ch, [CURLOPT_URL => 'https://trumail.io/json/'.urlencode($data['email']),
+                                    CURLOPT_HEADER => false,
+                                    CURLOPT_RETURNTRANSFER => true]);
+            $email_info = json_decode(curl_exec($ch));
+            curl_close($ch);
+            
+            if($email_info->hostExists && $email_info->deliverable){
+                
+                $user = $this->Users->patchEntity($user, $data);
+                if ($this->Users->save($user)) {
+                    $this->Flash->success(__('The user has been saved.'));
 
-                return $this->redirect(['action' => 'login']);
+                    return $this->redirect(['action' => 'login']);
+                }
+                else
+                    $this->Flash->error(__('The user could not be saved. Please, try again.'));
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again.'));
+            else
+                $this->Flash->error(__('Please enter valid email'));
+            
         }
         $roleOptions = $this->Users->roleTypes();
-        $this->set(compact('user', 'roleOptions'));
+        $this->set(compact('user', 'roleOptions', 'email_info'));
         $this->set('_serialize', ['user']);
+    }
+
+    //User added itself by home page
+    public function useradd()
+    {
+        UsersController::add();
     }
 
     /**
@@ -141,7 +171,10 @@ class UsersController extends AppController
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('The user has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                if( $this->isAdmin() )
+                    return $this->redirect(['action' => 'index']);
+                else
+                    return $this->redirect( $this->request->webroot );
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
@@ -182,9 +215,7 @@ class UsersController extends AppController
             if ($user) {
                 $this->Auth->setUser($user);
 
-                if(!$this->isAdmin())
-                    return $this->redirect(['action' => 'subscribe']);
-
+                $this->Flash->success('You are now logged in.');
                 return $this->redirect(['controller'=>'Companies', 'action' => 'index']);
             }
             $this->Flash->error('Your email or password is incorrect.');
@@ -204,7 +235,6 @@ class UsersController extends AppController
             foreach ($payment['payments'] as $pay) {
                 if($pay['validTo'] > Time::now() ) $pay_count++;
             }
-            //$pay_date = Time::now();
 
             if($pay_count >= 1)
                 return $this->redirect(['controller'=>'Companies', 'action' => 'index']);
@@ -220,107 +250,84 @@ class UsersController extends AppController
 
     public function forgotPassword()
     {
-
-        // $user = $this->Users->newEntity();
-        // if ($this->request->is('post')) {
-        //     $user = $this->Users->patchEntity($user, $this->request->getData());
     
         if($this->request->is('post')) {
         
-            $user_data = $this->request->data;
-            if (!empty($user_data)) {
+            $data = $this->request->Data();
+            if (!empty($data)) {
 
-                $check_email = $this->Users->find()
-                    ->where(['Users.email' => $user_data['email']])
+                $user_data = $this->Users->find()
+                    ->where(['Users.email' => $data['email']])
                     ->first();
         
-                if (!empty($check_email)) {
+                if (!empty($user_data)) {
 
-                    // $email = new Email('default');
-                    // $email->from(['issasanogo007@gmail.com' => 'My Site'])
-                    // ->to($user_data['email'])
-                    // ->subject('About')
-                    // ->send('My message');
+                    $crypted_id = Security::encrypt( $user_data['id_user'] , 'a907988d9aa04e1d1aa27fe8774810fabe86e01d55d');
+                    $encode_id = urlencode($crypted_id);
 
-                    $email = new Email();
+                    $email = new Email('default');
                     $email
+                        ->from(['noreply@goodat.co.uk'=>'Sponsors Goodat'])
+                        ->to($user_data['email'])
+                        ->subject('Password reset request')
                         ->template('reset_password')
                         ->emailFormat('html')
-                        ->to($user_data['email'])
-                        ->subject('Reset Password')
-                        ->from('issasanogo007@gmail.com')
+                        ->viewVars(['username'=>$user_data['username'], 'encode_id'=>$encode_id])
                         ->send();
-                    $helpers = array('session');
-                    $session = $this->request->session();
-                    $session->write('email_saisi', $user_data['email']);
 
-                    //$data_send['to'] = $email;
-                    //echo "<pre>";print_r($data_send);die;
-                    // echo "<pre>";print_r($data_send);die;
-
-                    //$output = $this->send_mail($data_send);
-      
-                    /* Sending Email to user */
-                    if ($email) {  
-                        $this->Flash->success(__('A link has been sent to you to reset your password, Check Your Mail'));
-                        return $this->redirect($this->referer());
-                    } else {
-                        $this->Flash->error(__('The password could not be changed. Please, try again.'));
-                    }
+                    $this->Flash->success(__('A link has been sent to you to reset your password, Check Your Mail'));
                     
                 } else {
                     $this->Flash->error(__('The email address could not be found. Please, try again.'));
                     return $this->redirect($this->referer());
                 }
             }
+            else $this->Flash->error(__('Error, any data has been posted'));
         }
     }
 
-    public function resetpassword()
+    public function resetpassword($encode_id)
     {
-        if ($this->request->is('post')) {
+
+        if(!empty($encode_id)){
 
             if($this->request->is('post')) {
         
                 $user_data = $this->request->data;
-                if (!empty($user_data)) {
-                    $session = $this->request->session();
-                    $user_active = $this->Users->find()
-                        ->where(['Users.email' => $session->read('email_saisi')])
-                        ->first();
-                    // $user_active->set_password($user_data['password']);
-                    // $user_active->
 
+                if (!empty($user_data)) {
 
                     if ($user_data['password'] == $user_data['password2']) {
-                        // $connection = ConnectionManager::get('default');
-                        // $connection->update('users', ['password' => $user_data['password']], ['id_user' => $user_active->id]);
-                        
-                        // $user_data['password1'] = md5($user_data['password']);
 
-                        //$hash = Security::hash($user_data['password']);
-                        // $hasher->hash($user_data['password']);
+                        $decode_id = urldecode($encode_id);
+                        $decrypted_id = Security::decrypt( $decode_id , 'a907988d9aa04e1d1aa27fe8774810fabe86e01d55d' );
+
+                        $user_active = $this->Users->find()
+                            ->where(['Users.id_user' => $decrypted_id])
+                            ->first();
 
                         $hasher = new DefaultPasswordHasher();
-                        
-
-                        //$user_data['password'] = $this->setPassword($user_data['password']);
 
                         $query = $this->Users->query();
                         $query->update()
                             ->set(['password' => $hasher->hash($user_data['password'])])
                             ->where(['id_user' => $user_active->id_user])
                             ->execute();
-                        $this->Flash->success(__('The password has been changed.'));
+
+                        $this->Flash->success(__('Your password has been changed.'));
+
+                        return $this->redirect(['action'=>'login']);
                     } 
                     else{
                         $this->Flash->error(__('The password could not be changed. Please, check the two passwords if they are same.'));
                     }
                    
                 }
+                else $this->Flash->error(__('Error, any data has been posted'));
             }
 
-        }
+        } else return $this->redirect(['action'=>'forgotPassword']);
+
     }
 
 }

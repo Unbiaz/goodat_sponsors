@@ -10,7 +10,7 @@ use DateTime;
 use DateInterval;
 
 $path = App::path('src');
-require_once(dirname(dirname($path[0])).'\vendor\stripe\stripe\init.php');
+require_once(dirname(dirname($path[0])).'/vendor/stripe/stripe/init.php');
 
 
 /**
@@ -118,7 +118,7 @@ class PaymentsController extends AppController
             }
             $this->Flash->error(__('The payment could not be saved. Please, try again.'));
         }
-        $users = $this->Payments->Users->find('list', ['limit' => 200]);
+        $users = $this->Payments->Users->find('list', ['keyField' => 'id_user', 'valueField' => 'username']);
         $this->set(compact('payment', 'users'));
         $this->set('_serialize', ['payment']);
     }
@@ -127,21 +127,19 @@ class PaymentsController extends AppController
       
       if ($this->request->is('post')) {
 
-            /*$token = $this->request->getData();*/
-            $token = 'tok_visa';
-
             $stripe = [
-              "secret_key"      => "sk_test_FlbEqwDc2FiPm2r3VKrUokBX",
-              "publishable_key" => "pk_test_aR9Jna6TQ1dNDXWGTvtSESUT"
+              "secret_key"      => "sk_live_Z7oScV3bpyT0E3nzt8sPTwkm",
+              "publishable_key" => "pk_live_bKiYwvTS1Odhzyk7E4ldz28Z"
             ];
 
             \Stripe\Stripe::setApiKey($stripe['secret_key']);
-            \Stripe\Stripe::setVerifySslCerts(false);
+            
+            $token = $_POST['stripeToken'];
 
             $charge = \Stripe\Charge::create(array(
                   'amount'   => 499,
                   'currency' => 'gbp',
-                  'description' => 'charge test',
+                  'description' => 'sponsors goodat charge',
                   'source' => $token
               ));
 
@@ -151,7 +149,6 @@ class PaymentsController extends AppController
             $payment = $this->Payments->newEntity();
             $payment = $this->Payments->patchEntity($payment, [
                 'amount' => 499,
-                //'validTo' => Time::now(),
                 'validTo' => $newdate,
                 'user_id' => $this->Auth->user()['id_user'],
                 'created' => Time::now()
@@ -188,7 +185,7 @@ class PaymentsController extends AppController
             }
             $this->Flash->error(__('The payment could not be saved. Please, try again.'));
         }
-        $users = $this->Payments->Users->find('list', ['limit' => 200]);
+        $users = $this->Payments->Users->find('list', ['keyField' => 'id_user', 'valueField' => 'username']);
         $this->set(compact('payment', 'users'));
         $this->set('_serialize', ['payment']);
     }

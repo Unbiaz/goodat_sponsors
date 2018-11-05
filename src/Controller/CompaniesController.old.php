@@ -16,16 +16,7 @@ use DebugKit;
 class CompaniesController extends AppController
 {
 
-public function initialize()
-    {
-        parent::initialize();
-        
-        
-        $this->Auth->allow(['index', 'category']);
 
-        
-    }
-        
     public function isAuthorized($user)
     {
         //debug($user);
@@ -38,8 +29,7 @@ public function initialize()
         $action = $this->request->params['action'];
 
         // The index actions are always allowed.
-          if( in_array($action, ['index','category'])&& $this->isLoggedIn()  ) {
-
+        if ( in_array($action, ['index','category']) && $this->isLoggedIn() ) {
             $this->log('Index', 'debug');
             return true;
         }
@@ -71,14 +61,6 @@ public function initialize()
         return parent::isAuthorized($user);
     }
 
-/*public function beforeFilter(Event $event) {
-   
-    $this->Auth->allow('index');
-
-   return parent::beforeFilter($event);
-
-    }*/
-
     /**
      * Index method
      *
@@ -86,16 +68,15 @@ public function initialize()
      */
     public function index()
     {
-       // if(!$this->isSubcriber()&& !$this->isAdmin() ){
+        if(!$this->isSubcriber() && !$this->isAdmin()){
 
-           // $companies = $this->Companies->find('all',[
-           //     'contain' => ['Industries'], 
-           //     'order'=>['Companies.name_company'=>'asc'],
-           //     'limit'=>20
-           // ]);
- $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'order'=>['Companies.name_company'=>'asc']]);
-      //  } 
-        //else $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'order'=>['Companies.name_company'=>'asc']]);
+            $companies = $this->Companies->find('all',[
+                'contain' => ['Industries'], 
+                'order'=>['Companies.name_company'=>'asc'],
+                'limit'=>5
+            ]);
+        } 
+        else $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'order'=>['Companies.name_company'=>'asc']]);
 
         $industries = $this->Companies->Industries->find('all', ['order'=>['categori_indus'=>'ASC'] ]);
         
@@ -105,17 +86,16 @@ public function initialize()
 
     public function category($cat_id)
     {
-        //if(!$this->isSubcriber() && !$this->isAdmin()){
+        if(!$this->isSubcriber() && !$this->isAdmin()){
 
-          /*  $companies = $this->Companies->find('all',[
+            $companies = $this->Companies->find('all',[
                 'contain' => ['Industries'],
                 'conditions' => ['Companies.industri_id' => $cat_id], 
                 'order'=>['Companies.name_company'=>'asc'],
-                'limit'=>20
-            ]);*/
- $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'conditions' => ['Companies.industri_id' => $cat_id], 'order'=>['Companies.name_company'=>'asc']]);
-      //  } 
-       // else $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'conditions' => ['Companies.industri_id' => $cat_id], //'order'=>['Companies.name_company'=>'asc']]);
+                'limit'=>5
+            ]);
+        } 
+        else $companies = $this->paginate($this->Companies, ['contain' => ['Industries'], 'conditions' => ['Companies.industri_id' => $cat_id], 'order'=>['Companies.name_company'=>'asc']]);
     
         $industries = $this->Companies->Industries->find('all', ['order'=>['categori_indus'=>'ASC'] ]);
 
