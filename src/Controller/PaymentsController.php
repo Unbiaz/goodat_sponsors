@@ -128,7 +128,7 @@ class PaymentsController extends AppController
       if ($this->request->is('post')) {
 
             $stripe = [
-              "secret_key"      => "sk_live_Z7oScV3bpyT0E3nzt8sPTwkm",
+              "secret_key"      => "",
               "publishable_key" => "pk_live_bKiYwvTS1Odhzyk7E4ldz28Z"
             ];
 
